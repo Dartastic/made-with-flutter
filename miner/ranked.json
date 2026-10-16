@@ -1,0 +1,5947 @@
+[
+  {
+    "appId": "com.android.chrome",
+    "title": "Google Chrome",
+    "installs": 23120163699
+  },
+  {
+    "appId": "com.google.android.apps.docs",
+    "title": "Google Drive",
+    "installs": 14574786942
+  },
+  {
+    "appId": "com.google.android.apps.tachyon",
+    "title": "Google Meet",
+    "installs": 13921442603
+  },
+  {
+    "appId": "com.google.android.inputmethod.latin",
+    "title": "Gboard - the Google Keyboard",
+    "installs": 13861373316
+  },
+  {
+    "appId": "com.whatsapp",
+    "title": "WhatsApp Messenger",
+    "installs": 12414063733
+  },
+  {
+    "appId": "com.facebook.katana",
+    "title": "Facebook",
+    "installs": 12163590501
+  },
+  {
+    "appId": "com.google.android.calendar",
+    "title": "Google Calendar",
+    "installs": 10335623952
+  },
+  {
+    "appId": "com.facebook.orca",
+    "title": "Messenger",
+    "installs": 7950986175
+  },
+  {
+    "appId": "com.instagram.android",
+    "title": "Instagram",
+    "installs": 7813106192
+  },
+  {
+    "appId": "com.google.android.ims",
+    "title": "Carrier Services",
+    "installs": 7763033830
+  },
+  {
+    "appId": "com.google.android.contacts",
+    "title": "Contacts",
+    "installs": 6596578767
+  },
+  {
+    "appId": "com.google.android.play.games",
+    "title": "Google Play Games",
+    "installs": 6160576783
+  },
+  {
+    "appId": "com.microsoft.skydrive",
+    "title": "Microsoft OneDrive",
+    "installs": 6098360230
+  },
+  {
+    "appId": "com.google.android.dialer",
+    "title": "Phone by Google",
+    "installs": 5890585773
+  },
+  {
+    "appId": "com.zhiliaoapp.musically",
+    "title": "TikTok - Videos, Shop & LIVE",
+    "installs": 4728620705
+  },
+  {
+    "appId": "com.snapchat.android",
+    "title": "Snapchat",
+    "installs": 4313228871
+  },
+  {
+    "appId": "com.facebook.lite",
+    "title": "Facebook Lite",
+    "installs": 4261136031
+  },
+  {
+    "appId": "com.google.android.keep",
+    "title": "Google Keep - Notes and lists",
+    "installs": 4128614977
+  },
+  {
+    "appId": "com.google.ar.lens",
+    "title": "Google Lens",
+    "installs": 3978167090
+  },
+  {
+    "appId": "com.google.android.apps.books",
+    "title": "Google Play Books & Audiobooks",
+    "installs": 3853086165
+  },
+  {
+    "appId": "com.google.android.apps.subscriptions.red",
+    "title": "Google One",
+    "installs": 3675107766
+  },
+  {
+    "appId": "com.netflix.mediaclient",
+    "title": "Netflix",
+    "installs": 3618089728
+  },
+  {
+    "appId": "com.microsoft.appmanager",
+    "title": "Link to Windows",
+    "installs": 3275478582
+  },
+  {
+    "appId": "com.spotify.music",
+    "title": "Spotify: Music and Podcasts",
+    "installs": 3163056958
+  },
+  {
+    "appId": "org.telegram.messenger",
+    "title": "Telegram",
+    "installs": 3011724634
+  },
+  {
+    "appId": "com.microsoft.office.word",
+    "title": "Microsoft Word: Edit Documents",
+    "installs": 2681540069
+  },
+  {
+    "appId": "com.google.android.apps.searchlite",
+    "title": "Google Go",
+    "installs": 2658066074
+  },
+  {
+    "appId": "com.linkedin.android",
+    "title": "LinkedIn: Community & Network",
+    "installs": 2456470194
+  },
+  {
+    "appId": "com.google.android.apps.bard",
+    "title": "Google Gemini",
+    "installs": 2435491771
+  },
+  {
+    "appId": "com.sec.android.easyMover",
+    "title": "Samsung Smart Switch Mobile",
+    "installs": 2420899373
+  },
+  {
+    "appId": "com.microsoft.office.excel",
+    "title": "Microsoft Excel: Spreadsheets",
+    "installs": 2412962216
+  },
+  {
+    "appId": "com.microsoft.office.powerpoint",
+    "title": "Microsoft PowerPoint",
+    "installs": 2335890108
+  },
+  {
+    "appId": "com.whatsapp.w4b",
+    "title": "WhatsApp Business",
+    "installs": 2313454375
+  },
+  {
+    "appId": "com.sec.android.app.shealth",
+    "title": "Samsung Health",
+    "installs": 2284492406
+  },
+  {
+    "appId": "com.google.android.apps.walletnfcrel",
+    "title": "Google Wallet",
+    "installs": 2175697211
+  },
+  {
+    "appId": "com.lemon.lvoverseas",
+    "title": "CapCut - Video Editor",
+    "installs": 2039902480
+  },
+  {
+    "appId": "com.touchtype.swiftkey",
+    "title": "Microsoft SwiftKey AI Keyboard",
+    "installs": 1967300931
+  },
+  {
+    "appId": "com.google.android.apps.docs.editors.docs",
+    "title": "Google Docs",
+    "installs": 1958215355
+  },
+  {
+    "appId": "com.google.android.apps.photosgo",
+    "title": "Gallery",
+    "installs": 1920931669
+  },
+  {
+    "appId": "com.truecaller",
+    "title": "Truecaller: Spam Call Blocker",
+    "installs": 1900831332
+  },
+  {
+    "appId": "com.google.android.apps.docs.editors.sheets",
+    "title": "Google Sheets",
+    "installs": 1769920135
+  },
+  {
+    "appId": "com.openai.chatgpt",
+    "title": "ChatGPT",
+    "installs": 1650673945
+  },
+  {
+    "appId": "com.pinterest",
+    "title": "Pinterest",
+    "installs": 1623487821
+  },
+  {
+    "appId": "com.mxtech.videoplayer.ad",
+    "title": "MX Player",
+    "installs": 1623405443
+  },
+  {
+    "appId": "com.google.android.apps.chromecast.app",
+    "title": "Google Home",
+    "installs": 1622164676
+  },
+  {
+    "appId": "com.google.android.apps.docs.editors.slides",
+    "title": "Google Slides",
+    "installs": 1497735900
+  },
+  {
+    "appId": "us.zoom.videomeetings",
+    "title": "Zoom Workplace",
+    "installs": 1479633504
+  },
+  {
+    "appId": "com.picsart.studio",
+    "title": "Picsart AI Photo Editor, Video",
+    "installs": 1441644798
+  },
+  {
+    "appId": "com.google.android.apps.wallpaper",
+    "title": "Wallpapers",
+    "installs": 1416154822
+  },
+  {
+    "appId": "com.transsion.phoenix",
+    "title": "Phoenix - Fast & Safe",
+    "installs": 1239438957
+  },
+  {
+    "appId": "com.dropbox.android",
+    "title": "Dropbox: Secure Cloud Storage",
+    "installs": 1239259139
+  },
+  {
+    "appId": "com.samsung.android.oneconnect",
+    "title": "SmartThings",
+    "installs": 1218190260
+  },
+  {
+    "appId": "com.sec.android.app.music",
+    "title": "Samsung Music",
+    "installs": 1201347850
+  },
+  {
+    "appId": "com.einnovation.temu",
+    "title": "Temu: Shop Like a Billionaire",
+    "installs": 1198612833
+  },
+  {
+    "appId": "com.UCMobile.intl",
+    "title": "UC Browser-Safe, Fast, Private",
+    "installs": 1187374086
+  },
+  {
+    "appId": "com.ubercab",
+    "title": "Uber: Rides, eats, hotels",
+    "installs": 1176409934
+  },
+  {
+    "appId": "com.amazon.mShop.android.shopping",
+    "title": "Amazon Shopping",
+    "installs": 1112825555
+  },
+  {
+    "appId": "com.zzkko",
+    "title": "SHEIN-Shopping Online",
+    "installs": 1031106864
+  },
+  {
+    "appId": "com.hp.android.printservice",
+    "title": "HP Print Service Plugin",
+    "installs": 1020792664
+  },
+  {
+    "appId": "video.like",
+    "title": "Likee-Live, Chat & Party Games",
+    "installs": 1017366572
+  },
+  {
+    "appId": "com.phonepe.app",
+    "title": "PhonePe UPI Payments, Loan App",
+    "installs": 1014050145
+  },
+  {
+    "appId": "com.duolingo",
+    "title": "Duolingo: Learn Languages",
+    "installs": 984794864
+  },
+  {
+    "appId": "com.google.android.apps.youtube.kids",
+    "title": "YouTube Kids",
+    "installs": 978296318
+  },
+  {
+    "appId": "com.camerasideas.instashot",
+    "title": "Video Editor & Maker - InShot",
+    "installs": 961906551
+  },
+  {
+    "appId": "com.adobe.reader",
+    "title": "Adobe Acrobat Reader: Edit PDF",
+    "installs": 940428764
+  },
+  {
+    "appId": "com.amazon.avod.thirdpartyclient",
+    "title": "Prime Video",
+    "installs": 925743239
+  },
+  {
+    "appId": "com.opera.mini.native",
+    "title": "Opera Mini: Fast Web Browser",
+    "installs": 912790273
+  },
+  {
+    "appId": "com.alibaba.aliexpresshd",
+    "title": "AliExpress - Shopping App",
+    "installs": 888371994
+  },
+  {
+    "appId": "com.booking",
+    "title": "Booking.com: Hotels & Travel",
+    "installs": 884340625
+  },
+  {
+    "appId": "com.shazam.android",
+    "title": "Shazam: Find Music & Concerts",
+    "installs": 849362341
+  },
+  {
+    "appId": "sg.bigo.live",
+    "title": "Bigo Live - Live Streaming App",
+    "installs": 844486622
+  },
+  {
+    "appId": "cn.wps.moffice_eng",
+    "title": "WPS Office-PDF, Word, Sheet",
+    "installs": 827699446
+  },
+  {
+    "appId": "com.canva.editor",
+    "title": "Canva: AI Photo & Video Editor",
+    "installs": 783606415
+  },
+  {
+    "appId": "com.discord",
+    "title": "Discord - Talk, Play, Hang Out",
+    "installs": 696673256
+  },
+  {
+    "appId": "com.instagram.barcelona",
+    "title": "Threads",
+    "installs": 696300562
+  },
+  {
+    "appId": "com.waze",
+    "title": "Waze Navigation & Live Traffic",
+    "installs": 683184722
+  },
+  {
+    "appId": "com.alibaba.intl.android.apps.poseidon",
+    "title": "Alibaba.com - B2B marketplace",
+    "installs": 664018685
+  },
+  {
+    "appId": "net.zedge.android",
+    "title": "Zedge™ Wallpapers & Ringtones",
+    "installs": 657038514
+  },
+  {
+    "appId": "com.kwai.video",
+    "title": "Kwai - Video & Drama",
+    "installs": 649524062
+  },
+  {
+    "appId": "com.microsoft.teams",
+    "title": "Microsoft Teams",
+    "installs": 648874368
+  },
+  {
+    "appId": "com.starmakerinteractive.starmaker",
+    "title": "StarMaker: Sing Karaoke Songs",
+    "installs": 643786197
+  },
+  {
+    "appId": "com.google.earth",
+    "title": "Google Earth",
+    "installs": 622169189
+  },
+  {
+    "appId": "com.bigwinepot.nwdn.international",
+    "title": "Remini - AI Photo Enhancer",
+    "installs": 621803291
+  },
+  {
+    "appId": "com.dywx.larkplayer",
+    "title": "Lark Player:Music Player & MP3",
+    "installs": 610537775
+  },
+  {
+    "appId": "com.disney.disneyplus",
+    "title": "Disney+",
+    "installs": 599788006
+  },
+  {
+    "appId": "io.faceapp",
+    "title": "FaceApp: Perfect Face Editor",
+    "installs": 586100249
+  },
+  {
+    "appId": "com.intsig.camscanner",
+    "title": "CamScanner- scanner, PDF maker",
+    "installs": 578941164
+  },
+  {
+    "appId": "com.opera.browser",
+    "title": "Opera: Private Web Browser",
+    "installs": 558247363
+  },
+  {
+    "appId": "com.jio.media.jiobeats",
+    "title": "JioSaavn - Music & Podcasts",
+    "installs": 552052658
+  },
+  {
+    "appId": "com.nexstreaming.app.kinemasterfree",
+    "title": "KineMaster - AI Video Editor",
+    "installs": 547983175
+  },
+  {
+    "appId": "com.quvideo.xiaoying",
+    "title": "VivaVideo - Video Cut & Editor",
+    "installs": 543403149
+  },
+  {
+    "appId": "free.vpn.unblock.proxy.turbovpn",
+    "title": "Turbo VPN - Secure VPN Proxy",
+    "installs": 532757396
+  },
+  {
+    "appId": "org.mozilla.firefox",
+    "title": "Firefox Fast & Private Browser",
+    "installs": 519290740
+  },
+  {
+    "appId": "org.videolan.vlc",
+    "title": "VLC for Android",
+    "installs": 514836203
+  },
+  {
+    "appId": "com.commsource.beautyplus",
+    "title": "BeautyPlus-Selfie Photo Editor",
+    "installs": 508128431
+  },
+  {
+    "appId": "com.amazon.kindle",
+    "title": "Amazon Kindle: Reading App",
+    "installs": 488213404
+  },
+  {
+    "appId": "ru.zdevs.zarchiver",
+    "title": "ZArchiver",
+    "installs": 485294344
+  },
+  {
+    "appId": "com.vkontakte.android",
+    "title": "VK: music, video, messenger",
+    "installs": 475296133
+  },
+  {
+    "appId": "com.adobe.lrmobile",
+    "title": "Lightroom Photo & Video Editor",
+    "installs": 473923471
+  },
+  {
+    "appId": "com.tencent.mm",
+    "title": "WeChat",
+    "installs": 465868451
+  },
+  {
+    "appId": "com.soundcloud.android",
+    "title": "SoundCloud: Discover Music",
+    "installs": 463661237
+  },
+  {
+    "appId": "com.dubox.drive",
+    "title": "TeraBox: 1TB Cloud & AI Space",
+    "installs": 454089643
+  },
+  {
+    "appId": "com.tripadvisor.tripadvisor",
+    "title": "Tripadvisor: Plan & Book Trips",
+    "installs": 449577519
+  },
+  {
+    "appId": "com.niksoftware.snapseed",
+    "title": "Snapseed",
+    "installs": 447621151
+  },
+  {
+    "appId": "com.myntra.android",
+    "title": "Myntra - Fashion Shopping App",
+    "installs": 432603065
+  },
+  {
+    "appId": "com.callapp.contacts",
+    "title": "CallApp: Caller ID & Block",
+    "installs": 431846771
+  },
+  {
+    "appId": "com.ebay.mobile",
+    "title": "eBay online shopping & selling",
+    "installs": 425264594
+  },
+  {
+    "appId": "com.graymatrix.did",
+    "title": "ZEE5: Movies, TV Shows, Series",
+    "installs": 425106572
+  },
+  {
+    "appId": "videoeditor.videorecorder.screenrecorder",
+    "title": "Screen Recorder - XRecorder",
+    "installs": 421114630
+  },
+  {
+    "appId": "com.google.android.apps.classroom",
+    "title": "Google Classroom",
+    "installs": 410363601
+  },
+  {
+    "appId": "com.gaana",
+    "title": "Gaana: Music App, MP3 Songs",
+    "installs": 397799279
+  },
+  {
+    "appId": "com.amazon.mp3",
+    "title": "Amazon Music: Songs & Podcasts",
+    "installs": 396106400
+  },
+  {
+    "appId": "videoplayer.videodownloader.downloader",
+    "title": "All Video Downloader & Player",
+    "installs": 390544719
+  },
+  {
+    "appId": "sinet.startup.inDriver",
+    "title": "inDrive. Rides with fair fares",
+    "installs": 385262735
+  },
+  {
+    "appId": "com.smule.singandroid",
+    "title": "Smule: Sing, Duet & Karaoke",
+    "installs": 380797253
+  },
+  {
+    "appId": "deezer.android.app",
+    "title": "Deezer: Music & Podcast Player",
+    "installs": 377597253
+  },
+  {
+    "appId": "com.cyberlink.youcammakeup",
+    "title": "YouCam Makeup: Face Editor",
+    "installs": 371627045
+  },
+  {
+    "appId": "tv.twitch.android.app",
+    "title": "Twitch: Live Streaming",
+    "installs": 368538935
+  },
+  {
+    "appId": "com.yahoo.mobile.client.android.mail",
+    "title": "Yahoo Mail: Email & Planner",
+    "installs": 351861113
+  },
+  {
+    "appId": "com.sonyliv",
+    "title": "Sony LIV: Series, Shows, Movie",
+    "installs": 348990056
+  },
+  {
+    "appId": "com.afmobi.boomplayer",
+    "title": "Boomplay: Music & Live Stream",
+    "installs": 346961599
+  },
+  {
+    "appId": "wp.wattpad",
+    "title": "Wattpad - Read & Write Stories",
+    "installs": 345280225
+  },
+  {
+    "appId": "com.google.android.apps.authenticator2",
+    "title": "Google Authenticator",
+    "installs": 338362331
+  },
+  {
+    "appId": "com.frontrow.vlog",
+    "title": "VN: Photo & Video Editor",
+    "installs": 338308717
+  },
+  {
+    "appId": "photo.editor.photoeditor.photoeditorpro",
+    "title": "Photo Editor - Polish",
+    "installs": 331712672
+  },
+  {
+    "appId": "jp.ne.ibis.ibispaintx.app",
+    "title": "ibis Paint X",
+    "installs": 330059316
+  },
+  {
+    "appId": "com.fast.free.unblock.secure.vpn",
+    "title": "Secure VPN－Safer Internet",
+    "installs": 312621624
+  },
+  {
+    "appId": "com.pandora.android",
+    "title": "Pandora - Music & Podcasts",
+    "installs": 311804520
+  },
+  {
+    "appId": "com.adobe.psmobile",
+    "title": "Photoshop Express Photo Editor",
+    "installs": 304537985
+  },
+  {
+    "appId": "homeworkout.homeworkouts.noequipment",
+    "title": "Home Workout - No Equipment",
+    "installs": 302892929
+  },
+  {
+    "appId": "com.storymatrix.drama",
+    "title": "DramaBox - Stream Drama Shorts",
+    "installs": 300858259
+  },
+  {
+    "appId": "co.brainly",
+    "title": "Brainly: AI Homework Helper",
+    "installs": 297782993
+  },
+  {
+    "appId": "com.newleaf.app.android.victor",
+    "title": "ReelShort - Stream Drama & TV",
+    "installs": 296507280
+  },
+  {
+    "appId": "com.ubercab.eats",
+    "title": "Uber Eats: Food and Grocery",
+    "installs": 295967397
+  },
+  {
+    "appId": "com.airbnb.android",
+    "title": "Airbnb",
+    "installs": 295020568
+  },
+  {
+    "appId": "tv.pluto.android",
+    "title": "Pluto TV: Watch Free Movies/TV",
+    "installs": 293489413
+  },
+  {
+    "appId": "shareit.lite",
+    "title": "SHAREit Lite - Fast File Share",
+    "installs": 289997956
+  },
+  {
+    "appId": "com.videoeditorpro.android",
+    "title": "AI Video Editor - VivaCut",
+    "installs": 289118630
+  },
+  {
+    "appId": "com.brave.browser",
+    "title": "Brave Private Web Browser, VPN",
+    "installs": 282284000
+  },
+  {
+    "appId": "com.microblink.photomath",
+    "title": "Photomath",
+    "installs": 282245237
+  },
+  {
+    "appId": "com.audible.application",
+    "title": "Audible: Audiobooks & Podcasts",
+    "installs": 275984249
+  },
+  {
+    "appId": "com.indeed.android.jobsearch",
+    "title": "Indeed Job Search",
+    "installs": 275447114
+  },
+  {
+    "appId": "musicplayer.musicapps.music.mp3player",
+    "title": "Music Player & MP3 Player",
+    "installs": 275298504
+  },
+  {
+    "appId": "com.apple.movetoios",
+    "title": "Move to iOS",
+    "installs": 268593893
+  },
+  {
+    "appId": "com.lbe.parallel.intl",
+    "title": "Parallel Space - app cloning",
+    "installs": 262560148
+  },
+  {
+    "appId": "com.camerasideas.trimmer",
+    "title": "YouCut - Video Editor & Maker",
+    "installs": 261153627
+  },
+  {
+    "appId": "id.dana",
+    "title": "DANA Indonesia Digital Wallet",
+    "installs": 258346171
+  },
+  {
+    "appId": "com.adobe.scan.android",
+    "title": "Adobe Scan AI PDF Scanner, OCR",
+    "installs": 257562324
+  },
+  {
+    "appId": "com.crunchyroll.crunchyroid",
+    "title": "Crunchyroll: Anime Streaming",
+    "installs": 254814377
+  },
+  {
+    "appId": "com.rarlab.rar",
+    "title": "RAR",
+    "installs": 253986099
+  },
+  {
+    "appId": "com.reddit.frontpage",
+    "title": "Reddit",
+    "installs": 253453515
+  },
+  {
+    "appId": "photoeditor.layout.collagemaker",
+    "title": "Collage Maker | Photo Editor",
+    "installs": 247250158
+  },
+  {
+    "appId": "com.rapido.passenger",
+    "title": "Rapido: Bike-Taxi, Auto & Cabs",
+    "installs": 246857030
+  },
+  {
+    "appId": "com.azure.authenticator",
+    "title": "Microsoft Authenticator",
+    "installs": 242504062
+  },
+  {
+    "appId": "org.thunderdog.challegram",
+    "title": "Telegram X",
+    "installs": 241666598
+  },
+  {
+    "appId": "proxy.browser.unblock.sites.proxybrowser.unblocksites",
+    "title": "Proxy Browser",
+    "installs": 238508235
+  },
+  {
+    "appId": "com.cricbuzz.android",
+    "title": "Cricbuzz - Live Cricket Scores",
+    "installs": 238437855
+  },
+  {
+    "appId": "com.freereels.app",
+    "title": "FreeReels - Dramas & Reels",
+    "installs": 238148844
+  },
+  {
+    "appId": "video.downloader.videodownloader",
+    "title": "Video Downloader",
+    "installs": 237857051
+  },
+  {
+    "appId": "com.tubitv",
+    "title": "Tubi: Free Movies & Live TV",
+    "installs": 235544045
+  },
+  {
+    "appId": "com.grofers.customerapp",
+    "title": "Blinkit: Groceries & more",
+    "installs": 232105172
+  },
+  {
+    "appId": "com.ubercab.driver",
+    "title": "Uber - Driver: Drive & Deliver",
+    "installs": 231028962
+  },
+  {
+    "appId": "com.wbd.stream",
+    "title": "HBO Max: Stream TV & Movies",
+    "installs": 223707300
+  },
+  {
+    "appId": "com.google.android.apps.kids.familylink",
+    "title": "Google Family Link",
+    "installs": 221988971
+  },
+  {
+    "appId": "com.sec.penup",
+    "title": "PENUP – Drawing-sharing SNS",
+    "installs": 221783813
+  },
+  {
+    "appId": "com.imdb.mobile",
+    "title": "IMDb: Movies & TV Shows",
+    "installs": 216415900
+  },
+  {
+    "appId": "com.amazon.dee.app",
+    "title": "Amazon Alexa",
+    "installs": 213683446
+  },
+  {
+    "appId": "sixpack.sixpackabs.absworkout",
+    "title": "Six Pack in 30 Days",
+    "installs": 212431475
+  },
+  {
+    "appId": "com.truedevelopersstudio.automatictap.autoclicker",
+    "title": "Auto Clicker - Automatic tap",
+    "installs": 205855796
+  },
+  {
+    "appId": "com.apple.android.music",
+    "title": "Apple Music",
+    "installs": 205463239
+  },
+  {
+    "appId": "org.thoughtcrime.securesms",
+    "title": "Signal Private Messenger",
+    "installs": 204751788
+  },
+  {
+    "appId": "com.psiphon3.subscription",
+    "title": "Psiphon VPN: Secure Access",
+    "installs": 199820360
+  },
+  {
+    "appId": "com.funcamerastudio.videomaker",
+    "title": "Filmigo: AI Video Maker",
+    "installs": 197263771
+  },
+  {
+    "appId": "com.global.foodpanda.android",
+    "title": "foodpanda: food & groceries",
+    "installs": 195274216
+  },
+  {
+    "appId": "com.audiomack",
+    "title": "Audiomack: Music Downloader",
+    "installs": 194145587
+  },
+  {
+    "appId": "com.handmark.expressweather",
+    "title": "1Weather Forecasts & Radar",
+    "installs": 192981924
+  },
+  {
+    "appId": "com.adsk.sketchbook",
+    "title": "Sketchbook",
+    "installs": 192639322
+  },
+  {
+    "appId": "com.digilocker.android",
+    "title": "DigiLocker",
+    "installs": 192520119
+  },
+  {
+    "appId": "com.naver.linewebtoon",
+    "title": "WEBTOON: Manga, Comics, Manhwa",
+    "installs": 192017837
+  },
+  {
+    "appId": "mega.privacy.android.app",
+    "title": "MEGA",
+    "installs": 191935309
+  },
+  {
+    "appId": "com.facebook.pages.app",
+    "title": "Meta Business Suite",
+    "installs": 191500287
+  },
+  {
+    "appId": "ru.yandex.taxi",
+    "title": "Yandex Go: Taxi Food Delivery",
+    "installs": 189126976
+  },
+  {
+    "appId": "ru.yandex.yandexmaps",
+    "title": "Yandex Maps and Navigator",
+    "installs": 188676264
+  },
+  {
+    "appId": "com.ovelin.guitartuna",
+    "title": "GuitarTuna: Tune & Play Guitar",
+    "installs": 187072468
+  },
+  {
+    "appId": "com.microsoft.emmx",
+    "title": "Microsoft Edge",
+    "installs": 182609625
+  },
+  {
+    "appId": "tunein.player",
+    "title": "TuneIn Radio: Music & Sports",
+    "installs": 181427529
+  },
+  {
+    "appId": "ru.yandex.yandexnavi",
+    "title": "Yandex Navigator",
+    "installs": 180734984
+  },
+  {
+    "appId": "com.photoroom.app",
+    "title": "Photoroom: AI Photo Editor",
+    "installs": 180422678
+  },
+  {
+    "appId": "ee.mtakso.client",
+    "title": "Bolt: Request a Ride",
+    "installs": 177835018
+  },
+  {
+    "appId": "com.taxis99",
+    "title": "99: Rides, Food, Pay",
+    "installs": 177468806
+  },
+  {
+    "appId": "com.didiglobal.passenger",
+    "title": "DiDi Rider: Affordable rides",
+    "installs": 177185089
+  },
+  {
+    "appId": "com.alightcreative.motion",
+    "title": "Alight Motion",
+    "installs": 175235267
+  },
+  {
+    "appId": "com.alphainventor.filemanager",
+    "title": "File Manager",
+    "installs": 174308349
+  },
+  {
+    "appId": "media.music.musicplayer",
+    "title": "Music Player - Audio Player",
+    "installs": 170499441
+  },
+  {
+    "appId": "com.wildberries.ru",
+    "title": "Wildberries",
+    "installs": 166159698
+  },
+  {
+    "appId": "com.vsco.cam",
+    "title": "VSCO: Photo Editor",
+    "installs": 164778270
+  },
+  {
+    "appId": "im.thebot.messenger",
+    "title": "botim",
+    "installs": 163160463
+  },
+  {
+    "appId": "in.sweatco.app",
+    "title": "Sweatcoin・Walking Step Counter",
+    "installs": 162700990
+  },
+  {
+    "appId": "com.adobe.spark.post",
+    "title": "Adobe Express: AI Photo, Video",
+    "installs": 161123497
+  },
+  {
+    "appId": "net.mbc.shahid",
+    "title": "MBC Shahid",
+    "installs": 160624149
+  },
+  {
+    "appId": "in.org.npci.upiapp",
+    "title": "BHIM Bharat's Own Payments App",
+    "installs": 159678023
+  },
+  {
+    "appId": "ai.photo.enhancer.photoclear",
+    "title": "UpFoto - AI Photo Enhancer",
+    "installs": 159425825
+  },
+  {
+    "appId": "com.schibsted.bomnegocio.androidApp",
+    "title": "OLX: Compras Online e Vendas",
+    "installs": 158494716
+  },
+  {
+    "appId": "trendyol.com",
+    "title": "Trendyol - Online Alışveriş",
+    "installs": 158266768
+  },
+  {
+    "appId": "com.wondershare.filmorago",
+    "title": "Filmora: AI Video Editor&Maker",
+    "installs": 156100753
+  },
+  {
+    "appId": "com.fast.free.unblock.thunder.vpn",
+    "title": "Thunder VPN - Fast, Safe VPN",
+    "installs": 156084178
+  },
+  {
+    "appId": "com.netshort.abroad",
+    "title": "NetShort - Popular Dramas & TV",
+    "installs": 155970319
+  },
+  {
+    "appId": "com.bigbasket.mobileapp",
+    "title": "bigbasket: Groceries and more",
+    "installs": 155079577
+  },
+  {
+    "appId": "qrcodescanner.barcodescanner.qrscanner.qrcodereader",
+    "title": "QR Code Scanner & Scanner App",
+    "installs": 153556612
+  },
+  {
+    "appId": "com.nglreactnative",
+    "title": "NGL: ask me anything",
+    "installs": 153045420
+  },
+  {
+    "appId": "hd.camera",
+    "title": "HD Camera",
+    "installs": 152176389
+  },
+  {
+    "appId": "video.player.videoplayer",
+    "title": "Video Player All Format",
+    "installs": 150819263
+  },
+  {
+    "appId": "de.wetteronline.wetterapp",
+    "title": "Weather & Radar Forecast",
+    "installs": 150679495
+  },
+  {
+    "appId": "com.tumblr",
+    "title": "Tumblr: Social Media & Art",
+    "installs": 150573069
+  },
+  {
+    "appId": "com.weather.Weather",
+    "title": "The Weather Channel - Radar",
+    "installs": 150400604
+  },
+  {
+    "appId": "com.lidl.eci.lidlplus",
+    "title": "Lidl Plus",
+    "installs": 149537806
+  },
+  {
+    "appId": "com.vlv.aravali",
+    "title": "Kuku FM: Audio Series",
+    "installs": 148021857
+  },
+  {
+    "appId": "com.media.music.mp3.musicplayer",
+    "title": "Music player",
+    "installs": 147991641
+  },
+  {
+    "appId": "com.dramawave.app",
+    "title": "DramaWave - Dramas & Reels",
+    "installs": 145385109
+  },
+  {
+    "appId": "com.zeptoconsumerapp",
+    "title": "Zepto: Groceries in minutes",
+    "installs": 144552265
+  },
+  {
+    "appId": "com.bandlab.bandlab",
+    "title": "BandLab: Music Maker & Studio",
+    "installs": 142860462
+  },
+  {
+    "appId": "com.bt.bms",
+    "title": "BookMyShow | Movies & Events",
+    "installs": 141585122
+  },
+  {
+    "appId": "pdf.tap.scanner",
+    "title": "PDF Scanner app - TapScanner",
+    "installs": 140773215
+  },
+  {
+    "appId": "com.resultadosfutbol.mobile",
+    "title": "BeSoccer: Soccer Live Score",
+    "installs": 140053844
+  },
+  {
+    "appId": "com.lgeha.nuts",
+    "title": "LG ThinQ",
+    "installs": 138083975
+  },
+  {
+    "appId": "com.enflick.android.TextNow",
+    "title": "TextNow: Call + Text Unlimited",
+    "installs": 137278854
+  },
+  {
+    "appId": "com.myfitnesspal.android",
+    "title": "MyFitnessPal: Calorie Counter",
+    "installs": 136877562
+  },
+  {
+    "appId": "loseweight.weightloss.workout.fitness",
+    "title": "Lose Weight - Weight Loss App",
+    "installs": 136238948
+  },
+  {
+    "appId": "com.strava",
+    "title": "Strava: Run, Bike, Walk",
+    "installs": 136051134
+  },
+  {
+    "appId": "com.walmart.android",
+    "title": "Walmart: Shopping & Savings",
+    "installs": 135384062
+  },
+  {
+    "appId": "videoeditor.videomaker.videoeditorforyoutube",
+    "title": "Video Maker",
+    "installs": 135376997
+  },
+  {
+    "appId": "com.inmobi.weather",
+    "title": "Weather",
+    "installs": 134827851
+  },
+  {
+    "appId": "pk.com.telenor.phoenix",
+    "title": "easypaisa – a digital bank",
+    "installs": 133530974
+  },
+  {
+    "appId": "loseweightapp.loseweightappforwomen.womenworkoutathome",
+    "title": "Lose Weight App for Women",
+    "installs": 133516568
+  },
+  {
+    "appId": "ch.protonvpn.android",
+    "title": "Proton VPN: Secure & Fast VPN",
+    "installs": 132935110
+  },
+  {
+    "appId": "menloseweight.loseweightappformen.weightlossformen",
+    "title": "Lose Weight App for Men",
+    "installs": 132685852
+  },
+  {
+    "appId": "ai.perplexity.app.android",
+    "title": "Perplexity - Ask Anything",
+    "installs": 132478348
+  },
+  {
+    "appId": "com.apple.atve.androidtv.appletv",
+    "title": "Apple TV: Shows, Movies & More",
+    "installs": 131838638
+  },
+  {
+    "appId": "com.globo.globotv",
+    "title": "Globoplay: Novelas, séries e +",
+    "installs": 131271948
+  },
+  {
+    "appId": "com.trivago",
+    "title": "trivago: Compare hotel prices",
+    "installs": 131090330
+  },
+  {
+    "appId": "com.accuweather.android",
+    "title": "AccuWeather: Weather Radar",
+    "installs": 130773465
+  },
+  {
+    "appId": "com.gotv.nflgamecenter.us.lite",
+    "title": "NFL",
+    "installs": 130707666
+  },
+  {
+    "appId": "ai.x.grok",
+    "title": "Grok",
+    "installs": 130255928
+  },
+  {
+    "appId": "com.musicplayer.player.mp3player.white",
+    "title": "Music Player - True Bass",
+    "installs": 129039504
+  },
+  {
+    "appId": "com.google.android.apps.kids.familylinkhelper",
+    "title": "Family Link parental controls",
+    "installs": 128966446
+  },
+  {
+    "appId": "com.makemytrip",
+    "title": "MakeMyTrip - Flights & Hotels",
+    "installs": 128714952
+  },
+  {
+    "appId": "live.shorttv.apps",
+    "title": "ShortMax - Short Dramas & TV",
+    "installs": 128501875
+  },
+  {
+    "appId": "com.confirmtkt.lite",
+    "title": "ConfirmTkt: Train Booking App",
+    "installs": 128282811
+  },
+  {
+    "appId": "com.xt.retouchoversea",
+    "title": "Hypic - Photo Editor & AI Art",
+    "installs": 128117544
+  },
+  {
+    "appId": "com.microsoft.bing",
+    "title": "Microsoft Bing Search",
+    "installs": 127620904
+  },
+  {
+    "appId": "com.education.android.h.intelligence",
+    "title": "Gauth: AI Study Companion",
+    "installs": 126978522
+  },
+  {
+    "appId": "com.instagram.basel",
+    "title": "Edits: Video Editor",
+    "installs": 126856688
+  },
+  {
+    "appId": "com.agoda.mobile.consumer",
+    "title": "Agoda: Cheap Flights & Hotels",
+    "installs": 126111998
+  },
+  {
+    "appId": "media.audioplayer.musicplayer",
+    "title": "Music Player",
+    "installs": 125310129
+  },
+  {
+    "appId": "in.redbus.android",
+    "title": "redBus Book Bus, Train Tickets",
+    "installs": 125021344
+  },
+  {
+    "appId": "com.radio.fmradio",
+    "title": "Radio FM",
+    "installs": 124512383
+  },
+  {
+    "appId": "com.jumia.android",
+    "title": "JUMIA Online Shopping",
+    "installs": 122756717
+  },
+  {
+    "appId": "com.nordvpn.android",
+    "title": "NordVPN – fast VPN for privacy",
+    "installs": 122490826
+  },
+  {
+    "appId": "com.flightradar24free",
+    "title": "Flightradar24 Flight Tracker",
+    "installs": 121467420
+  },
+  {
+    "appId": "fr.vinted",
+    "title": "Vinted: Shop & sell pre-loved",
+    "installs": 121283283
+  },
+  {
+    "appId": "com.hecorat.screenrecorder.free",
+    "title": "Screen Recorder - AZ Recorder",
+    "installs": 120555643
+  },
+  {
+    "appId": "app.jumpjumpvpn.jumpjumpvpn",
+    "title": "JumpJumpVPN: Fast & Secure",
+    "installs": 119999771
+  },
+  {
+    "appId": "pedometer.steptracker.calorieburner.stepcounter",
+    "title": "Step Counter - Pedometer",
+    "installs": 118746977
+  },
+  {
+    "appId": "com.facebook.stella",
+    "title": "Meta AI",
+    "installs": 118234577
+  },
+  {
+    "appId": "com.easybrain.make.music",
+    "title": "Groovepad - Music Maker",
+    "installs": 118022607
+  },
+  {
+    "appId": "com.opera.mini.native.beta",
+    "title": "Opera Mini browser beta",
+    "installs": 117908069
+  },
+  {
+    "appId": "com.vidio.android",
+    "title": "Vidio: Sports, Movies, Series",
+    "installs": 117564546
+  },
+  {
+    "appId": "com.crrepa.band.dafit",
+    "title": "Da Fit",
+    "installs": 117046394
+  },
+  {
+    "appId": "com.groupon",
+    "title": "Groupon – Deals & Coupons",
+    "installs": 116111608
+  },
+  {
+    "appId": "com.oyo.consumer",
+    "title": "OYO: Hotel Booking App",
+    "installs": 116039800
+  },
+  {
+    "appId": "com.lyrebirdstudio.cartoon",
+    "title": "Toonapp: Cartoon Photo Editor",
+    "installs": 115787974
+  },
+  {
+    "appId": "com.plexapp.android",
+    "title": "Plex: Find Movies & TV Shows",
+    "installs": 115768751
+  },
+  {
+    "appId": "com.viki.android",
+    "title": "Viki: Asian Dramas & Movies",
+    "installs": 115650541
+  },
+  {
+    "appId": "com.edjing.edjingdjturntable",
+    "title": "edjing Mix - Music DJ app",
+    "installs": 115583514
+  },
+  {
+    "appId": "com.gojek.gopay",
+    "title": "GoPay: Transfer, Payment, QRIS",
+    "installs": 115299335
+  },
+  {
+    "appId": "com.scaleup.chatai",
+    "title": "AI Chatbot - Nova",
+    "installs": 114202720
+  },
+  {
+    "appId": "com.turkcell.bip",
+    "title": "BiP - Messenger, Video Call",
+    "installs": 113631692
+  },
+  {
+    "appId": "com.astrotalk",
+    "title": "Astrotalk - Talk to Astrologer",
+    "installs": 113574613
+  },
+  {
+    "appId": "photo.android.hd.camera",
+    "title": "HD Camera for Android",
+    "installs": 113550481
+  },
+  {
+    "appId": "com.gamestar.pianoperfect",
+    "title": "Walk Band - Multitracks Music",
+    "installs": 111853684
+  },
+  {
+    "appId": "com.shopping.limeroad",
+    "title": "LimeRoad: Online Fashion Shop",
+    "installs": 111751420
+  },
+  {
+    "appId": "com.nike.omega",
+    "title": "Nike: Engineered for Athletes",
+    "installs": 110367815
+  },
+  {
+    "appId": "recorder.screenrecorder.videoeditor",
+    "title": "Screen Recorder Video Recorder",
+    "installs": 109771257
+  },
+  {
+    "appId": "com.hulu.plus",
+    "title": "Hulu: Stream TV shows & movies",
+    "installs": 109765892
+  },
+  {
+    "appId": "com.teamviewer.teamviewer.market.mobile",
+    "title": "TeamViewer Remote Control",
+    "installs": 109472313
+  },
+  {
+    "appId": "com.espn.score_center",
+    "title": "ESPN",
+    "installs": 108608435
+  },
+  {
+    "appId": "losebellyfat.flatstomach.absworkout.fatburning",
+    "title": "Lose Belly Fat - Abs Workout",
+    "installs": 108310898
+  },
+  {
+    "appId": "com.ss.android.tt.creator",
+    "title": "TikTok Studio",
+    "installs": 108047072
+  },
+  {
+    "appId": "com.sofascore.results",
+    "title": "Sofascore: Live Sports Scores",
+    "installs": 106788849
+  },
+  {
+    "appId": "com.anydesk.anydeskandroid",
+    "title": "AnyDesk Remote Desktop",
+    "installs": 105762626
+  },
+  {
+    "appId": "com.grability.rappi",
+    "title": "Rappi: Food Delivery, Grocery",
+    "installs": 103921870
+  },
+  {
+    "appId": "com.hm.goe",
+    "title": "H&M",
+    "installs": 103628827
+  },
+  {
+    "appId": "com.meitu.meiyancamera",
+    "title": "BeautyCam-AI Photo Editor",
+    "installs": 103575607
+  },
+  {
+    "appId": "com.video.editor.greattalent",
+    "title": "EasyCut - Video Editor & Maker",
+    "installs": 102786870
+  },
+  {
+    "appId": "ru.yandex.music",
+    "title": "Yandex Music, Books & Podcasts",
+    "installs": 102073719
+  },
+  {
+    "appId": "no.mobitroll.kahoot.android",
+    "title": "Kahoot! Play & Create Quizzes",
+    "installs": 101707750
+  },
+  {
+    "appId": "com.magicv.airbrush",
+    "title": "Airbrush: Face & Photo Editor",
+    "installs": 100781992
+  },
+  {
+    "appId": "com.search.music.mp3.musicplayer",
+    "title": "Music player",
+    "installs": 100274726
+  },
+  {
+    "appId": "increaseheightworkout.heightincreaseexercise.tallerexercise",
+    "title": "Height Increase Workout",
+    "installs": 100017735
+  },
+  {
+    "appId": "com.scores365",
+    "title": "365Scores: Live Sports Scores",
+    "installs": 98648437
+  },
+  {
+    "appId": "com.cv.docscanner",
+    "title": "Document Scanner - PDF Creator",
+    "installs": 98565017
+  },
+  {
+    "appId": "com.clearchannel.iheartradio.controller",
+    "title": "iHeart: Music, Radio, Podcasts",
+    "installs": 98443743
+  },
+  {
+    "appId": "com.mapswithme.maps.pro",
+    "title": "MAPS.ME: Offline maps GPS Nav",
+    "installs": 98235703
+  },
+  {
+    "appId": "com.runtastic.android",
+    "title": "adidas Running: Run tracker",
+    "installs": 97582719
+  },
+  {
+    "appId": "org.telegram.plus",
+    "title": "Plus Messenger",
+    "installs": 97227846
+  },
+  {
+    "appId": "com.maxmpz.audioplayer",
+    "title": "Poweramp Music Player",
+    "installs": 96646399
+  },
+  {
+    "appId": "com.sygic.aura",
+    "title": "Sygic: GPS Navigation & Maps",
+    "installs": 95857942
+  },
+  {
+    "appId": "com.newreading.goodreels",
+    "title": "GoodShort - Short Dramas Hub",
+    "installs": 95841931
+  },
+  {
+    "appId": "br.gov.dataprev.meuinss",
+    "title": "Meu INSS – Central de Serviços",
+    "installs": 95550393
+  },
+  {
+    "appId": "com.novapontocom.casasbahia",
+    "title": "Casas Bahia: Compras Online",
+    "installs": 94979994
+  },
+  {
+    "appId": "com.inditex.zara",
+    "title": "Zara",
+    "installs": 94652278
+  },
+  {
+    "appId": "com.dazn",
+    "title": "DAZN - Watch Live Sports",
+    "installs": 93958743
+  },
+  {
+    "appId": "com.mmm.trebelmusic",
+    "title": "TREBEL: Music, MP3 & Podcasts",
+    "installs": 93893587
+  },
+  {
+    "appId": "com.adidas.app",
+    "title": "adidas: Shop Shoes & Clothing",
+    "installs": 93643434
+  },
+  {
+    "appId": "com.joytunes.simplypiano",
+    "title": "Simply Piano: Learn Piano Fast",
+    "installs": 92963175
+  },
+  {
+    "appId": "com.amazon.clouddrive.photos",
+    "title": "Amazon Photos: Photo & Video",
+    "installs": 91942814
+  },
+  {
+    "appId": "com.duckduckgo.mobile.android",
+    "title": "DuckDuckGo, optional Duck.ai",
+    "installs": 91717789
+  },
+  {
+    "appId": "com.vialsoft.radarbot_free",
+    "title": "Radarbot: Radar Detector, GPS",
+    "installs": 91571133
+  },
+  {
+    "appId": "pdf.reader.pdfviewer.pdfeditor",
+    "title": "PDF Reader - PDF Editor",
+    "installs": 91300550
+  },
+  {
+    "appId": "com.dd.doordash",
+    "title": "DoorDash: Food, Grocery, More",
+    "installs": 91241974
+  },
+  {
+    "appId": "com.nhn.android.band",
+    "title": "BAND - App for all groups",
+    "installs": 91216276
+  },
+  {
+    "appId": "jp.co.canon.bsd.ad.pixmaprint",
+    "title": "Canon PRINT",
+    "installs": 90919833
+  },
+  {
+    "appId": "ru.ivi.client",
+    "title": "Иви: сериалы, фильмы и ТВ",
+    "installs": 89831917
+  },
+  {
+    "appId": "com.traveloka.android",
+    "title": "Traveloka: Book Hotel & Flight",
+    "installs": 89474943
+  },
+  {
+    "appId": "naukriApp.appModules.login",
+    "title": "Naukri: Job Search App",
+    "installs": 89216510
+  },
+  {
+    "appId": "com.mico",
+    "title": "MICO: Go Live Streaming & Chat",
+    "installs": 89143970
+  },
+  {
+    "appId": "com.mobisystems.msdict.embedded.wireless.oxford.dictionaryofenglish",
+    "title": "Oxford Dictionary & Thesaurus",
+    "installs": 89140080
+  },
+  {
+    "appId": "com.yandex.yango",
+    "title": "Yango: taxi, food, delivery",
+    "installs": 89043493
+  },
+  {
+    "appId": "com.bancomer.mbanking",
+    "title": "BBVA México",
+    "installs": 88826254
+  },
+  {
+    "appId": "com.pedidosya",
+    "title": "PedidosYa - Delivery Online",
+    "installs": 88338890
+  },
+  {
+    "appId": "com.lyrebirdstudio.facelab",
+    "title": "FaceLab - Face Age, AI Haircut",
+    "installs": 88168219
+  },
+  {
+    "appId": "com.tplink.tether",
+    "title": "TP-Link Tether",
+    "installs": 88018119
+  },
+  {
+    "appId": "com.chrome.beta",
+    "title": "Chrome Beta",
+    "installs": 87738511
+  },
+  {
+    "appId": "ovo.id",
+    "title": "OVO",
+    "installs": 87322385
+  },
+  {
+    "appId": "mp3videoconverter.videotomp3.videotomp3converter",
+    "title": "Video to MP3 - Video to Audio",
+    "installs": 86924685
+  },
+  {
+    "appId": "com.muso.musicplayer",
+    "title": "Offline Music Mp3 Player- Muso",
+    "installs": 84862297
+  },
+  {
+    "appId": "ru.yandex.disk",
+    "title": "Yandex Disk – Cloud Storage",
+    "installs": 84710029
+  },
+  {
+    "appId": "com.livescore",
+    "title": "LiveScore: Live Sports Scores",
+    "installs": 84643414
+  },
+  {
+    "appId": "com.mcdonalds.app",
+    "title": "McDonald's",
+    "installs": 84562254
+  },
+  {
+    "appId": "com.offerup",
+    "title": "OfferUp Buy & Sell Marketplace",
+    "installs": 84374261
+  },
+  {
+    "appId": "com.anghami",
+    "title": "Anghami: Play music & Podcasts",
+    "installs": 84067735
+  },
+  {
+    "appId": "com.app.tgtg",
+    "title": "Too Good To Go: End Food Waste",
+    "installs": 83708139
+  },
+  {
+    "appId": "cn.danatech.xingseus",
+    "title": "PictureThis - Plant Identifier",
+    "installs": 83587651
+  },
+  {
+    "appId": "me.lyft.android",
+    "title": "Lyft",
+    "installs": 83339279
+  },
+  {
+    "appId": "org.findmykids.app",
+    "title": "Findmykids: Location tracker",
+    "installs": 83075848
+  },
+  {
+    "appId": "com.lenskart.app",
+    "title": "Lenskart : Eyeglasses & More",
+    "installs": 81635646
+  },
+  {
+    "appId": "aplicacion.tiempo",
+    "title": "Weather Radar - Meteored News",
+    "installs": 81164876
+  },
+  {
+    "appId": "de.motain.iliga",
+    "title": "OneFootball Live Soccer scores",
+    "installs": 81134329
+  },
+  {
+    "appId": "com.shopify.arrive",
+    "title": "Shop: Track, Pay, Discover",
+    "installs": 80773092
+  },
+  {
+    "appId": "es.monkimun.lingokids",
+    "title": "Lingokids: Games & Shows",
+    "installs": 80771323
+  },
+  {
+    "appId": "com.wallet.crypto.trustapp",
+    "title": "Trust: Crypto & Bitcoin Wallet",
+    "installs": 80400486
+  },
+  {
+    "appId": "com.microsoft.windowsintune.companyportal",
+    "title": "Intune Company Portal",
+    "installs": 80047097
+  },
+  {
+    "appId": "com.snowcorp.epik",
+    "title": "EPIK - AI Photo & Video Editor",
+    "installs": 79642683
+  },
+  {
+    "appId": "dj.music.mixer.sound.effects",
+    "title": "DJ Music mixer - DJ Mix Studio",
+    "installs": 78669663
+  },
+  {
+    "appId": "com.kii.safe",
+    "title": "Private Photo Vault - Keepsafe",
+    "installs": 78649436
+  },
+  {
+    "appId": "com.expedia.bookings",
+    "title": "Expedia: Hotels, Flights, Cars",
+    "installs": 78618933
+  },
+  {
+    "appId": "com.pixverseai.pixverse",
+    "title": "PixVerse: AI Video Generator",
+    "installs": 78391618
+  },
+  {
+    "appId": "com.sahibinden",
+    "title": "sahibinden #AlSatKiralaKesfet",
+    "installs": 78180606
+  },
+  {
+    "appId": "com.google.android.apps.dynamite",
+    "title": "Google Chat",
+    "installs": 77945637
+  },
+  {
+    "appId": "com.fusionmedia.investing",
+    "title": "Investing.com: Stock Market",
+    "installs": 77637557
+  },
+  {
+    "appId": "com.ss.android.ttmd.video",
+    "title": "PineDrama - Short Dramas",
+    "installs": 77446300
+  },
+  {
+    "appId": "com.etsy.android",
+    "title": "Etsy: Shop from Real People",
+    "installs": 76991114
+  },
+  {
+    "appId": "de.autodoc.gmbh",
+    "title": "AUTODOC: buy car parts online",
+    "installs": 76578606
+  },
+  {
+    "appId": "helectronsoft.com.live.wallpaper.pixel4d",
+    "title": "Pixel 4D™ Live Wallpapers",
+    "installs": 76378414
+  },
+  {
+    "appId": "com.fsn.nds",
+    "title": "Nykaa Fashion – Shopping App",
+    "installs": 76162001
+  },
+  {
+    "appId": "me.apptivise.vladnikita",
+    "title": "Vlad and Niki: Games & Videos",
+    "installs": 76130000
+  },
+  {
+    "appId": "com.wemesh.android",
+    "title": "Rave – Watch Party",
+    "installs": 74771873
+  },
+  {
+    "appId": "com.babbel.mobile.android.en",
+    "title": "Babbel - Learn Languages",
+    "installs": 73935076
+  },
+  {
+    "appId": "com.anthropic.claude",
+    "title": "Claude by Anthropic",
+    "installs": 73616950
+  },
+  {
+    "appId": "mydiary.journal.diary.diarywithlock.diaryjournal.secretdiary",
+    "title": "My Diary - Daily Diary Journal",
+    "installs": 73244542
+  },
+  {
+    "appId": "video.editor.videomaker.effects.fx",
+    "title": "AI Video Editor: ShotCut AI",
+    "installs": 73208725
+  },
+  {
+    "appId": "in.swiggy.android.instamart",
+    "title": "Instamart: Groceries & more",
+    "installs": 73082587
+  },
+  {
+    "appId": "org.wikipedia",
+    "title": "Wikipedia",
+    "installs": 72881986
+  },
+  {
+    "appId": "com.suntv.sunnxt",
+    "title": "Sun NXT",
+    "installs": 71825064
+  },
+  {
+    "appId": "com.nhn.android.nmap",
+    "title": "NAVER Maps, Navigation",
+    "installs": 71525491
+  },
+  {
+    "appId": "com.beint.zangi",
+    "title": "Zangi - Private Messenger",
+    "installs": 71224538
+  },
+  {
+    "appId": "mymusic.offlinemusicplayer.mp3player.playmusic",
+    "title": "Offline Music Player: Play MP3",
+    "installs": 70596987
+  },
+  {
+    "appId": "com.calm.android",
+    "title": "Calm - Sleep, Meditate, Relax",
+    "installs": 70398231
+  },
+  {
+    "appId": "ai.character.app",
+    "title": "Character AI: Chat, Talk, Text",
+    "installs": 70257851
+  },
+  {
+    "appId": "com.microsoft.launcher",
+    "title": "Microsoft Launcher",
+    "installs": 69900018
+  },
+  {
+    "appId": "com.facebook.talk",
+    "title": "Messenger Kids – The Messaging",
+    "installs": 69894292
+  },
+  {
+    "appId": "com.yelp.android",
+    "title": "Yelp: Food, Delivery & Reviews",
+    "installs": 69535505
+  },
+  {
+    "appId": "com.windyty.android",
+    "title": "Windy.com - Weather Forecast",
+    "installs": 68597003
+  },
+  {
+    "appId": "com.droid27.transparentclockweather",
+    "title": "Transparent clock and weather",
+    "installs": 68285893
+  },
+  {
+    "appId": "com.coupang.mobile",
+    "title": "Coupang - Mobile Shopping",
+    "installs": 68009188
+  },
+  {
+    "appId": "ai.mybuddy.talkingflashcards_new",
+    "title": "Buddy.ai: Kids Learning Games",
+    "installs": 65315821
+  },
+  {
+    "appId": "com.careem.acma",
+    "title": "Careem: Taxi, Food & Delivery",
+    "installs": 64873091
+  },
+  {
+    "appId": "com.ryanair.cheapflights",
+    "title": "Ryanair",
+    "installs": 64233637
+  },
+  {
+    "appId": "com.arcsoft.perfect365",
+    "title": "Perfect365: Face Makeup Editor",
+    "installs": 64050949
+  },
+  {
+    "appId": "com.eliferun.music",
+    "title": "Music Player for Android",
+    "installs": 63554004
+  },
+  {
+    "appId": "com.quizlet.quizletandroid",
+    "title": "Quizlet: More than Flashcards",
+    "installs": 63514380
+  },
+  {
+    "appId": "com.pixelkraft.edgelighting",
+    "title": "Edge Lighting - Borderlight",
+    "installs": 63416222
+  },
+  {
+    "appId": "com.prequel.app",
+    "title": "PREQUEL: Photo Editor, Filters",
+    "installs": 63296905
+  },
+  {
+    "appId": "com.grabtaxi.driver2",
+    "title": "Grab Driver: App for Partners",
+    "installs": 63108189
+  },
+  {
+    "appId": "com.fatsecret.android",
+    "title": "Calorie Counter by fatsecret",
+    "installs": 63094021
+  },
+  {
+    "appId": "com.wave.personal",
+    "title": "Wave - Mobile Money",
+    "installs": 62452039
+  },
+  {
+    "appId": "photo.filter.selfie.beauty.camera",
+    "title": "Beauty Camera -Selfie, Sticker",
+    "installs": 62253033
+  },
+  {
+    "appId": "com.textmeinc.textme",
+    "title": "Text Me: Second Phone Number",
+    "installs": 62202907
+  },
+  {
+    "appId": "com.tradingview.tradingviewapp",
+    "title": "TradingView: Track All Markets",
+    "installs": 62149615
+  },
+  {
+    "appId": "id.bmri.livin",
+    "title": "Livin' by Mandiri",
+    "installs": 61192289
+  },
+  {
+    "appId": "com.rare.wallpapers",
+    "title": "Wallpapers HD - Backgrounds 4K",
+    "installs": 60910896
+  },
+  {
+    "appId": "com.weaver.app.prod",
+    "title": "Talkie: Creative AI Community",
+    "installs": 60487565
+  },
+  {
+    "appId": "com.meitu.wink",
+    "title": "Wink: Video Enhancer & Editor",
+    "installs": 60052556
+  },
+  {
+    "appId": "com.bpjstku",
+    "title": "JMO (Jamsostek Mobile)",
+    "installs": 59911849
+  },
+  {
+    "appId": "com.reglobe.cashify",
+    "title": "Cashify: Sell & Buy Old Phones",
+    "installs": 59446965
+  },
+  {
+    "appId": "com.uefa.ucl",
+    "title": "UEFA Champions League Official",
+    "installs": 59360369
+  },
+  {
+    "appId": "com.yazio.android",
+    "title": "Yazio: AI Calorie Tracker",
+    "installs": 58413576
+  },
+  {
+    "appId": "com.widgetable.theme.android",
+    "title": "Widgetable: Besties & Couples",
+    "installs": 58396504
+  },
+  {
+    "appId": "com.busuu.android.enc",
+    "title": "Busuu: Learn & Speak Languages",
+    "installs": 58322983
+  },
+  {
+    "appId": "com.photo.android.camera",
+    "title": "Camera for Android",
+    "installs": 57811428
+  },
+  {
+    "appId": "com.nike.plusgps",
+    "title": "Nike Run Club - Running Coach",
+    "installs": 57617537
+  },
+  {
+    "appId": "com.merriamwebster",
+    "title": "Dictionary - Merriam-Webster",
+    "installs": 57398237
+  },
+  {
+    "appId": "net.metaquotes.metatrader5",
+    "title": "MetaTrader 5 — Forex, Stocks",
+    "installs": 57064329
+  },
+  {
+    "appId": "bodyfast.zero.fastingtracker.weightloss",
+    "title": "Fasting - Intermittent Fasting",
+    "installs": 57046671
+  },
+  {
+    "appId": "ai.socialapps.speakmaster",
+    "title": "PolyBuzz: Chat with AI Friends",
+    "installs": 57030874
+  },
+  {
+    "appId": "ai.moises",
+    "title": "Moises: The Musician's AI App",
+    "installs": 56766116
+  },
+  {
+    "appId": "com.zillow.android.zillowmap",
+    "title": "Zillow: Homes for Sale & Rent",
+    "installs": 56668247
+  },
+  {
+    "appId": "photoeditor.cutout.backgrounderaser",
+    "title": "Background Eraser Photo Editor",
+    "installs": 56298126
+  },
+  {
+    "appId": "org.readera",
+    "title": "ReadEra – book reader pdf epub",
+    "installs": 56073901
+  },
+  {
+    "appId": "com.edadeal.android",
+    "title": "Свои Плюсы Едадил — кешбэк",
+    "installs": 55968158
+  },
+  {
+    "appId": "com.hsv.freeadblockerbrowser",
+    "title": "FREE ADBLOCKER BROWSER",
+    "installs": 55538583
+  },
+  {
+    "appId": "com.hcom.android",
+    "title": "Hotels.com: Book Hotel Deals",
+    "installs": 55153190
+  },
+  {
+    "appId": "com.mobilefootie.wc2010",
+    "title": "FotMob - Soccer Live Scores",
+    "installs": 55020883
+  },
+  {
+    "appId": "com.ticketmaster.mobile.android.na",
+    "title": "Ticketmaster－Buy, Sell Tickets",
+    "installs": 54908688
+  },
+  {
+    "appId": "com.autoscout24",
+    "title": "AutoScout24: Automobile market",
+    "installs": 54797970
+  },
+  {
+    "appId": "br.com.netshoes.app",
+    "title": "Netshoes: loja de esportes!",
+    "installs": 54589707
+  },
+  {
+    "appId": "com.pratilipi.mobile.android",
+    "title": "Pratilipi Novel",
+    "installs": 54439356
+  },
+  {
+    "appId": "com.transferwise.android",
+    "title": "Wise: International Transfers",
+    "installs": 54425603
+  },
+  {
+    "appId": "com.planner5d.planner5d",
+    "title": "Planner 5D: AI Home Design",
+    "installs": 54353337
+  },
+  {
+    "appId": "ru.tander.magnit",
+    "title": "Магнит: акции и доставка",
+    "installs": 54276710
+  },
+  {
+    "appId": "com.tuya.smartlife",
+    "title": "SmartLife: Smart Living",
+    "installs": 54206479
+  },
+  {
+    "appId": "com.pinger.textfree",
+    "title": "Text Free: Second Phone Number",
+    "installs": 54163283
+  },
+  {
+    "appId": "photo.manager.private.photogallery",
+    "title": "Photo Gallery - Album, Vault",
+    "installs": 53648613
+  },
+  {
+    "appId": "org.torproject.torbrowser",
+    "title": "Tor Browser",
+    "installs": 53570456
+  },
+  {
+    "appId": "audioeditor.musiceditor.soundeditor.songeditor",
+    "title": "Audio Editor & Music Editor",
+    "installs": 53474006
+  },
+  {
+    "appId": "com.classdojo.android",
+    "title": "ClassDojo",
+    "installs": 53408564
+  },
+  {
+    "appId": "com.shopback.app",
+    "title": "ShopBack: Cashback & Rewards",
+    "installs": 53241320
+  },
+  {
+    "appId": "com.yousician.yousician",
+    "title": "Yousician: Learn & Play Guitar",
+    "installs": 53033549
+  },
+  {
+    "appId": "jp.co.canon.ic.cameraconnect",
+    "title": "Canon Camera Connect",
+    "installs": 52720347
+  },
+  {
+    "appId": "com.codeway.aitutor",
+    "title": "Learn English, Spanish: Learna",
+    "installs": 52695750
+  },
+  {
+    "appId": "com.duosecurity.duomobile",
+    "title": "Duo Mobile",
+    "installs": 52342048
+  },
+  {
+    "appId": "com.alltrails.alltrails",
+    "title": "AllTrails: Hike, Bike & Run",
+    "installs": 52055104
+  },
+  {
+    "appId": "suamusica.suamusicaapp",
+    "title": "Sua Música",
+    "installs": 52053341
+  },
+  {
+    "appId": "com.garmin.android.apps.connectmobile",
+    "title": "Garmin Connect™",
+    "installs": 51697098
+  },
+  {
+    "appId": "ru.hh.android",
+    "title": "hh: поиск работы",
+    "installs": 51696116
+  },
+  {
+    "appId": "com.memrise.android.memrisecompanion",
+    "title": "Memrise: Fun language lessons",
+    "installs": 51620827
+  },
+  {
+    "appId": "com.opensooq.OpenSooq",
+    "title": "السوق المفتوح - OpenSooq",
+    "installs": 51532396
+  },
+  {
+    "appId": "com.jazarimusic.voloco",
+    "title": "Voloco: Auto Vocal Tune Studio",
+    "installs": 51528589
+  },
+  {
+    "appId": "media.music.mp3player.musicplayer",
+    "title": "Music player",
+    "installs": 51382843
+  },
+  {
+    "appId": "com.moodle.moodlemobile",
+    "title": "Moodle",
+    "installs": 51278665
+  },
+  {
+    "appId": "com.Slack",
+    "title": "Slack",
+    "installs": 51059149
+  },
+  {
+    "appId": "com.xbrowser.play",
+    "title": "X Browser -Light & Super fast",
+    "installs": 50789612
+  },
+  {
+    "appId": "jbl.stc.com",
+    "title": "JBL Headphones",
+    "installs": 50783604
+  },
+  {
+    "appId": "com.opera.gx",
+    "title": "Opera GX: Gaming Browser",
+    "installs": 50259527
+  },
+  {
+    "appId": "com.nbaimd.gametime.nba2011",
+    "title": "NBA: Live Games & Scores",
+    "installs": 50166953
+  },
+  {
+    "appId": "weightloss.weightlossforwomen.workoutforwomen.womenworkout",
+    "title": "Weight Loss for Women: Workout",
+    "installs": 50121858
+  },
+  {
+    "appId": "com.fiverr.fiverr",
+    "title": "Fiverr - Freelance Service",
+    "installs": 50040947
+  },
+  {
+    "appId": "com.tohsoft.music.mp3.mp3player",
+    "title": "Music Player - MP3 Player",
+    "installs": 49908824
+  },
+  {
+    "appId": "com.bcp.innovacxion.yapeapp",
+    "title": "Yape",
+    "installs": 49789077
+  },
+  {
+    "appId": "in.upstox.app",
+    "title": "Upstox Stocks IPO Mutual Funds",
+    "installs": 49743588
+  },
+  {
+    "appId": "com.pl.premierleague",
+    "title": "Premier League - Scores, News",
+    "installs": 49223547
+  },
+  {
+    "appId": "com.cbs.app",
+    "title": "Paramount+",
+    "installs": 49196453
+  },
+  {
+    "appId": "com.cabify.rider",
+    "title": "Cabify",
+    "installs": 48474632
+  },
+  {
+    "appId": "com.starbucks.mobilecard",
+    "title": "Starbucks",
+    "installs": 48402064
+  },
+  {
+    "appId": "com.suno.android",
+    "title": "Suno - AI Music & Songs Maker",
+    "installs": 47931012
+  },
+  {
+    "appId": "grit.storytel.app",
+    "title": "Storytel - Audiobooks & Books",
+    "installs": 47748800
+  },
+  {
+    "appId": "com.facebook.adsmanager",
+    "title": "Meta Ads Manager",
+    "installs": 47593704
+  },
+  {
+    "appId": "co.benx.weverse",
+    "title": "Weverse: Connect with Artists",
+    "installs": 47513281
+  },
+  {
+    "appId": "com.gm.despegar",
+    "title": "Despegar: vuelos y hoteles",
+    "installs": 47021607
+  },
+  {
+    "appId": "com.baitu.qingshu",
+    "title": "Poppo Live - Live Stream",
+    "installs": 46926406
+  },
+  {
+    "appId": "com.noctuasoftware.stellarium_free",
+    "title": "Stellarium - Star Map",
+    "installs": 46846753
+  },
+  {
+    "appId": "com.dhgate.buyermob",
+    "title": "DHgate-online wholesale stores",
+    "installs": 46829115
+  },
+  {
+    "appId": "com.google.android.apps.labs.language.tailwind",
+    "title": "Gemini Notebook",
+    "installs": 46616864
+  },
+  {
+    "appId": "com.mservice.momotransfer",
+    "title": "MoMo-Trợ Thủ Tài Chính với AI",
+    "installs": 46580799
+  },
+  {
+    "appId": "com.nhn.android.webtoon",
+    "title": "네이버 웹툰 - Naver Webtoon",
+    "installs": 46065327
+  },
+  {
+    "appId": "com.getir",
+    "title": "getir: groceries in minutes",
+    "installs": 45349929
+  },
+  {
+    "appId": "com.google.android.apps.googlevoice",
+    "title": "Google Voice",
+    "installs": 44847346
+  },
+  {
+    "appId": "com.target.ui",
+    "title": "Target: Shop. Style. Save.",
+    "installs": 44787038
+  },
+  {
+    "appId": "com.yahoo.mobile.client.android.weather",
+    "title": "Yahoo Weather: Forecast & Maps",
+    "installs": 44225253
+  },
+  {
+    "appId": "com.xingin.xhs",
+    "title": "rednote",
+    "installs": 44097500
+  },
+  {
+    "appId": "com.tplink.iot",
+    "title": "TP-Link Tapo",
+    "installs": 44078688
+  },
+  {
+    "appId": "de.komoot.android",
+    "title": "komoot - hike, bike & run",
+    "installs": 43942617
+  },
+  {
+    "appId": "io.yuka.android",
+    "title": "Yuka - Food & Cosmetic Scanner",
+    "installs": 43561762
+  },
+  {
+    "appId": "us.nobarriers.elsa",
+    "title": "ELSA Speak: English Learning",
+    "installs": 43529781
+  },
+  {
+    "appId": "com.udemy.android",
+    "title": "Udemy - Online Courses",
+    "installs": 43449171
+  },
+  {
+    "appId": "com.fifa.fifaapp.android",
+    "title": "FIFA Official App",
+    "installs": 43364946
+  },
+  {
+    "appId": "livio.pack.lang.en_US",
+    "title": "English Dictionary - Offline",
+    "installs": 43103272
+  },
+  {
+    "appId": "pl.planmieszkania.android",
+    "title": "Floor Plan Creator",
+    "installs": 42793032
+  },
+  {
+    "appId": "com.rfi.sams.android",
+    "title": "Sam's Club: Shopping & Savings",
+    "installs": 42702176
+  },
+  {
+    "appId": "com.beinsports.andcontent",
+    "title": "beIN SPORTS",
+    "installs": 42546299
+  },
+  {
+    "appId": "com.lamoda.lite",
+    "title": "Lamoda: мода, красота, дом",
+    "installs": 42511064
+  },
+  {
+    "appId": "com.music.player.simple",
+    "title": "Music Player - MP3 Player",
+    "installs": 42420359
+  },
+  {
+    "appId": "ru.pyaterochka.app.browser",
+    "title": "Пятёрочка: доставка продуктов",
+    "installs": 42395444
+  },
+  {
+    "appId": "br.com.enjoei.app",
+    "title": "enjoei: compre e venda de tudo",
+    "installs": 42376523
+  },
+  {
+    "appId": "com.here.app.maps",
+    "title": "HERE WeGo: Maps & Navigation",
+    "installs": 41512678
+  },
+  {
+    "appId": "com.olx.pk",
+    "title": "OLX Pakistan - Online Shopping",
+    "installs": 41458846
+  },
+  {
+    "appId": "com.dreame.reader",
+    "title": "Dreame-Read Romance Stories",
+    "installs": 41327125
+  },
+  {
+    "appId": "com.shanga.walli",
+    "title": "Walli - Stunning 4K Wallpapers",
+    "installs": 41308632
+  },
+  {
+    "appId": "com.gemtechnologies.gem4me",
+    "title": "Online chat, calls - Gem Space",
+    "installs": 41225739
+  },
+  {
+    "appId": "com.app.abhibus",
+    "title": "AbhiBus: Book Bus Tickets",
+    "installs": 40756363
+  },
+  {
+    "appId": "com.justplay.app",
+    "title": "JustPlay: Earn Money or Donate",
+    "installs": 40656330
+  },
+  {
+    "appId": "com.google.android.apps.tasks",
+    "title": "Google Tasks",
+    "installs": 40480429
+  },
+  {
+    "appId": "com.aws.android",
+    "title": "Weather Forecast by WeatherBug",
+    "installs": 40015350
+  },
+  {
+    "appId": "com.hitrolab.audioeditor",
+    "title": "AudioLab Audio Cutter & Editor",
+    "installs": 40006853
+  },
+  {
+    "appId": "com.jio.web",
+    "title": "JioSphere: Web Browser",
+    "installs": 39994373
+  },
+  {
+    "appId": "com.redarbor.computrabajo",
+    "title": "Computrabajo Ofertas de Empleo",
+    "installs": 39555338
+  },
+  {
+    "appId": "com.gstarmc.android",
+    "title": "DWG FastView-CAD Viewer&Editor",
+    "installs": 39151832
+  },
+  {
+    "appId": "com.mufumbo.android.recipe.search",
+    "title": "Cookpad recipes, homemade food",
+    "installs": 39147549
+  },
+  {
+    "appId": "com.appxstudio.esportlogo",
+    "title": "Esports Logo Maker",
+    "installs": 39057601
+  },
+  {
+    "appId": "com.apalon.weatherradar.free",
+    "title": "Clime: NOAA Weather Radar Live",
+    "installs": 38935903
+  },
+  {
+    "appId": "com.policybazaar",
+    "title": "Policybazaar - Buy Insurance",
+    "installs": 38858658
+  },
+  {
+    "appId": "com.adpmobile.android",
+    "title": "ADP Mobile Solutions",
+    "installs": 38646146
+  },
+  {
+    "appId": "com.dominospizza",
+    "title": "Domino's Pizza USA",
+    "installs": 38626324
+  },
+  {
+    "appId": "ar.gob.argentinagobar",
+    "title": "Mi Argentina",
+    "installs": 38478364
+  },
+  {
+    "appId": "my.com.tngdigital.ewallet",
+    "title": "Touch 'n Go eWallet",
+    "installs": 38471992
+  },
+  {
+    "appId": "com.read.goodnovel",
+    "title": "GoodNovel - Booktok, Stories",
+    "installs": 38341155
+  },
+  {
+    "appId": "com.wego.android",
+    "title": "Wego - Flights, Hotels, Travel",
+    "installs": 37967380
+  },
+  {
+    "appId": "slideshow.videomaker.music.photoslideshow",
+    "title": "Photo Video Maker - InSlide",
+    "installs": 37811740
+  },
+  {
+    "appId": "com.brakefield.painter",
+    "title": "Infinite Painter",
+    "installs": 37636450
+  },
+  {
+    "appId": "com.iherb",
+    "title": "iHerb: Vitamins & Supplements",
+    "installs": 37523841
+  },
+  {
+    "appId": "com.tmobile.tuesdays",
+    "title": "T-Life",
+    "installs": 37228042
+  },
+  {
+    "appId": "com.groupme.android",
+    "title": "GroupMe",
+    "installs": 37219304
+  },
+  {
+    "appId": "com.greetingsisland.sam",
+    "title": "Invitation Maker: Cards & RSVP",
+    "installs": 37077452
+  },
+  {
+    "appId": "cool.fonts.symbol.keyboard.custom.fancy.text.editor",
+    "title": "Fonts Art - Keyboard Fonts",
+    "installs": 36805351
+  },
+  {
+    "appId": "com.risingcabbage.hd.camera",
+    "title": "HD Camera 2026 for Android",
+    "installs": 36591570
+  },
+  {
+    "appId": "com.locket.Locket",
+    "title": "Locket Widget",
+    "installs": 36471002
+  },
+  {
+    "appId": "com.wallpaperscraft.wallpaperscraft_parallax",
+    "title": "3D Live Wallpapers 4D video 4K",
+    "installs": 36357783
+  },
+  {
+    "appId": "com.nextdoor",
+    "title": "Nextdoor: Neighborhood Network",
+    "installs": 36197866
+  },
+  {
+    "appId": "com.chrome.dev",
+    "title": "Chrome Dev",
+    "installs": 35263368
+  },
+  {
+    "appId": "com.opera.browser.beta",
+    "title": "Opera browser beta with AI",
+    "installs": 35256368
+  },
+  {
+    "appId": "com.icandesignapp.all",
+    "title": "Home Planner AI: Room Interior",
+    "installs": 35206191
+  },
+  {
+    "appId": "com.grubhub.android",
+    "title": "Grubhub: Food Delivery",
+    "installs": 34710442
+  },
+  {
+    "appId": "com.dolap.android",
+    "title": "Dolap",
+    "installs": 34621826
+  },
+  {
+    "appId": "cn.gem.android",
+    "title": "PopUp - Chat, Friend, Fun",
+    "installs": 34594053
+  },
+  {
+    "appId": "com.marriott.mrt",
+    "title": "Marriott Bonvoy: Book Hotels",
+    "installs": 34585187
+  },
+  {
+    "appId": "beauty.hd.camera",
+    "title": "HD Camera: Professional Camera",
+    "installs": 34553942
+  },
+  {
+    "appId": "com.juphoon.justalk",
+    "title": "JusTalk - Video Chat & Calls",
+    "installs": 34518600
+  },
+  {
+    "appId": "com.mixvibes.crossdjfree",
+    "title": "Cross DJ - Music Mixer App",
+    "installs": 34371780
+  },
+  {
+    "appId": "com.limebike",
+    "title": "Lime - #RideGreen",
+    "installs": 34277145
+  },
+  {
+    "appId": "com.thehomedepot",
+    "title": "The Home Depot",
+    "installs": 34096080
+  },
+  {
+    "appId": "com.doordash.driverapp",
+    "title": "DoorDash - Dasher",
+    "installs": 33729594
+  },
+  {
+    "appId": "com.pixelkraft.edgelightcolors",
+    "title": "EDGE Lighting -LED Borderlight",
+    "installs": 33714330
+  },
+  {
+    "appId": "com.kayak.android",
+    "title": "KAYAK: Flights, Hotels & Cars",
+    "installs": 33391295
+  },
+  {
+    "appId": "com.accurate.weather.forecast.live",
+    "title": "Weather Radar, Live Radar",
+    "installs": 33080216
+  },
+  {
+    "appId": "kling.ai.video.chat",
+    "title": "Kling AI: AI Image&Video Maker",
+    "installs": 33069749
+  },
+  {
+    "appId": "gbis.gbandroid",
+    "title": "GasBuddy: Find & Pay for Gas",
+    "installs": 32944787
+  },
+  {
+    "appId": "com.ixigo",
+    "title": "ixigo: Flight & Hotel Booking",
+    "installs": 32803213
+  },
+  {
+    "appId": "com.jobstreet.jobstreet",
+    "title": "Jobstreet: Smart job matching",
+    "installs": 32607580
+  },
+  {
+    "appId": "com.wejoy.weplay.us",
+    "title": "WePlay - Game and Party",
+    "installs": 32522661
+  },
+  {
+    "appId": "io.cloudwalk.infinitepaydash",
+    "title": "InfinitePay Tap, Conta, Cartão",
+    "installs": 32516938
+  },
+  {
+    "appId": "com.goodreads",
+    "title": "Goodreads: Book Tracker & More",
+    "installs": 32467081
+  },
+  {
+    "appId": "org.coursera.android",
+    "title": "Coursera: Grow your career",
+    "installs": 32440265
+  },
+  {
+    "appId": "audioplayer.free.music.player",
+    "title": "Music Player- Music,Mp3 Player",
+    "installs": 32376332
+  },
+  {
+    "appId": "com.ultimateguitar.tabs",
+    "title": "Ultimate Guitar: Chords & Tabs",
+    "installs": 32301318
+  },
+  {
+    "appId": "com.qidian.Int.reader",
+    "title": "WebNovel",
+    "installs": 32200002
+  },
+  {
+    "appId": "com.shopify.mobile",
+    "title": "Shopify: Sell. Run a business.",
+    "installs": 32167405
+  },
+  {
+    "appId": "com.live.earthmap.streetview.livecam",
+    "title": "Live Earth Map - World Map 3D",
+    "installs": 31936454
+  },
+  {
+    "appId": "com.chbreeze.jikbang4a",
+    "title": "Zigbang",
+    "installs": 31793441
+  },
+  {
+    "appId": "com.happproxy",
+    "title": "Happ - Proxy Utility",
+    "installs": 31332309
+  },
+  {
+    "appId": "com.onesports.score",
+    "title": "AiScore - Live Sports Scores",
+    "installs": 31124840
+  },
+  {
+    "appId": "life.channel.accurate.local.weather.forecast",
+    "title": "Local Weather：Weather Forecast",
+    "installs": 31013176
+  },
+  {
+    "appId": "com.cisco.wx2.android",
+    "title": "Webex",
+    "installs": 30996104
+  },
+  {
+    "appId": "com.tuya.smart",
+    "title": "Tuya: Smart Life, Smart Living",
+    "installs": 30985288
+  },
+  {
+    "appId": "com.lcwaikiki.android",
+    "title": "LCW: Online Shopping",
+    "installs": 30983784
+  },
+  {
+    "appId": "com.gm.decolar",
+    "title": "Decolar: Voos e Hotéis",
+    "installs": 30909585
+  },
+  {
+    "appId": "com.fetchrewards.fetchrewards.hop",
+    "title": "Fetch: Earn Rewards Every Day",
+    "installs": 30778379
+  },
+  {
+    "appId": "tomrctregt.tregt.lovephotokeyboardthemes",
+    "title": "Love Photo Keyboard Theme 2023",
+    "installs": 30641977
+  },
+  {
+    "appId": "jp.co.shueisha.mangaplus",
+    "title": "MANGA Plus by SHUEISHA",
+    "installs": 30501355
+  },
+  {
+    "appId": "com.united.mobile.android",
+    "title": "United Airlines",
+    "installs": 30438527
+  },
+  {
+    "appId": "es.lfp.gi.main",
+    "title": "LALIGA Official App 2026/27",
+    "installs": 30422913
+  },
+  {
+    "appId": "com.mttnow.droid.easyjet",
+    "title": "easyJet: Travel App",
+    "installs": 30214613
+  },
+  {
+    "appId": "com.emn8.mobilem8.nativeapp.bk",
+    "title": "BURGER KING® App",
+    "installs": 30134000
+  },
+  {
+    "appId": "com.glassdoor.app",
+    "title": "Glassdoor | Jobs & Careers",
+    "installs": 29884453
+  },
+  {
+    "appId": "com.jonathanpuckey.radiogarden",
+    "title": "Radio Garden",
+    "installs": 29548284
+  },
+  {
+    "appId": "taxi.android.client",
+    "title": "Freenow by Lyft - taxi & more",
+    "installs": 29323796
+  },
+  {
+    "appId": "com.move.realtor",
+    "title": "Realtor.com Real Estate & Rent",
+    "installs": 29301705
+  },
+  {
+    "appId": "com.instacart.client",
+    "title": "Instacart: Get Food Delivery",
+    "installs": 28871648
+  },
+  {
+    "appId": "ru.sbcs.store",
+    "title": "Samokat: Food Delivery",
+    "installs": 28852117
+  },
+  {
+    "appId": "com.ecosia.android",
+    "title": "Ecosia: Search to plant trees",
+    "installs": 28729719
+  },
+  {
+    "appId": "ru.farpost.dromfilter",
+    "title": "Дром Авто",
+    "installs": 28666484
+  },
+  {
+    "appId": "com.ovz.carscanner",
+    "title": "Car Scanner ELM OBD2",
+    "installs": 28502857
+  },
+  {
+    "appId": "com.google.android.apps.wear.companion",
+    "title": "Google Pixel Watch",
+    "installs": 28478516
+  },
+  {
+    "appId": "com.flyersoft.moonreader",
+    "title": "Moon+ Reader",
+    "installs": 28461895
+  },
+  {
+    "appId": "com.kobobooks.android",
+    "title": "Kobo | eBooks & Audiobooks",
+    "installs": 28419001
+  },
+  {
+    "appId": "com.yum.pizzahut",
+    "title": "Pizza Hut - Delivery & Takeout",
+    "installs": 28339399
+  },
+  {
+    "appId": "com.subway.mobile.subwayapp03",
+    "title": "Subway®",
+    "installs": 28252175
+  },
+  {
+    "appId": "com.vrbo.android",
+    "title": "Vrbo: Vacation Rentals",
+    "installs": 28090045
+  },
+  {
+    "appId": "de.idealo.android",
+    "title": "idealo: Price Comparison App",
+    "installs": 28034105
+  },
+  {
+    "appId": "com.delta.mobile.android",
+    "title": "Fly Delta",
+    "installs": 27935840
+  },
+  {
+    "appId": "com.tacobell.ordering",
+    "title": "Taco Bell Fast Food & Delivery",
+    "installs": 27821697
+  },
+  {
+    "appId": "com.derekr.NoteCam",
+    "title": "NoteCam Lite - GPS memo camera",
+    "installs": 27757464
+  },
+  {
+    "appId": "com.aloha.browser",
+    "title": "Aloha Browser - Private VPN",
+    "installs": 27660616
+  },
+  {
+    "appId": "com.chickfila.cfaflagship",
+    "title": "Chick-fil-A®",
+    "installs": 27656116
+  },
+  {
+    "appId": "com.aa.android",
+    "title": "American Airlines",
+    "installs": 27577864
+  },
+  {
+    "appId": "com.cultsotry.yanolja.nativeapp",
+    "title": "NOL : 야놀자와 인터파크의 새로운 이름",
+    "installs": 27161072
+  },
+  {
+    "appId": "com.idealista.android",
+    "title": "idealista",
+    "installs": 27139443
+  },
+  {
+    "appId": "com.realme.link",
+    "title": "realme Link",
+    "installs": 27038670
+  },
+  {
+    "appId": "com.vyroai.aiart",
+    "title": "AI Image Generator: ImagineArt",
+    "installs": 26932331
+  },
+  {
+    "appId": "com.voicechat.live.group",
+    "title": "YoHo: Group Voice Chat Room",
+    "installs": 26884836
+  },
+  {
+    "appId": "com.gonext.gpsphotolocation",
+    "title": "GPS Photo: With Location & Map",
+    "installs": 26767231
+  },
+  {
+    "appId": "com.deepl.mobiletranslator",
+    "title": "DeepL Translate",
+    "installs": 26721152
+  },
+  {
+    "appId": "br.com.sbf.centauro",
+    "title": "Centauro: sporting goods",
+    "installs": 26680284
+  },
+  {
+    "appId": "com.ai.gallery.android",
+    "title": "Gallery - Photo Gallery, Vault",
+    "installs": 26616328
+  },
+  {
+    "appId": "br.com.riachuelo.app",
+    "title": "Riachuelo - Roupas e compras",
+    "installs": 26569720
+  },
+  {
+    "appId": "ai.video.generator.text.video",
+    "title": "AI GPT Generator-Text to Video",
+    "installs": 26421496
+  },
+  {
+    "appId": "com.wizzair.WizzAirApp",
+    "title": "Wizz Air - Book, Travel & Save",
+    "installs": 26365071
+  },
+  {
+    "appId": "ai.hailuo.video",
+    "title": "Hailuo AI: Image&Video Maker",
+    "installs": 26061997
+  },
+  {
+    "appId": "com.bpva.video.player.free",
+    "title": "All Video Player Media Player",
+    "installs": 26031885
+  },
+  {
+    "appId": "com.dollargeneral.android",
+    "title": "Dollar General-Digital Coupons",
+    "installs": 26009667
+  },
+  {
+    "appId": "kr.goodchoice.abouthere",
+    "title": "여기어때: 호텔, 모텔, 숙소, 항공권 여행 최저가",
+    "installs": 25803522
+  },
+  {
+    "appId": "com.coccoc.trinhduyet",
+    "title": "Cốc Cốc: Browser & Adblock",
+    "installs": 25785560
+  },
+  {
+    "appId": "com.instructure.candroid",
+    "title": "Canvas By Instructure",
+    "installs": 25758167
+  },
+  {
+    "appId": "gen.tech.impulse.android",
+    "title": "Impulse - Brain Training Games",
+    "installs": 25683658
+  },
+  {
+    "appId": "com.defacto.android",
+    "title": "DeFacto - Clothing & Shopping",
+    "installs": 25526948
+  },
+  {
+    "appId": "com.goeuro.rosie",
+    "title": "Omio: Book Train, Bus, Flights",
+    "installs": 25515985
+  },
+  {
+    "appId": "com.weather.forecast.weatherchannel",
+    "title": "Weather app",
+    "installs": 25491152
+  },
+  {
+    "appId": "mobi.mangatoon.novel.portuguese",
+    "title": "NovelToon: Read Books, Stories",
+    "installs": 25464092
+  },
+  {
+    "appId": "com.requapp.requ",
+    "title": "AttaPoll Surveys: Earn Money",
+    "installs": 25456318
+  },
+  {
+    "appId": "com.littlecaesars",
+    "title": "Little Caesars",
+    "installs": 25304768
+  },
+  {
+    "appId": "com.costco.app.android",
+    "title": "Costco Wholesale",
+    "installs": 25283999
+  },
+  {
+    "appId": "com.topstep.fitcloudpro",
+    "title": "FitCloudPro",
+    "installs": 24857530
+  },
+  {
+    "appId": "com.aswat.carrefouruae",
+    "title": "MAF Carrefour Online Shopping",
+    "installs": 24755157
+  },
+  {
+    "appId": "pilatesworkout.yogaworkout.loseweight.workoutapps",
+    "title": "Pilates Workout at Home",
+    "installs": 24621366
+  },
+  {
+    "appId": "com.bamnetworks.mobile.android.gameday.atbat",
+    "title": "MLB",
+    "installs": 24497822
+  },
+  {
+    "appId": "com.ichi2.anki",
+    "title": "AnkiDroid Flashcards",
+    "installs": 24329958
+  },
+  {
+    "appId": "com.Beauchamp.Messenger.external",
+    "title": "Chai: Chat AI Platform",
+    "installs": 24255315
+  },
+  {
+    "appId": "com.appostrophe.scrl",
+    "title": "SCRL: Photo Collage Maker",
+    "installs": 24238016
+  },
+  {
+    "appId": "com.ai.polyverse.mirror",
+    "title": "AI Mirror: AI Photo & Video",
+    "installs": 24179207
+  },
+  {
+    "appId": "com.thetransitapp.droid",
+    "title": "Transit - Subway & Bus Times",
+    "installs": 24008095
+  },
+  {
+    "appId": "com.citymapper.app.release",
+    "title": "Citymapper",
+    "installs": 23995424
+  },
+  {
+    "appId": "com.southwestairlines.mobile",
+    "title": "Southwest Airlines: Travel App",
+    "installs": 23995380
+  },
+  {
+    "appId": "easy.launcher",
+    "title": "Easy Homescreen",
+    "installs": 23961751
+  },
+  {
+    "appId": "com.inomera.sm",
+    "title": "Migros - Grocery & Food",
+    "installs": 23852532
+  },
+  {
+    "appId": "com.acko.android",
+    "title": "ACKO Insurance",
+    "installs": 23684677
+  },
+  {
+    "appId": "com.taxsee.driver",
+    "title": "Taxsee Driver",
+    "installs": 23515989
+  },
+  {
+    "appId": "com.jobhai.jobs",
+    "title": "Job Hai - Search Job, Vacancy",
+    "installs": 23405409
+  },
+  {
+    "appId": "net.booksy.customer",
+    "title": "Booksy for Customers",
+    "installs": 23088472
+  },
+  {
+    "appId": "com.google.android.apps.seekh",
+    "title": "Read Along by Google",
+    "installs": 23015039
+  },
+  {
+    "appId": "com.getmimo",
+    "title": "Learn Python Coding - Mimo",
+    "installs": 22877984
+  },
+  {
+    "appId": "vn.com.vng.zalopay",
+    "title": "Zalopay-Thanh toán & Tài chính",
+    "installs": 22815762
+  },
+  {
+    "appId": "com.safaricom.mpesa.lifestyle",
+    "title": "My OneApp",
+    "installs": 22768505
+  },
+  {
+    "appId": "com.cerdillac.proccd",
+    "title": "ProCCD - Digital Film Camera",
+    "installs": 22688714
+  },
+  {
+    "appId": "com.squareup",
+    "title": "Square Point of Sale: Payment",
+    "installs": 22525601
+  },
+  {
+    "appId": "com.overdrive.mobile.android.libby",
+    "title": "Libby: Read Library Books",
+    "installs": 22351611
+  },
+  {
+    "appId": "com.meetup",
+    "title": "Meetup: Social Events & Groups",
+    "installs": 22308938
+  },
+  {
+    "appId": "com.app.pepperfry",
+    "title": "Pepperfry: Furniture & Decor",
+    "installs": 22301015
+  },
+  {
+    "appId": "com.handmark.sportcaster",
+    "title": "CBS Sports: Live Scores & News",
+    "installs": 22179849
+  },
+  {
+    "appId": "com.tiktok.lite.go",
+    "title": "TikTok Lite - Faster TikTok",
+    "installs": 22094182
+  },
+  {
+    "appId": "com.upside.consumer.android",
+    "title": "Upside: Gas & Food Cash Back",
+    "installs": 22010903
+  },
+  {
+    "appId": "com.justeat.app.uk",
+    "title": "Just Eat: Food and Shops",
+    "installs": 21991212
+  },
+  {
+    "appId": "com.wendys.nutritiontool",
+    "title": "Wendy’s",
+    "installs": 21987452
+  },
+  {
+    "appId": "in.krosbits.musicolet",
+    "title": "Musicolet Music Player",
+    "installs": 21932417
+  },
+  {
+    "appId": "com.madcat.easyposer",
+    "title": "Easy Pose - 3D pose making app",
+    "installs": 21742703
+  },
+  {
+    "appId": "net.tandem",
+    "title": "Tandem: Language exchange",
+    "installs": 21669895
+  },
+  {
+    "appId": "xyz.castle",
+    "title": "Castle - Make and Pla‪y",
+    "installs": 21387812
+  },
+  {
+    "appId": "com.codespaceapps.you",
+    "title": "Retake AI: Face & Photo Editor",
+    "installs": 21384543
+  },
+  {
+    "appId": "com.raizen.acelera",
+    "title": "Shell Box: abasteça e ganhe",
+    "installs": 21149465
+  },
+  {
+    "appId": "live.friend.dostt",
+    "title": "Dostt App",
+    "installs": 21068312
+  },
+  {
+    "appId": "net.infojobs.mobile.android",
+    "title": "InfoJobs - Job Search",
+    "installs": 21054339
+  },
+  {
+    "appId": "com.planetfitness",
+    "title": "Planet Fitness",
+    "installs": 21052467
+  },
+  {
+    "appId": "com.tvtwo.highest.paying.cash.app.make.money.surveys.rewards.free.income",
+    "title": "Make Money - Cash Earning App",
+    "installs": 21014966
+  },
+  {
+    "appId": "screenrecorder.videoeditor.videorecorder",
+    "title": "Screen Recorder - AX Recorder",
+    "installs": 21010192
+  },
+  {
+    "appId": "com.sand.airdroidkidp",
+    "title": "AirDroid Parental Control",
+    "installs": 20900481
+  },
+  {
+    "appId": "ai.praktika.android",
+    "title": "Praktika – AI Language Tutor",
+    "installs": 20734932
+  },
+  {
+    "appId": "com.sei.android",
+    "title": "7-Eleven: Rewards & Shopping",
+    "installs": 20660927
+  },
+  {
+    "appId": "org.aka.messenger",
+    "title": "aka",
+    "installs": 20460943
+  },
+  {
+    "appId": "com.mexcpro.client",
+    "title": "MEXC: Buy Bitcoin & Crypto",
+    "installs": 20405851
+  },
+  {
+    "appId": "com.weather.nold.forecast",
+    "title": "Live Weather: Weather Forecast",
+    "installs": 20397891
+  },
+  {
+    "appId": "com.whatnot_mobile",
+    "title": "Whatnot: Shop, Sell, Connect",
+    "installs": 20346357
+  },
+  {
+    "appId": "com.foxsports.android",
+    "title": "FOX Sports: Watch Live Games",
+    "installs": 20201013
+  },
+  {
+    "appId": "photography.sweet.selfie.camera",
+    "title": "Beauty Camera - Selfie Camera",
+    "installs": 20180892
+  },
+  {
+    "appId": "gps.speedometer.gpsspeedometer.odometer",
+    "title": "Speedometer: GPS Speedometer",
+    "installs": 20162487
+  },
+  {
+    "appId": "in.burgerking.android",
+    "title": "Burger King India",
+    "installs": 20141410
+  },
+  {
+    "appId": "com.edreams.travel",
+    "title": "eDreams: Flights, Hotels, Cars",
+    "installs": 19848922
+  },
+  {
+    "appId": "com.compassfree.digitalcompass.forandroid.app",
+    "title": "Compass app - Accurate Compass",
+    "installs": 19715632
+  },
+  {
+    "appId": "interior.home.design.ai",
+    "title": "Home AI - AI Interior Design",
+    "installs": 19629208
+  },
+  {
+    "appId": "com.trulia.android",
+    "title": "Trulia: Homes For Sale & Rent",
+    "installs": 19598814
+  },
+  {
+    "appId": "co.appnation.geniechat",
+    "title": "Chatbot AI Assistant - Genie",
+    "installs": 19506577
+  },
+  {
+    "appId": "com.dunkinbrands.otgo",
+    "title": "Dunkin’",
+    "installs": 19502935
+  },
+  {
+    "appId": "com.flashget.parentalcontrol",
+    "title": "FlashGet Kids:parental control",
+    "installs": 19484427
+  },
+  {
+    "appId": "photo.cam.filter.beauty.effect",
+    "title": "Beauty Camera: Sweet Camera",
+    "installs": 19481578
+  },
+  {
+    "appId": "com.ElfizMedia.DubstepMusicCreator3RhythmMachineBeatMaker",
+    "title": "DubStep Music & Beat Creator",
+    "installs": 19450571
+  },
+  {
+    "appId": "fast.explorer.web.browser",
+    "title": "Web Browser & Fast Explorer",
+    "installs": 19406428
+  },
+  {
+    "appId": "com.pingsecure.client.app",
+    "title": "Ping VPN",
+    "installs": 19225086
+  },
+  {
+    "appId": "peachy.bodyeditor.faceapp",
+    "title": "Peachy: Face App & Body Editor",
+    "installs": 19167134
+  },
+  {
+    "appId": "com.lalamove.global.driver.sea",
+    "title": "Lalamove Driver - Drive & Earn",
+    "installs": 19083800
+  },
+  {
+    "appId": "jp.co.celsys.clipstudiopaint.googleplay",
+    "title": "Clip Studio Paint",
+    "installs": 18990456
+  },
+  {
+    "appId": "com.circular.pixels",
+    "title": "Pixelcut AI Photo Editor",
+    "installs": 18986085
+  },
+  {
+    "appId": "com.acmeaom.android.myradar",
+    "title": "MyRadar Weather Radar",
+    "installs": 18947710
+  },
+  {
+    "appId": "com.channel.weather.forecast",
+    "title": "Weather Forecast: Live Weather",
+    "installs": 18793384
+  },
+  {
+    "appId": "com.bolt.deliveryclient",
+    "title": "Bolt Food: Delivery & Takeaway",
+    "installs": 18720720
+  },
+  {
+    "appId": "com.duolingo.literacy",
+    "title": "Learn to Read - Duolingo ABC",
+    "installs": 18694755
+  },
+  {
+    "appId": "br.com.cittabus",
+    "title": "Cittamobi: Ônibus e Trilhos",
+    "installs": 18674016
+  },
+  {
+    "appId": "com.prodege.swagbucksmobile",
+    "title": "Swagbucks Play Games + Surveys",
+    "installs": 18584573
+  },
+  {
+    "appId": "com.fedex.ida.android",
+    "title": "FedEx Mobile",
+    "installs": 18581310
+  },
+  {
+    "appId": "com.hilton.android.hhonors",
+    "title": "Hilton Honors: Book Hotels",
+    "installs": 18320141
+  },
+  {
+    "appId": "com.hellofresh.androidapp",
+    "title": "HelloFresh: Meal Kit & Recipes",
+    "installs": 18113682
+  },
+  {
+    "appId": "com.localweather.radar.climate",
+    "title": "Local Weather: Live Forecast",
+    "installs": 18098833
+  },
+  {
+    "appId": "com.mcentric.mcclient.MyMadrid",
+    "title": "Real Madrid",
+    "installs": 18072384
+  },
+  {
+    "appId": "com.yandex.iot",
+    "title": "Дом с Алисой",
+    "installs": 18045368
+  },
+  {
+    "appId": "com.dhan.live",
+    "title": "Dhan: Stock Market Trading App",
+    "installs": 18005153
+  },
+  {
+    "appId": "com.micontrolcenter.customnotification",
+    "title": "Launcher and Themes",
+    "installs": 17822783
+  },
+  {
+    "appId": "com.github.android",
+    "title": "GitHub",
+    "installs": 17812477
+  },
+  {
+    "appId": "com.stepsappgmbh.stepsapp",
+    "title": "StepsApp – Step Counter",
+    "installs": 17298638
+  },
+  {
+    "appId": "com.wikiloc.wikilocandroid",
+    "title": "Wikiloc - Trails of the World",
+    "installs": 17190057
+  },
+  {
+    "appId": "com.vibeshort.visualnovel.android",
+    "title": "VibeShort: AI Dramas & Reels",
+    "installs": 17160430
+  },
+  {
+    "appId": "com.soccer.ronaldo.wallpapers",
+    "title": "Soccer Ronaldo wallpapers CR7",
+    "installs": 17144046
+  },
+  {
+    "appId": "com.sonic.sonicdrivein",
+    "title": "SONIC Drive-In - Order Online",
+    "installs": 17139678
+  },
+  {
+    "appId": "com.google.android.apps.youtube.producer",
+    "title": "YouTube Create: Video editor",
+    "installs": 17088478
+  },
+  {
+    "appId": "kha.prog.mikrotik",
+    "title": "NetShare - no-root-tethering",
+    "installs": 17036175
+  },
+  {
+    "appId": "com.nhn.android.nbooks",
+    "title": "SERIES",
+    "installs": 16751646
+  },
+  {
+    "appId": "org.kustom.widget",
+    "title": "KWGT Kustom Widget Maker",
+    "installs": 16713044
+  },
+  {
+    "appId": "co.giva.jewellery",
+    "title": "GIVA: Silver & Gold Jewellery",
+    "installs": 16657578
+  },
+  {
+    "appId": "com.iproyal.android",
+    "title": "Pawns.app: Earn Money",
+    "installs": 16637913
+  },
+  {
+    "appId": "com.webcomics.manga",
+    "title": "WebComics - Webtoon & Manga",
+    "installs": 16633541
+  },
+  {
+    "appId": "com.google.android.apps.labs.whisk",
+    "title": "Google Flow",
+    "installs": 16613722
+  },
+  {
+    "appId": "com.kscc.scxb.mbl",
+    "title": "고속버스 티머니",
+    "installs": 16598669
+  },
+  {
+    "appId": "com.bharat.browser",
+    "title": "Super Browser: Fast & Private",
+    "installs": 16555552
+  },
+  {
+    "appId": "com.syncme.syncmeapp",
+    "title": "Sync.me - Spam Call Blocker",
+    "installs": 16509352
+  },
+  {
+    "appId": "com.reddoorz.app",
+    "title": "RedDoorz & SANS: Budget Hotel",
+    "installs": 16483223
+  },
+  {
+    "appId": "com.weward",
+    "title": "WeWard - Walk & Earn Rewards",
+    "installs": 16429309
+  },
+  {
+    "appId": "fitnesscoach.workoutplanner.weightloss",
+    "title": "Fitness Coach: Weight Loss",
+    "installs": 16325535
+  },
+  {
+    "appId": "com.depop",
+    "title": "Depop - Buy & Sell Clothes",
+    "installs": 16306921
+  },
+  {
+    "appId": "org.mozilla.focus",
+    "title": "Firefox Focus: No Fuss Browser",
+    "installs": 16256991
+  },
+  {
+    "appId": "dance.fit.zumba.weightloss.danceburn",
+    "title": "Dancefitme - Fun Weight Loss",
+    "installs": 16231783
+  },
+  {
+    "appId": "com.heetch",
+    "title": "Heetch - Ride-hailing app",
+    "installs": 16099599
+  },
+  {
+    "appId": "com.gluak.f24",
+    "title": "Futbol24 soccer livescore app",
+    "installs": 16093590
+  },
+  {
+    "appId": "pl.zabka.apb2c",
+    "title": "żappka: zakupy, promocje Żabka",
+    "installs": 15989687
+  },
+  {
+    "appId": "us.mitene",
+    "title": "FamilyAlbum - Photo Sharing",
+    "installs": 15948212
+  },
+  {
+    "appId": "br.com.livelo.app",
+    "title": "Livelo: juntar e trocar pontos",
+    "installs": 15924214
+  },
+  {
+    "appId": "com.pelmorex.WeatherEyeAndroid",
+    "title": "The Weather Network",
+    "installs": 15911820
+  },
+  {
+    "appId": "com.storyreel.tv.android",
+    "title": "StoryReel: Drama Shorts & TV",
+    "installs": 15880552
+  },
+  {
+    "appId": "br.tv.horizonte.android.premierefc",
+    "title": "Premiere: Jogos ao vivo",
+    "installs": 15844042
+  },
+  {
+    "appId": "com.sraoss.dmrc",
+    "title": "Delhi Metro Sarthi App",
+    "installs": 15839101
+  },
+  {
+    "appId": "com.messenger.sms.messages",
+    "title": "Messages - SMS Texting App",
+    "installs": 15729776
+  },
+  {
+    "appId": "com.latam.xp",
+    "title": "LATAM: Flights, Hotels, Cars",
+    "installs": 15713561
+  },
+  {
+    "appId": "com.photogrid.collage.videomaker",
+    "title": "PhotoGrid: Video Collage Maker",
+    "installs": 15665415
+  },
+  {
+    "appId": "com.IndexEducation.Pronote",
+    "title": "PRONOTE",
+    "installs": 15652460
+  },
+  {
+    "appId": "com.ilyabogdanovich.geotracker",
+    "title": "Geo Tracker - GPS tracker",
+    "installs": 15644903
+  },
+  {
+    "appId": "com.practice.ninja_study",
+    "title": "MySivi AI English Speaking App",
+    "installs": 15585096
+  },
+  {
+    "appId": "net.osmand",
+    "title": "OsmAnd — Maps & GPS Offline",
+    "installs": 15561716
+  },
+  {
+    "appId": "com.m.qr",
+    "title": "Qatar Airways",
+    "installs": 15560185
+  },
+  {
+    "appId": "com.newsclapper.video",
+    "title": "Clapper: Video, Live, Chat",
+    "installs": 15533537
+  },
+  {
+    "appId": "com.jrustonapps.myearthquakealerts",
+    "title": "My Earthquake Alerts - Map",
+    "installs": 15527198
+  },
+  {
+    "appId": "com.opentable",
+    "title": "OpenTable",
+    "installs": 15505525
+  },
+  {
+    "appId": "ai.video.generator",
+    "title": "AI Video - AI Video Generator",
+    "installs": 15434180
+  },
+  {
+    "appId": "live.weather.vitality.studio.forecast.widget",
+    "title": "Local Weather Alerts - Widget",
+    "installs": 15421139
+  },
+  {
+    "appId": "com.appmind.radios.in",
+    "title": "FM Radio - all India radio",
+    "installs": 15346517
+  },
+  {
+    "appId": "com.bose.bosemusic",
+    "title": "Bose",
+    "installs": 15294074
+  },
+  {
+    "appId": "com.anuntis.fotocasa",
+    "title": "Fotocasa: Houses & Flats",
+    "installs": 15199388
+  },
+  {
+    "appId": "com.fabernovel.ratp",
+    "title": "Bonjour RATP",
+    "installs": 15108861
+  },
+  {
+    "appId": "app.kids360.parent",
+    "title": "Kids360: Parental Control App",
+    "installs": 15006565
+  },
+  {
+    "appId": "ai.interior.design.home.renovation.app",
+    "title": "AI Home Design: Interior DecAI",
+    "installs": 14978945
+  },
+  {
+    "appId": "com.cars.android",
+    "title": "Cars.com: Buy and sell cars",
+    "installs": 14969764
+  },
+  {
+    "appId": "com.nutrition.technologies.Fitia",
+    "title": "Fitia: Calorie Counter & Diet",
+    "installs": 14955060
+  },
+  {
+    "appId": "com.kariyer.androidproject",
+    "title": "Kariyer.net Job Search",
+    "installs": 14922195
+  },
+  {
+    "appId": "com.feverup.fever",
+    "title": "Fever: Events & Tickets",
+    "installs": 14859538
+  },
+  {
+    "appId": "com.reader.books",
+    "title": "eBoox: ePub PDF e-book Reader",
+    "installs": 14582922
+  },
+  {
+    "appId": "com.africa.smartcash",
+    "title": "Smartcash PSB",
+    "installs": 14554997
+  },
+  {
+    "appId": "com.relayrides.android.relayrides",
+    "title": "Turo — Better car rental",
+    "installs": 14431302
+  },
+  {
+    "appId": "br.com.gold360.skeelo",
+    "title": "Skeelo - Maratona de Halloween",
+    "installs": 14413829
+  },
+  {
+    "appId": "photo.camera.beauty.hd.camera",
+    "title": "Camera for Android - Fast Snap",
+    "installs": 14318180
+  },
+  {
+    "appId": "com.inforcegames.app3dmodelling",
+    "title": "3D Modeling App: Sculpt & Draw",
+    "installs": 14289337
+  },
+  {
+    "appId": "com.carrefour.fid.android",
+    "title": "Carrefour & sa carte Club",
+    "installs": 14203434
+  },
+  {
+    "appId": "com.bykea.pk",
+    "title": "Bykea: Rides & Delivery App",
+    "installs": 14186243
+  },
+  {
+    "appId": "com.joyride.rider",
+    "title": "JoyRide: Book Moto Taxi & Car",
+    "installs": 14136760
+  },
+  {
+    "appId": "com.poleemploi.poleemploietmoi",
+    "title": "Mon Espace France Travail",
+    "installs": 14113613
+  },
+  {
+    "appId": "com.sporty.android",
+    "title": "SportyTV: Live Scores & News",
+    "installs": 14062934
+  },
+  {
+    "appId": "com.navitime.local.navitime",
+    "title": "NAVITIME - Map & Transfer Navi",
+    "installs": 14053878
+  },
+  {
+    "appId": "com.prasarbharati.android",
+    "title": "WAVES",
+    "installs": 14031463
+  },
+  {
+    "appId": "ringtone.maker.mp3.audio",
+    "title": "Garage Ringtones",
+    "installs": 13892185
+  },
+  {
+    "appId": "com.trendyol.go",
+    "title": "Trendyol Go: Food & Groceries",
+    "installs": 13868820
+  },
+  {
+    "appId": "com.lufthansa.android.lufthansa",
+    "title": "Lufthansa",
+    "installs": 13839853
+  },
+  {
+    "appId": "ai.photoeditor.retouch.enhance.photo.generator",
+    "title": "AI Photo Studio: Editor Pro",
+    "installs": 13739819
+  },
+  {
+    "appId": "com.remi.widget",
+    "title": "Widget 2026: Aesthetic Widgets",
+    "installs": 13737065
+  },
+  {
+    "appId": "live.weather.vitality.local.channel.forecast",
+    "title": "Local Weather Forecast - Radar",
+    "installs": 13592247
+  },
+  {
+    "appId": "com.pratilipi.comics",
+    "title": "Pratilipi Comics",
+    "installs": 13539988
+  },
+  {
+    "appId": "aesthetic.wallpaper",
+    "title": "aesthetic background",
+    "installs": 13430146
+  },
+  {
+    "appId": "com.lynxspa.prontotreno",
+    "title": "Trenitalia",
+    "installs": 13356165
+  },
+  {
+    "appId": "com.fingerprint.live.animation.effects.livetheme.fingerprintanimation",
+    "title": "Fingerprint Live Animation App",
+    "installs": 13353101
+  },
+  {
+    "appId": "co.windyapp.android",
+    "title": "Windy.app - Enhanced forecast",
+    "installs": 13184607
+  },
+  {
+    "appId": "com.client.goparty",
+    "title": "Vava.chat-Video Call&Translate",
+    "installs": 13165372
+  },
+  {
+    "appId": "com.customuse.customuse",
+    "title": "Customuse: Skins Maker Roblox",
+    "installs": 13153205
+  },
+  {
+    "appId": "com.turkishairlines.mobile",
+    "title": "Turkish Airlines Flight Ticket",
+    "installs": 13136408
+  },
+  {
+    "appId": "ru.yandex.rasp",
+    "title": "Yandex.Trains",
+    "installs": 13129680
+  },
+  {
+    "appId": "com.autonavi.minimap",
+    "title": "AMap Global",
+    "installs": 13121792
+  },
+  {
+    "appId": "com.onlineradiofm.phonkmusic",
+    "title": "Phonk Music - Song Remix Radio",
+    "installs": 13111806
+  },
+  {
+    "appId": "com.jazz.rox",
+    "title": "ROX",
+    "installs": 13106308
+  },
+  {
+    "appId": "com.shallwaystudio.nodevideo",
+    "title": "Node Video",
+    "installs": 13080022
+  },
+  {
+    "appId": "com.lezhin.comics",
+    "title": "Lezhin Comics - Daily Releases",
+    "installs": 13002027
+  },
+  {
+    "appId": "com.wunderground.android.weather",
+    "title": "Weather data & microclimate :",
+    "installs": 12932845
+  },
+  {
+    "appId": "com.accor.appli.hybrid",
+    "title": "ALL Accor - Hotel Booking",
+    "installs": 12896801
+  },
+  {
+    "appId": "com.whaledream.novel",
+    "title": "JoyRead-Enjoy Novels & Shorts",
+    "installs": 12794830
+  },
+  {
+    "appId": "tap.photo.boost.restoration",
+    "title": "PhotoBoost - AI Photo Enhancer",
+    "installs": 12630560
+  },
+  {
+    "appId": "com.lic.customer.superapp",
+    "title": "My LIC",
+    "installs": 12625395
+  },
+  {
+    "appId": "ginlemon.iconpackstudio",
+    "title": "Icon Pack Studio",
+    "installs": 12571315
+  },
+  {
+    "appId": "com.selabs.speak",
+    "title": "Speak: Language Learning",
+    "installs": 12549550
+  },
+  {
+    "appId": "io.foodvisor.foodvisor",
+    "title": "Foodvisor - AI Calorie Counter",
+    "installs": 12533954
+  },
+  {
+    "appId": "com.ihg.apps.android",
+    "title": "IHG One Rewards: Book Hotels",
+    "installs": 12512161
+  },
+  {
+    "appId": "org.familysearch.mobile",
+    "title": "FamilySearch Tree",
+    "installs": 12443690
+  },
+  {
+    "appId": "com.formulaone.production",
+    "title": "F1 TV",
+    "installs": 12424887
+  },
+  {
+    "appId": "com.loora.app",
+    "title": "Speak English with Loora AI",
+    "installs": 12374498
+  },
+  {
+    "appId": "com.olo.dairyqueen.production",
+    "title": "Dairy Queen® Food & Treats",
+    "installs": 12323194
+  },
+  {
+    "appId": "com.colt",
+    "title": "Inkitt Galatea: Audio & eBooks",
+    "installs": 12306415
+  },
+  {
+    "appId": "com.polarsteps",
+    "title": "Polarsteps",
+    "installs": 12297908
+  },
+  {
+    "appId": "com.chipotle.ordering",
+    "title": "Chipotle",
+    "installs": 12185010
+  },
+  {
+    "appId": "com.citynav.jakdojade.pl.android",
+    "title": "Jakdojade: public transport",
+    "installs": 12181138
+  },
+  {
+    "appId": "com.pocketfm.novel",
+    "title": "Pocket Novel",
+    "installs": 12074582
+  },
+  {
+    "appId": "uk.co.dominos.android",
+    "title": "Domino's Pizza Delivery UK&ROI",
+    "installs": 12065791
+  },
+  {
+    "appId": "no.nrk.yr",
+    "title": "Yr",
+    "installs": 12063960
+  },
+  {
+    "appId": "com.ss.android.ugc.tiktok.pro",
+    "title": "TikTok Pro - Events",
+    "installs": 12061523
+  },
+  {
+    "appId": "com.autodesk.homestyler",
+    "title": "Homestyler - Home Design Game",
+    "installs": 11941964
+  },
+  {
+    "appId": "com.prism.live",
+    "title": "PRISM Live Studio: Games & IRL",
+    "installs": 11941896
+  },
+  {
+    "appId": "com.carwale",
+    "title": "CarWale: Buy-Sell New/Used Car",
+    "installs": 11931744
+  },
+  {
+    "appId": "com.fic.buenovela",
+    "title": "Buenovela - Webnovel & Stories",
+    "installs": 11819073
+  },
+  {
+    "appId": "com.letterboxd.letterboxd",
+    "title": "Letterboxd",
+    "installs": 11777739
+  },
+  {
+    "appId": "com.skypicker.main",
+    "title": "Kiwi.com - Book Cheap Flights",
+    "installs": 11710835
+  },
+  {
+    "appId": "com.baladmaps",
+    "title": "بلد - مسیریاب، نقشه - Balad",
+    "installs": 11646444
+  },
+  {
+    "appId": "com.stubhub",
+    "title": "StubHub - Live Event Tickets",
+    "installs": 11617034
+  },
+  {
+    "appId": "com.dic_o.dico_eng_fra",
+    "title": "French - English offline dict.",
+    "installs": 11428114
+  },
+  {
+    "appId": "com.Chatspin",
+    "title": "Chatspin Random Video Chat Duo",
+    "installs": 11410323
+  },
+  {
+    "appId": "com.zsyj.hyaline",
+    "title": "WallFancy - 4K Live Wallpaper",
+    "installs": 11405176
+  },
+  {
+    "appId": "com.roborock.smart",
+    "title": "Roborock",
+    "installs": 11402451
+  },
+  {
+    "appId": "com.tapastic",
+    "title": "Tapas – Comics and Novels",
+    "installs": 11363909
+  },
+  {
+    "appId": "ai.leonardo.leonardo",
+    "title": "Leonardo.Ai - Image Generator",
+    "installs": 11264489
+  },
+  {
+    "appId": "com.buyhatke.assistant",
+    "title": "Buyhatke:AI Shopping assistant",
+    "installs": 11244536
+  },
+  {
+    "appId": "com.appmind.radios.br",
+    "title": "Radio Brazil - radio online",
+    "installs": 11241281
+  },
+  {
+    "appId": "tech.butterfly.app",
+    "title": "Manus AI",
+    "installs": 11240248
+  },
+  {
+    "appId": "com.gregacucnik.fishingpoints",
+    "title": "Fishing Points - Fishing App",
+    "installs": 11149132
+  },
+  {
+    "appId": "com.yallatech.yallachat",
+    "title": "YallaChat: Voice&Video Calls",
+    "installs": 11135462
+  },
+  {
+    "appId": "com.starryai",
+    "title": "starryai - AI Art Generator",
+    "installs": 11048606
+  },
+  {
+    "appId": "com.emn8.mobilem8.nativeapp.popeyes",
+    "title": "Popeyes® Chicken",
+    "installs": 10939707
+  },
+  {
+    "appId": "com.powerschool.portal",
+    "title": "PowerSchool Mobile",
+    "installs": 10915700
+  },
+  {
+    "appId": "com.redfin.android",
+    "title": "Redfin: Buy, Sell & Rent Homes",
+    "installs": 10908145
+  },
+  {
+    "appId": "com.obreey.reader",
+    "title": "PocketBook reader - EPUB, PDF",
+    "installs": 10812042
+  },
+  {
+    "appId": "com.quint.turne",
+    "title": "MovieBox：Movies & Series",
+    "installs": 10776339
+  },
+  {
+    "appId": "watertracker.waterreminder.watertrackerapp.drinkwater",
+    "title": "Water Tracker: Water Reminder",
+    "installs": 10774535
+  },
+  {
+    "appId": "com.sephora",
+    "title": "Sephora: Buy Makeup & Skincare",
+    "installs": 10758739
+  },
+  {
+    "appId": "br.com.usezapay.app",
+    "title": "Zapay: Pagar IPVA 2026, multas",
+    "installs": 10658208
+  },
+  {
+    "appId": "mureung.obdproject",
+    "title": "Infocar - OBD2 ELM Scanner",
+    "installs": 10622110
+  },
+  {
+    "appId": "com.bamnetworks.mobile.android.ballpark",
+    "title": "MLB Ballpark",
+    "installs": 10604657
+  },
+  {
+    "appId": "org.eobdfacile.android",
+    "title": "OBD2 Car Scanner - EOBD Facile",
+    "installs": 10558863
+  },
+  {
+    "appId": "com.marinetraffic.android",
+    "title": "MarineTraffic - Ship Tracking",
+    "installs": 10538198
+  },
+  {
+    "appId": "cn.com.vau",
+    "title": "Vantage:All-In-One Trading App",
+    "installs": 10521329
+  },
+  {
+    "appId": "com.weawow",
+    "title": "Weather & Widget - Weawow",
+    "installs": 10415318
+  },
+  {
+    "appId": "com.applidium.vianavigo",
+    "title": "Île-de-France Mobilités",
+    "installs": 10398115
+  },
+  {
+    "appId": "kr.co.saramin.brandapp",
+    "title": "사람인 - 취업 이직 커뮤니티 커리어의 모든 것",
+    "installs": 10354114
+  },
+  {
+    "appId": "com.taka.vhgyk",
+    "title": "Taka - Chat, Live, Games room",
+    "installs": 10316428
+  },
+  {
+    "appId": "gofasting.fastingtracker.fasting.intermittentfasting",
+    "title": "GoFasting Intermittent Fasting",
+    "installs": 10259084
+  },
+  {
+    "appId": "com.qustodio.family.parental.control.app.screentime",
+    "title": "Qustodio Parental Control App",
+    "installs": 10225509
+  },
+  {
+    "appId": "io.invideo.ai",
+    "title": "invideo: AI Video Editor",
+    "installs": 10206996
+  },
+  {
+    "appId": "com.forecasts.noaa.live.weather",
+    "title": "Live Weather: Daily Forecast",
+    "installs": 10083101
+  },
+  {
+    "appId": "com.irctc.fot",
+    "title": "IRCTC eCatering Food on Track",
+    "installs": 10046106
+  },
+  {
+    "appId": "com.ru.dixy",
+    "title": "Дикси: Клуб Друзей и доставка",
+    "installs": 10027655
+  },
+  {
+    "appId": "com.dena.automotive.taxibell",
+    "title": "GO / Taxi app for Japan visit",
+    "installs": 10025459
+  },
+  {
+    "appId": "com.wakie.android",
+    "title": "Wakie Chat: Talk to strangers",
+    "installs": 10008013
+  },
+  {
+    "appId": "com.nabilsoft.daily_hairstyles_for_girls",
+    "title": "Easy Hairstyles for Girls",
+    "installs": 9977617
+  },
+  {
+    "appId": "com.bitaksi.musteri",
+    "title": "bitaksi - your closest taxi!",
+    "installs": 9935676
+  },
+  {
+    "appId": "com.airfrance.android.dinamoprd",
+    "title": "Air France - Book a flight",
+    "installs": 9934187
+  },
+  {
+    "appId": "com.ss.logo.creator.esports.gaming.logo.maker.app",
+    "title": "Logo Maker And Logo Creator 3D",
+    "installs": 9889130
+  },
+  {
+    "appId": "com.clap.tofind.phone.finder.whistle",
+    "title": "Clap to Find My Phone: Whistle",
+    "installs": 9882248
+  },
+  {
+    "appId": "ru.mosmetro.metro",
+    "title": "Метро Москвы – карта и схема",
+    "installs": 9872195
+  },
+  {
+    "appId": "com.preply",
+    "title": "Preply: Language lessons",
+    "installs": 9820291
+  },
+  {
+    "appId": "com.kfc.us.mobile",
+    "title": "KFC US: Ordering & Delivery",
+    "installs": 9800684
+  },
+  {
+    "appId": "com.bite.chillchat",
+    "title": "ChillChat - Live Chat & Game",
+    "installs": 9729844
+  },
+  {
+    "appId": "com.marvel.unlimited",
+    "title": "Marvel Unlimited",
+    "installs": 9658392
+  },
+  {
+    "appId": "jp.tokyodisneyresort.portalapp",
+    "title": "Tokyo Disney Resort App",
+    "installs": 9651537
+  },
+  {
+    "appId": "ru.vkusvill",
+    "title": "ВкусВилл: доставка продуктов",
+    "installs": 9638907
+  },
+  {
+    "appId": "com.seatgeek.android",
+    "title": "SeatGeek – Tickets to Events",
+    "installs": 9584486
+  },
+  {
+    "appId": "com.apartments.mobile.android",
+    "title": "Apartments.com Rental Search",
+    "installs": 9497708
+  },
+  {
+    "appId": "mx.com.occ",
+    "title": "OCC: Job Search",
+    "installs": 9477906
+  },
+  {
+    "appId": "app.nicegram",
+    "title": "Nicegram: AI x Dual Telegram",
+    "installs": 9433751
+  },
+  {
+    "appId": "com.blaze.cleaner.clean.storage",
+    "title": "BlazeClean",
+    "installs": 9336118
+  },
+  {
+    "appId": "com.hiwaifu.app",
+    "title": "HiWaifu: AI Roleplay & Chat",
+    "installs": 9308008
+  },
+  {
+    "appId": "com.cabify.driver",
+    "title": "Cabify Driver: app conductores",
+    "installs": 9295849
+  },
+  {
+    "appId": "com.todtv.tod",
+    "title": "TOD by beIN",
+    "installs": 9258890
+  },
+  {
+    "appId": "onxmaps.hunt",
+    "title": "onX Hunt: Offline Hunting Maps",
+    "installs": 9151679
+  },
+  {
+    "appId": "com.flyfrontier.android",
+    "title": "Frontier Airlines",
+    "installs": 9005926
+  },
+  {
+    "appId": "com.ulta",
+    "title": "Ulta Beauty: Makeup & Skincare",
+    "installs": 8990506
+  },
+  {
+    "appId": "com.mygate.user",
+    "title": "mygate",
+    "installs": 8968737
+  },
+  {
+    "appId": "net.manta.comic",
+    "title": "Manta - Manga, Manhwa, Novels",
+    "installs": 8948335
+  },
+  {
+    "appId": "com.point4more.ios.tak.user.prod",
+    "title": "Takko Friends",
+    "installs": 8929145
+  },
+  {
+    "appId": "com.amazon.flex.rabbit",
+    "title": "Amazon Flex",
+    "installs": 8871121
+  },
+  {
+    "appId": "com.widgify.worldroid",
+    "title": "Widgify - DIY Phone Screen",
+    "installs": 8675630
+  },
+  {
+    "appId": "com.afklm.mobile.android.gomobile.klm",
+    "title": "KLM - Book a flight",
+    "installs": 8648058
+  },
+  {
+    "appId": "br.com.zap.imoveis",
+    "title": "ZAP Imóveis | Compra e Aluguel",
+    "installs": 8573995
+  },
+  {
+    "appId": "com.ananinja.lava",
+    "title": "Ninja - نينجا",
+    "installs": 8548950
+  },
+  {
+    "appId": "com.contentsfirst.tappytoon",
+    "title": "Tappytoon Manhwa & Novels",
+    "installs": 8520334
+  },
+  {
+    "appId": "com.hevy",
+    "title": "Hevy - Gym Log Workout Tracker",
+    "installs": 8517599
+  },
+  {
+    "appId": "io.anonchat",
+    "title": "Anonymous Chat / AnonChat",
+    "installs": 8469835
+  },
+  {
+    "appId": "wp.wpbeta",
+    "title": "Wattpad Beta",
+    "installs": 8422014
+  },
+  {
+    "appId": "com.square_enix.android_googleplay.mangaup_global",
+    "title": "Manga UP!",
+    "installs": 8419780
+  },
+  {
+    "appId": "com.carfax.consumer",
+    "title": "CARFAX - New & Used Cars",
+    "installs": 8383618
+  },
+  {
+    "appId": "com.habitrpg.android.habitica",
+    "title": "Habitica: Gamify Your Tasks",
+    "installs": 8369496
+  },
+  {
+    "appId": "com.neave.zoomearth",
+    "title": "Zoom Earth - Weather Forecast",
+    "installs": 8312523
+  },
+  {
+    "appId": "com.aieditor.artgen",
+    "title": "MePic－AI Photo Video Generator",
+    "installs": 8295598
+  },
+  {
+    "appId": "com.scaleup.dreame",
+    "title": "Momo: AI Photo & Video Maker",
+    "installs": 8207385
+  },
+  {
+    "appId": "com.cozycozy.app",
+    "title": "Cozycozy: All accommodations",
+    "installs": 8163569
+  },
+  {
+    "appId": "com.microsoft.familysafety",
+    "title": "Microsoft Family Safety",
+    "installs": 8150110
+  },
+  {
+    "appId": "com.moonshot.kimichat",
+    "title": "Kimi",
+    "installs": 7931582
+  },
+  {
+    "appId": "com.autozone.mobile",
+    "title": "AutoZone Auto Parts & Repair",
+    "installs": 7875315
+  },
+  {
+    "appId": "com.blarma.high5",
+    "title": "Learn English Vocabulary",
+    "installs": 7873519
+  },
+  {
+    "appId": "com.wachanga.superchat",
+    "title": "ChatGO - AI Chat Assistant",
+    "installs": 7856683
+  },
+  {
+    "appId": "com.wb.goog.dcuniverse",
+    "title": "DC UNIVERSE INFINITE",
+    "installs": 7855772
+  },
+  {
+    "appId": "pro.airemodel.android",
+    "title": "AI Remodel - Interior Design",
+    "installs": 7739308
+  },
+  {
+    "appId": "com.storymatrix.lite",
+    "title": "DramaBox Lite - Mini Drama TV",
+    "installs": 7697187
+  },
+  {
+    "appId": "tv.medal.recorder",
+    "title": "Medal - Gaming Clips",
+    "installs": 7671121
+  },
+  {
+    "appId": "com.uhaul.android.myuhaul",
+    "title": "U-Haul: Moving Made Easier®",
+    "installs": 7635360
+  },
+  {
+    "appId": "photo.cameraselfie.sweet.camera",
+    "title": "Beauty Camera - Sweet Camera",
+    "installs": 7609527
+  },
+  {
+    "appId": "za.co.shoprite.sixty60",
+    "title": "Checkers Sixty60",
+    "installs": 7550836
+  },
+  {
+    "appId": "com.androidbull.incognito.browser",
+    "title": "Incognito Browser - Go Private",
+    "installs": 7466906
+  },
+  {
+    "appId": "com.easydiner",
+    "title": "EazyDiner: Eatout & Save",
+    "installs": 7460257
+  },
+  {
+    "appId": "com.inkitt.android.hermione",
+    "title": "Inkitt: Books, Novels, Stories",
+    "installs": 7445205
+  },
+  {
+    "appId": "com.initialcoms.ridi",
+    "title": "만화 웹툰 웹소설 도서는 리디",
+    "installs": 7423438
+  },
+  {
+    "appId": "com.gametime.gametime",
+    "title": "Gametime - Last Minute Tickets",
+    "installs": 7419903
+  },
+  {
+    "appId": "com.pandaexpress.app",
+    "title": "Panda Express",
+    "installs": 7352788
+  },
+  {
+    "appId": "app.organicmaps",
+    "title": "Organic Maps・Offline Map & GPS",
+    "installs": 7340731
+  },
+  {
+    "appId": "br.com.quintoandar.inquilinos",
+    "title": "QuintoAndar: Aluguel e Compra",
+    "installs": 7333736
+  },
+  {
+    "appId": "com.autotrader.android",
+    "title": "Autotrader: Shop Cars For Sale",
+    "installs": 7308666
+  },
+  {
+    "appId": "pl.otomoto",
+    "title": "Otomoto: Auto Marketplace",
+    "installs": 7214495
+  },
+  {
+    "appId": "com.toomics.global.google",
+    "title": "Toomics - Read Premium Comics",
+    "installs": 7149775
+  },
+  {
+    "appId": "com.drivee.taxi.rides",
+    "title": "Drivee: Taxi App - Book a Ride",
+    "installs": 7110617
+  },
+  {
+    "appId": "com.carmax.carmax",
+    "title": "CarMax: Used Cars for Sale",
+    "installs": 7096833
+  },
+  {
+    "appId": "com.arbys.android.arbysapp",
+    "title": "Arby’s - Pickup or Delivery",
+    "installs": 7090966
+  },
+  {
+    "appId": "com.unacademy.antonio",
+    "title": "Airlearn - Language Learning",
+    "installs": 7055112
+  },
+  {
+    "appId": "com.seattleapplab.jerseymikes",
+    "title": "Jersey Mike's",
+    "installs": 7052227
+  },
+  {
+    "appId": "com.blink.drama.player",
+    "title": "BlinkDrama: Short Dramas & TV",
+    "installs": 6957453
+  },
+  {
+    "appId": "ru.gosuslugi.school",
+    "title": "Госуслуги Моя школа",
+    "installs": 6908762
+  },
+  {
+    "appId": "ru.yandex.telemost",
+    "title": "Yandex Telemost: Calls & Chats",
+    "installs": 6871924
+  },
+  {
+    "appId": "com.cheaf.app",
+    "title": "Cheaf: Salva comida y ahorra",
+    "installs": 6864770
+  },
+  {
+    "appId": "com.figma.mirror",
+    "title": "Figma: view. comment. mirror.",
+    "installs": 6862151
+  },
+  {
+    "appId": "com.kashkick.kashkickapp",
+    "title": "KashKick: Get paid to have fun",
+    "installs": 6794179
+  },
+  {
+    "appId": "weather.forecast.alerts.widget",
+    "title": "Weather - Accurate Weather App",
+    "installs": 6714676
+  },
+  {
+    "appId": "com.diveomedia.little.stories.bedtime.books.kids",
+    "title": "Little Stories: Bedtime Books",
+    "installs": 6677382
+  },
+  {
+    "appId": "network.loki.messenger",
+    "title": "Session - Private Messenger",
+    "installs": 6641018
+  },
+  {
+    "appId": "com.ukg.oneapp",
+    "title": "UKG Pro",
+    "installs": 6636945
+  },
+  {
+    "appId": "org.linkmessenger.me",
+    "title": "Link Messenger",
+    "installs": 6567469
+  },
+  {
+    "appId": "com.viator.mobile.android",
+    "title": "Viator Tours & Attractions",
+    "installs": 6513533
+  },
+  {
+    "appId": "com.meb.raw2",
+    "title": "readAwrite – รี้ดอะไร้ต์",
+    "installs": 6493005
+  },
+  {
+    "appId": "com.scribd.app.reader0.docs",
+    "title": "Scribd: 300M+ documents",
+    "installs": 6464077
+  },
+  {
+    "appId": "com.kajda.fuelio",
+    "title": "Fuelio: gas log & gas prices",
+    "installs": 6411556
+  },
+  {
+    "appId": "com.eaglefleet.redtaxi",
+    "title": "RedTaxi: Book Cab, Auto & Bike",
+    "installs": 6406250
+  },
+  {
+    "appId": "com.cronometer.android.gold",
+    "title": "Cronometer: Calorie Counter",
+    "installs": 6398667
+  },
+  {
+    "appId": "cam.beauty.sticker.effect.camera",
+    "title": "Beauty Camera - Selfie Camera",
+    "installs": 6391893
+  },
+  {
+    "appId": "com.thumbtack.consumer",
+    "title": "Thumbtack: Hire Service Pros",
+    "installs": 6374607
+  },
+  {
+    "appId": "org.ck12.flexi",
+    "title": "Flexi AI Tutor & Homework Help",
+    "installs": 6341445
+  },
+  {
+    "appId": "com.starbucks.mx",
+    "title": "Starbucks México",
+    "installs": 6329921
+  },
+  {
+    "appId": "com.wishop.dev.jow",
+    "title": "Jow - easy recipes & groceries",
+    "installs": 6327006
+  },
+  {
+    "appId": "club.chizhik",
+    "title": "Чижик - доставка продуктов",
+    "installs": 6294484
+  },
+  {
+    "appId": "kr.co.kbc.cha.android",
+    "title": "KB차차차 중고차매매, 내차팔기, 내차시세, 자동차금융",
+    "installs": 6264027
+  },
+  {
+    "appId": "com.dragonpass.en.latam",
+    "title": "Visa Airport Companion",
+    "installs": 6261417
+  },
+  {
+    "appId": "au.com.realestate.app",
+    "title": "realestate.com.au - Property",
+    "installs": 6213394
+  },
+  {
+    "appId": "com.rent",
+    "title": "Rent. Apartments & Homes",
+    "installs": 6204155
+  },
+  {
+    "appId": "ai.talkpal",
+    "title": "Talkpal - AI Language Learning",
+    "installs": 6194787
+  },
+  {
+    "appId": "com.atb.atbmarket",
+    "title": "ATB-MARKET",
+    "installs": 6194216
+  },
+  {
+    "appId": "com.deepstash",
+    "title": "Deepstash: Smarter Every Day!",
+    "installs": 6193116
+  },
+  {
+    "appId": "app.getglam",
+    "title": "Glam AI: Video & Photo Editor",
+    "installs": 6153763
+  },
+  {
+    "appId": "com.wftab.weather.forecast",
+    "title": "Weather forecast",
+    "installs": 6134978
+  },
+  {
+    "appId": "com.stedor.instashop",
+    "title": "instashop: Groceries & more",
+    "installs": 6109944
+  },
+  {
+    "appId": "com.toyota.oneapp",
+    "title": "Toyota",
+    "installs": 6102626
+  },
+  {
+    "appId": "it.argosoft.didup.famiglia.new",
+    "title": "didUP - Famiglia",
+    "installs": 6058399
+  },
+  {
+    "appId": "com.vivaaerobus.app",
+    "title": "Viva",
+    "installs": 6047130
+  },
+  {
+    "appId": "com.lemon.dreamina",
+    "title": "Dreamina AI: Image&Video Maker",
+    "installs": 5944694
+  },
+  {
+    "appId": "com.aofl.abcmouse",
+    "title": "ABCmouse: Kids Learning Games",
+    "installs": 5868222
+  },
+  {
+    "appId": "com.love.vone",
+    "title": "Vone: Live, Video Party & Fun",
+    "installs": 5852934
+  },
+  {
+    "appId": "com.vividseats.android",
+    "title": "Vivid Seats | Event Tickets",
+    "installs": 5852488
+  },
+  {
+    "appId": "org.blubblub.app.speechblubs",
+    "title": "Speech Blubs: Language Therapy",
+    "installs": 5850680
+  },
+  {
+    "appId": "com.apartmentlist.mobile",
+    "title": "Apartment List: Rent app",
+    "installs": 5783406
+  },
+  {
+    "appId": "beauty.skin.care.app",
+    "title": "Skincare and Face Care Routine",
+    "installs": 5746379
+  },
+  {
+    "appId": "ru.hudeem.adg",
+    "title": "Счетчик калорий: Худеем вместе",
+    "installs": 5725714
+  },
+  {
+    "appId": "com.microsoft.designer",
+    "title": "Microsoft Designer",
+    "installs": 5706089
+  },
+  {
+    "appId": "com.pal.train",
+    "title": "TrainPal - Cheap Train Tickets",
+    "installs": 5681457
+  },
+  {
+    "appId": "ar.com.bna.digital",
+    "title": "Nueva BNA+",
+    "installs": 5643588
+  },
+  {
+    "appId": "app.kids360.kid",
+    "title": "Alli360 by Kids360",
+    "installs": 5630834
+  },
+  {
+    "appId": "co.twowise.jukebox",
+    "title": "AI Song Generator - Jukebox",
+    "installs": 5547748
+  },
+  {
+    "appId": "com.facebook.aura",
+    "title": "Muse from Meta",
+    "installs": 5509496
+  },
+  {
+    "appId": "com.toonsutra.comicapp",
+    "title": "Toonsutra: Webtoon & Manga App",
+    "installs": 5428362
+  },
+  {
+    "appId": "ai.saveall.app",
+    "title": "Gizmo: AI Flashcards and Tutor",
+    "installs": 5369147
+  },
+  {
+    "appId": "com.pookies.food.ai",
+    "title": "BitePal: AI Calorie Counter",
+    "installs": 5328753
+  },
+  {
+    "appId": "eu.spaggiari.classevivafamiglia",
+    "title": "ClasseViva Studenti e Famiglie",
+    "installs": 5282277
+  },
+  {
+    "appId": "com.inditex.ecommerce.zarahome.android",
+    "title": "Zara Home",
+    "installs": 5265302
+  },
+  {
+    "appId": "com.breadfast",
+    "title": "Breadfast: Groceries And More",
+    "installs": 5243992
+  },
+  {
+    "appId": "com.parentsquare.psapp",
+    "title": "ParentSquare",
+    "installs": 5191375
+  },
+  {
+    "appId": "com.picoai.languageapp.android",
+    "title": "Language Learning: Pingo AI",
+    "installs": 5186855
+  },
+  {
+    "appId": "xyz.chefdice.boldhub",
+    "title": "BoldHub: Video Chat & Friends",
+    "installs": 5154460
+  },
+  {
+    "appId": "com.nexura.transmilenio",
+    "title": "TransMi App | TransMilenio",
+    "installs": 5142624
+  },
+  {
+    "appId": "com.optimumbrewlab.invitationcardmaker",
+    "title": "Invitation Maker: Cards + RSVP",
+    "installs": 5065332
+  },
+  {
+    "appId": "com.cardmaker.invitationcardmaker.birthdayinvitation.weddinginvitation",
+    "title": "All Invitation Card Maker App",
+    "installs": 5056085
+  },
+  {
+    "appId": "com.tickpickllc.ceobrien.tickpick",
+    "title": "TickPick - Live Event Tickets",
+    "installs": 5013326
+  },
+  {
+    "appId": "app.foryou",
+    "title": "Face Massage, Skincare: forYou",
+    "installs": 5000993
+  },
+  {
+    "appId": "com.dutchbros.loyalty",
+    "title": "Dutch Bros",
+    "installs": 4971179
+  },
+  {
+    "appId": "com.ookbee.ookbeecomics.android",
+    "title": "WeComics TH: Webtoon",
+    "installs": 4929066
+  },
+  {
+    "appId": "com.applicaster.babytv.vod",
+    "title": "BabyTV - Kids Videos & Songs",
+    "installs": 4922720
+  },
+  {
+    "appId": "com.regionsjob.android",
+    "title": "Hellowork - Offres d’Emploi",
+    "installs": 4921761
+  },
+  {
+    "appId": "com.shell.sitibv.motorist.america",
+    "title": "Shell: Fuel, Charge & More",
+    "installs": 4906691
+  },
+  {
+    "appId": "com.astro.shop",
+    "title": "ASTRO - Groceries in Minutes",
+    "installs": 4890998
+  },
+  {
+    "appId": "io.homeassistant.companion.android",
+    "title": "Home Assistant",
+    "installs": 4888608
+  },
+  {
+    "appId": "com.beatmaker.aimusic",
+    "title": "Beatron - AI Music Maker",
+    "installs": 4872569
+  },
+  {
+    "appId": "coffee.fore2.fore",
+    "title": "Fore - Coffee and Donut",
+    "installs": 4805299
+  },
+  {
+    "appId": "com.spond.spond",
+    "title": "Spond: Sports Team Management",
+    "installs": 4794008
+  },
+  {
+    "appId": "vn.edu.vioedu.student",
+    "title": "VioEdu - Học Sinh",
+    "installs": 4786861
+  },
+  {
+    "appId": "com.testlab.family360",
+    "title": "Family Nest: Private Locator",
+    "installs": 4758747
+  },
+  {
+    "appId": "luma.sora.pika.runway.video.ai",
+    "title": "Drma: AI Short Drama Maker",
+    "installs": 4754391
+  },
+  {
+    "appId": "ae.propertyfinder.propertyfinder",
+    "title": "Property Finder - Real Estate",
+    "installs": 4735564
+  },
+  {
+    "appId": "com.univenn.videogen",
+    "title": "AI Video Generator - Clips AI",
+    "installs": 4687388
+  },
+  {
+    "appId": "com.kalshi.mobile",
+    "title": "Kalshi: Trade Football & more",
+    "installs": 4678484
+  },
+  {
+    "appId": "com.mztech.seeta",
+    "title": "Seeta – Conecta con Latinos",
+    "installs": 4613428
+  },
+  {
+    "appId": "com.yarnpal.ai",
+    "title": "YarnPal - Crochet for Beginner",
+    "installs": 4605116
+  },
+  {
+    "appId": "com.homes.homesdotcom",
+    "title": "Homes.com Real Estate & Rent",
+    "installs": 4604809
+  },
+  {
+    "appId": "com.kwicpic",
+    "title": "Kwikpic - Smart Photo Sharing",
+    "installs": 4592475
+  },
+  {
+    "appId": "umagic.ai.aiart.aiartgenrator",
+    "title": "Umagic: AI Video Generator",
+    "installs": 4554633
+  },
+  {
+    "appId": "com.bookbeat.android",
+    "title": "BookBeat Audiobooks & E-books",
+    "installs": 4453953
+  },
+  {
+    "appId": "dietaiplan.calorietracker.app",
+    "title": "AI Calorie Counter・DietAI",
+    "installs": 4421934
+  },
+  {
+    "appId": "in.chartr.transit",
+    "title": "Chartr - Tickets, Bus & Metro",
+    "installs": 4396005
+  },
+  {
+    "appId": "artify.ai.logomaker",
+    "title": "Logo Maker - AI Art Design",
+    "installs": 4382440
+  },
+  {
+    "appId": "link.socialai.app",
+    "title": "status - sims but social media",
+    "installs": 4360983
+  },
+  {
+    "appId": "com.ipsy.mobile.production",
+    "title": "IPSY: Personalized Beauty",
+    "installs": 4345582
+  },
+  {
+    "appId": "com.wizconnected.wiz2",
+    "title": "WiZ Connected",
+    "installs": 4324056
+  },
+  {
+    "appId": "com.peerup",
+    "title": "PeerUp: Learn English Speaking",
+    "installs": 4295492
+  },
+  {
+    "appId": "de.myaudi.mobile.assistant",
+    "title": "myAudi",
+    "installs": 4288782
+  },
+  {
+    "appId": "com.amvg.hemlak",
+    "title": "Hepsiemlak – Property Listings",
+    "installs": 4283306
+  },
+  {
+    "appId": "com.trailbehind.android.gaiagps.pro",
+    "title": "Gaia GPS: Offline Trail Maps",
+    "installs": 4258429
+  },
+  {
+    "appId": "com.volaris.app",
+    "title": "Volaris",
+    "installs": 4247021
+  },
+  {
+    "appId": "com.eyezy.android",
+    "title": "Findio: GPS phone tracker",
+    "installs": 4239948
+  },
+  {
+    "appId": "com.walmart.squiggly",
+    "title": "MyWalmart",
+    "installs": 4199682
+  },
+  {
+    "appId": "com.blackmagicdesign.android.blackmagiccam",
+    "title": "Blackmagic Camera",
+    "installs": 4151788
+  },
+  {
+    "appId": "com.taskrabbit.droid.consumer",
+    "title": "Taskrabbit - Handyman, Errands",
+    "installs": 4053356
+  },
+  {
+    "appId": "mimo.sz",
+    "title": "Mimo",
+    "installs": 4047577
+  },
+  {
+    "appId": "ca.autotrader.userapp",
+    "title": "AutoTrader - Shop Cars Online",
+    "installs": 3887599
+  },
+  {
+    "appId": "com.viz.wsj.android",
+    "title": "Shonen Jump Manga & Comics",
+    "installs": 3880798
+  },
+  {
+    "appId": "com.audioteka",
+    "title": "Audioteka: Audiobooks/Podcasts",
+    "installs": 3876926
+  },
+  {
+    "appId": "com.susoft.CJONmart",
+    "title": "CJ더마켓",
+    "installs": 3832363
+  },
+  {
+    "appId": "com.ticketswap.ticketswap",
+    "title": "TicketSwap: Buy & Sell Tickets",
+    "installs": 3829283
+  },
+  {
+    "appId": "com.wagon.fccardcreator",
+    "title": "FC27 Card Creator",
+    "installs": 3795244
+  },
+  {
+    "appId": "com.tezda.ozb",
+    "title": "PingTop",
+    "installs": 3721480
+  },
+  {
+    "appId": "com.cron.calendar",
+    "title": "Notion Calendar",
+    "installs": 3701962
+  },
+  {
+    "appId": "com.cooingestate.cooing_app",
+    "title": "Nawy - Real Estate",
+    "installs": 3657602
+  },
+  {
+    "appId": "com.arjonasoftware.babycam",
+    "title": "BabyCam: Baby Monitor Wi-Fi 5G",
+    "installs": 3628966
+  },
+  {
+    "appId": "io.elevenlabs.readerapp",
+    "title": "ElevenReader: Read Books Aloud",
+    "installs": 3602388
+  },
+  {
+    "appId": "com.adobe.firefly",
+    "title": "Adobe Firefly: AI Generator",
+    "installs": 3531522
+  },
+  {
+    "appId": "com.readmio.app",
+    "title": "Readmio: Bedtime Stories Aloud",
+    "installs": 3508263
+  },
+  {
+    "appId": "kz.avtobys.userapp",
+    "title": "Avtobys",
+    "installs": 3494563
+  },
+  {
+    "appId": "com.sgiggle.production.lite",
+    "title": "Tango Lite: Live Chat & Stream",
+    "installs": 3471183
+  },
+  {
+    "appId": "com.gangnam.sister",
+    "title": "Unni: Book Korea Beauty Clinic",
+    "installs": 3418944
+  },
+  {
+    "appId": "net.booksy.business",
+    "title": "Booksy Biz: For Businesses",
+    "installs": 3388023
+  },
+  {
+    "appId": "com.cvmobileapp",
+    "title": "carVertical: Check Car History",
+    "installs": 3368464
+  },
+  {
+    "appId": "com.kidslox.app",
+    "title": "Parental Control - Kidslox",
+    "installs": 3365761
+  },
+  {
+    "appId": "ch.swisscows.messenger.teleguardapp",
+    "title": "TeleGuard",
+    "installs": 3355049
+  },
+  {
+    "appId": "com.xingzuoba.com",
+    "title": "Hala Voice Chat Community",
+    "installs": 3318880
+  },
+  {
+    "appId": "com.thestepupapp.stepup",
+    "title": "StepUp Pedometer Step Counter",
+    "installs": 3296802
+  },
+  {
+    "appId": "com.weatherradarhome.weather.forecast.live.radar.aqi.android",
+    "title": "Live Weather Radar Launcher",
+    "installs": 3231936
+  },
+  {
+    "appId": "com.bankofbaroda.bobworlddmb",
+    "title": "bob World New",
+    "installs": 3213390
+  },
+  {
+    "appId": "se.volvo.vcc",
+    "title": "Volvo Cars",
+    "installs": 3208945
+  },
+  {
+    "appId": "org.turboaz.android",
+    "title": "Turbo.az – onlayn maşın bazarı",
+    "installs": 3200857
+  },
+  {
+    "appId": "com.nintendo.znsa",
+    "title": "Nintendo Today!",
+    "installs": 3197324
+  },
+  {
+    "appId": "com.fresha.Fresha",
+    "title": "Fresha for customers",
+    "installs": 3193427
+  },
+  {
+    "appId": "com.pg.clubpampers.android.us",
+    "title": "Pampers Rewards",
+    "installs": 3190786
+  },
+  {
+    "appId": "com.bp.app.bpme.global.ros",
+    "title": "earnify",
+    "installs": 3179582
+  },
+  {
+    "appId": "ru.tatneft.gasstations",
+    "title": "АЗС Татнефть",
+    "installs": 3161743
+  },
+  {
+    "appId": "mobi.lockdown.weather",
+    "title": "Today Weather:Data by NOAA/NWS",
+    "installs": 3101426
+  },
+  {
+    "appId": "com.nighp.babytracker_android",
+    "title": "Baby Tracker - Newborn Log",
+    "installs": 2899250
+  },
+  {
+    "appId": "com.todaytix.TodayTix",
+    "title": "TodayTix – Theatre Tickets",
+    "installs": 2825497
+  },
+  {
+    "appId": "io.mewtant.pixaiart",
+    "title": "PixAI: AI Anime Art Generator",
+    "installs": 2816308
+  },
+  {
+    "appId": "com.scorecast.ai",
+    "title": "11XScore Football Insights",
+    "installs": 2797279
+  },
+  {
+    "appId": "com.enjoy.celebrare",
+    "title": "Wedding Invitation Card Maker",
+    "installs": 2793452
+  },
+  {
+    "appId": "com.bayut.bayutapp",
+    "title": "Bayut – UAE Property Search",
+    "installs": 2791628
+  },
+  {
+    "appId": "com.yaencontre.vivienda",
+    "title": "yaencontre - Pisos y casas",
+    "installs": 2699296
+  },
+  {
+    "appId": "tr.com.petrolofisi",
+    "title": "Petrol Ofisi",
+    "installs": 2698725
+  },
+  {
+    "appId": "net.novelfox.freenovel",
+    "title": "FantacyStory: novels, fictions",
+    "installs": 2697284
+  },
+  {
+    "appId": "app.habitaclia2",
+    "title": "Habitaclia Houses & Apartments",
+    "installs": 2667498
+  },
+  {
+    "appId": "com.newreading.meganovel",
+    "title": "MegaNovel: Fictions & Webnovel",
+    "installs": 2652159
+  },
+  {
+    "appId": "com.recordpro.audiorecord",
+    "title": "HiNoter - AI Note Taker",
+    "installs": 2583523
+  },
+  {
+    "appId": "air.com.ticket360.Ticket360",
+    "title": "Ticket360 Ingressos e Eventos",
+    "installs": 2510704
+  },
+  {
+    "appId": "com.dealseekorg.dealseek",
+    "title": "DealSeek: Coupons & Discounts",
+    "installs": 2455725
+  },
+  {
+    "appId": "jp.pxv.android.manga",
+    "title": "pixivコミック - みんなのマンガアプリ",
+    "installs": 2438536
+  },
+  {
+    "appId": "com.mrblue.mrblue",
+    "title": "미스터블루 - 웹툰, 만화, 소설앱",
+    "installs": 2429580
+  },
+  {
+    "appId": "com.unity.uniscore",
+    "title": "Uniscore - Live Sports Scores",
+    "installs": 2387619
+  },
+  {
+    "appId": "com.fc.app.iq.brain.training.mind.games.logic.test.puzzle",
+    "title": "Brainova: IQ Test & Logic Game",
+    "installs": 2386913
+  },
+  {
+    "appId": "com.huckleberry_labs.app",
+    "title": "Huckleberry: Baby Tracker",
+    "installs": 2370174
+  },
+  {
+    "appId": "dev.aitutor.languagelearning",
+    "title": "Uplingo: AI Language Learning",
+    "installs": 2331263
+  },
+  {
+    "appId": "com.wegrow.we_grow",
+    "title": "SuperLiving Weight, Skin, Hair",
+    "installs": 2311192
+  },
+  {
+    "appId": "com.lipscosme.lips",
+    "title": "LIPS(リップス) コスメ・メイク・化粧品の美容アプリ",
+    "installs": 2277830
+  },
+  {
+    "appId": "io.nuki",
+    "title": "Nuki Smart Lock",
+    "installs": 2246035
+  },
+  {
+    "appId": "app.nerv",
+    "title": "NERV Disaster Prevention",
+    "installs": 2237696
+  },
+  {
+    "appId": "com.vidu.oversea",
+    "title": "Vidu - AI Video Generator",
+    "installs": 2231603
+  },
+  {
+    "appId": "co.vybs.app",
+    "title": "VYBS: Play & Earn Rewards",
+    "installs": 2222628
+  },
+  {
+    "appId": "io.alpha.novel",
+    "title": "AlphaNovel — Books & Stories",
+    "installs": 2183964
+  },
+  {
+    "appId": "com.topps.marvel",
+    "title": "Marvel Collect! by Topps®",
+    "installs": 2176624
+  },
+  {
+    "appId": "com.waymo.carapp",
+    "title": "Waymo",
+    "installs": 2173303
+  },
+  {
+    "appId": "com.appediet.appediet",
+    "title": "AI Calorie Counter - Appediet",
+    "installs": 2136079
+  },
+  {
+    "appId": "com.emlakjet.kurumsal.sekizbit",
+    "title": "Emlakjet: Emlak Ara & İlan Ver",
+    "installs": 2117219
+  },
+  {
+    "appId": "com.obdocker.obdocker",
+    "title": "OBDocker - OBD2 Car Scanner",
+    "installs": 2088238
+  },
+  {
+    "appId": "com.honda.ms.dm.sab",
+    "title": "Honda RoadSync",
+    "installs": 2086174
+  },
+  {
+    "appId": "com.getskinbliss.skinbliss",
+    "title": "Skin Bliss: Skincare Routines",
+    "installs": 2082568
+  },
+  {
+    "appId": "com.underthing.focus.friend",
+    "title": "Focus Friend by Hank Green",
+    "installs": 2074073
+  },
+  {
+    "appId": "calo.ai.calorie.counter.weight.loss.diet.nutrition.macro.tracker.fasting",
+    "title": "Calo: AI Food Calorie Counter",
+    "installs": 2068227
+  },
+  {
+    "appId": "com.innova.rs2",
+    "title": "RepairSolutions2",
+    "installs": 2056287
+  },
+  {
+    "appId": "io.labhouse.invoicesapp",
+    "title": "Invoice Maker - Invoice Fly",
+    "installs": 2055016
+  },
+  {
+    "appId": "com.ai.home.decor.aihomedesign",
+    "title": "SnapHome: AI Interior Design",
+    "installs": 2004726
+  },
+  {
+    "appId": "com.samsamm2.mobileapp",
+    "title": "33m2 - Korea Short-Term Rental",
+    "installs": 1976650
+  },
+  {
+    "appId": "com.deepix.animefypic",
+    "title": "Shots - AI Photo & Video Maker",
+    "installs": 1974955
+  },
+  {
+    "appId": "com.styleseat.promobile",
+    "title": "StyleSeat: Book Hair & Beauty",
+    "installs": 1932499
+  },
+  {
+    "appId": "com.bayut.bayuteg",
+    "title": "Bayut Egypt - Property Search",
+    "installs": 1923433
+  },
+  {
+    "appId": "com.fanatics",
+    "title": "Fanatics: Shop NFL, NBA & MLB",
+    "installs": 1918210
+  },
+  {
+    "appId": "com.sallybeauty.shop",
+    "title": "SALLY BEAUTY",
+    "installs": 1908578
+  },
+  {
+    "appId": "com.novelago.android.app",
+    "title": "NovelaGo - Read Novels & Books",
+    "installs": 1840186
+  },
+  {
+    "appId": "com.digitas.solidstarts",
+    "title": "Solid Starts: Baby Food App",
+    "installs": 1817358
+  },
+  {
+    "appId": "com.heygen.app",
+    "title": "HeyGen: AI Video Generator",
+    "installs": 1797237
+  },
+  {
+    "appId": "com.ai.language.learning.tutor",
+    "title": "YayTalk: Speak & Learn English",
+    "installs": 1766761
+  },
+  {
+    "appId": "com.ukrnafta.android",
+    "title": "UKRNAFTA",
+    "installs": 1688643
+  },
+  {
+    "appId": "com.viagogo.consumer.viagogo.playstore",
+    "title": "viagogo Tickets",
+    "installs": 1652919
+  },
+  {
+    "appId": "com.foreo.foreoapp",
+    "title": "FOREO For You",
+    "installs": 1631762
+  },
+  {
+    "appId": "app.game.rentaapps",
+    "title": "漫画 ”Ｒｅｎｔａ”マンガ レンタル漫画アプリ",
+    "installs": 1620265
+  },
+  {
+    "appId": "com.ai.tcg.card.scanner.collector.identifier.value.tracker.price.shop",
+    "title": "TCG Card Scanner TCG Collector",
+    "installs": 1617895
+  },
+  {
+    "appId": "io.afero.partner.hubspace",
+    "title": "Hubspace",
+    "installs": 1603511
+  },
+  {
+    "appId": "io.keet.app",
+    "title": "Keet - Private Encrypted Chat",
+    "installs": 1602279
+  },
+  {
+    "appId": "com.live.flight.tracker",
+    "title": "Flightsky: Flight Tracker 3D",
+    "installs": 1534195
+  },
+  {
+    "appId": "com.firstclub.app",
+    "title": "FirstClub : Quality in Minutes",
+    "installs": 1502695
+  },
+  {
+    "appId": "com.globalcomix.mobileapp",
+    "title": "GlobalComix: Comics and Manga",
+    "installs": 1393061
+  },
+  {
+    "appId": "com.vizmanga.android",
+    "title": "VIZ Manga",
+    "installs": 1392654
+  },
+  {
+    "appId": "com.amitech.allevents",
+    "title": "AllEvents - Discover Events",
+    "installs": 1387584
+  },
+  {
+    "appId": "com.moe.shvr",
+    "title": "SHVR",
+    "installs": 1359426
+  },
+  {
+    "appId": "com.appclose.androidapp",
+    "title": "AppClose: Co-Parent Essentials",
+    "installs": 1330586
+  },
+  {
+    "appId": "com.microsoft.intune",
+    "title": "Microsoft Intune",
+    "installs": 1320565
+  },
+  {
+    "appId": "com.electrolux.oneapp.android.electrolux",
+    "title": "Electrolux",
+    "installs": 1208477
+  },
+  {
+    "appId": "com.timeleft.app",
+    "title": "Timeleft: Make New Friends IRL",
+    "installs": 1207821
+  },
+  {
+    "appId": "com.bomcomics.bomtoon.playstore",
+    "title": "봄툰",
+    "installs": 1151418
+  },
+  {
+    "appId": "com.comikey.banagher",
+    "title": "Comikey - Manga & Webcomics",
+    "installs": 1052147
+  },
+  {
+    "appId": "com.qianwen.tellolive",
+    "title": "Tello",
+    "installs": 1042294
+  },
+  {
+    "appId": "ai.tattoo.ink.generator",
+    "title": "Tattooist: AI Tattoo Generator",
+    "installs": 1024572
+  },
+  {
+    "appId": "cm.pt.barkparent",
+    "title": "Bark - Parental Controls",
+    "installs": 1020779
+  },
+  {
+    "appId": "com.mahmoudzadah.glassifywidgets",
+    "title": "Glassify - Widgets & Themes",
+    "installs": 1006011
+  },
+  {
+    "appId": "com.monarchmoney.mobile",
+    "title": "Monarch: Budget & Track Money",
+    "installs": 984423
+  },
+  {
+    "appId": "com.mangamo.app",
+    "title": "Mangamo Manga & Comics",
+    "installs": 981164
+  },
+  {
+    "appId": "com.smart.vta",
+    "title": "VTA+",
+    "installs": 917816
+  },
+  {
+    "appId": "com.gojet.app",
+    "title": "Go Jet: Rent E-Bike & Scooters",
+    "installs": 914691
+  },
+  {
+    "appId": "com.knowt.app",
+    "title": "Knowt: AI Flashcards & Notes",
+    "installs": 895759
+  },
+  {
+    "appId": "ua.gov.mriia.prod",
+    "title": "Мрія",
+    "installs": 886912
+  },
+  {
+    "appId": "com.mynoise.mynoise",
+    "title": "myNoise - The Soundscape App",
+    "installs": 857021
+  },
+  {
+    "appId": "com.lumiunited.aqarahome.play",
+    "title": "Aqara Home",
+    "installs": 849801
+  },
+  {
+    "appId": "com.cubostecnologia.zigcliente",
+    "title": "Zig: Ingressos e consumo fácil",
+    "installs": 832271
+  },
+  {
+    "appId": "com.usps.id45833",
+    "title": "Informed Delivery® Mobile",
+    "installs": 828800
+  },
+  {
+    "appId": "air.manhwa",
+    "title": "인터넷만화방 - 만화/웹툰/소설",
+    "installs": 810087
+  },
+  {
+    "appId": "com.yj.anystories.android",
+    "title": "AnyStories-Top Novels & Books",
+    "installs": 789354
+  },
+  {
+    "appId": "com.comic.en.flutter.comic_en",
+    "title": "ReadManga-Manga/Comics/Webtoon",
+    "installs": 762374
+  },
+  {
+    "appId": "org.twisevictory.apps.ex",
+    "title": "The Wonder Weeks - Baby Leaps",
+    "installs": 745115
+  },
+  {
+    "appId": "com.ourfamilywizard",
+    "title": "OurFamilyWizard Co-Parent App",
+    "installs": 693760
+  },
+  {
+    "appId": "potaa.zzz.world",
+    "title": "PotaLive - Voice Chat Room",
+    "installs": 692154
+  },
+  {
+    "appId": "com.ai.comic.book",
+    "title": "KAI: Comic Maker Manga, Manhwa",
+    "installs": 680964
+  },
+  {
+    "appId": "app.mmap.mobile",
+    "title": "Soundmap I Find Your Songs",
+    "installs": 675392
+  },
+  {
+    "appId": "com.endyq.trackkun",
+    "title": "MangaPin - Web Browser",
+    "installs": 673869
+  },
+  {
+    "appId": "com.kruu.photoapp",
+    "title": "KRUU",
+    "installs": 654645
+  },
+  {
+    "appId": "com.luma.mobile",
+    "title": "Luma: Events & Invites",
+    "installs": 638141
+  },
+  {
+    "appId": "vn.vnpt.ONEHome",
+    "title": "ONE Home",
+    "installs": 616539
+  },
+  {
+    "appId": "com.amberstudent",
+    "title": "amber: find student housing",
+    "installs": 607845
+  },
+  {
+    "appId": "vn.fpt.fptlife",
+    "title": "FPT Life",
+    "installs": 606592
+  },
+  {
+    "appId": "com.fresha.Business",
+    "title": "Fresha for business",
+    "installs": 604254
+  },
+  {
+    "appId": "app.coconote",
+    "title": "Coconote - AI Note Taker",
+    "installs": 589408
+  },
+  {
+    "appId": "com.futgg.futgg",
+    "title": "FUT.GG - FC 27 Evos & Prices",
+    "installs": 581214
+  },
+  {
+    "appId": "com.apr.digitalclinic",
+    "title": "AGE-R medicube Digital clinic",
+    "installs": 568593
+  },
+  {
+    "appId": "com.nanit.baby",
+    "title": "Nanit",
+    "installs": 538351
+  },
+  {
+    "appId": "co.truecoach.client",
+    "title": "TrueCoach",
+    "installs": 458512
+  },
+  {
+    "appId": "com.collectorz.javamobile.android.comics",
+    "title": "CLZ Comics comic book database",
+    "installs": 415447
+  },
+  {
+    "appId": "com.feelinmyskin.app",
+    "title": "Skincare Routine: FeelinMySkin",
+    "installs": 357402
+  },
+  {
+    "appId": "com.atgentertainment.atgtickets",
+    "title": "ATG Tickets - Theater Tickets",
+    "installs": 353413
+  },
+  {
+    "appId": "com.americastestkitchen.groceryapp",
+    "title": "America's Test Kitchen",
+    "installs": 342239
+  },
+  {
+    "appId": "com.b4a.glam",
+    "title": "glam: beleza em primeiro lugar",
+    "installs": 321453
+  },
+  {
+    "appId": "com.genmobile.app",
+    "title": "MyGenMobile App",
+    "installs": 317594
+  },
+  {
+    "appId": "com.hipcomic",
+    "title": "My Collection: Comic Scanner",
+    "installs": 265208
+  },
+  {
+    "appId": "com.digitalpalette.mememakerpro",
+    "title": "Meme Maker Pro: Design Memes",
+    "installs": 260938
+  },
+  {
+    "appId": "com.circular.frames",
+    "title": "Frames: Carousel Collage Maker",
+    "installs": 248641
+  },
+  {
+    "appId": "com.tixr.tixr",
+    "title": "Tixr: Live Event Tickets",
+    "installs": 231410
+  },
+  {
+    "appId": "com.LeagueofComicGeeks.app2",
+    "title": "League of Comic Geeks",
+    "installs": 215739
+  },
+  {
+    "appId": "com.hairu.app",
+    "title": "Hairu: Hairstyle Try On",
+    "installs": 211829
+  },
+  {
+    "appId": "com.dressy.closet.android",
+    "title": "DLOOK: AI Outfit Stylist",
+    "installs": 183307
+  },
+  {
+    "appId": "journal.ai.com",
+    "title": "Insight: Micro Book Summaries",
+    "installs": 173257
+  },
+  {
+    "appId": "com.trailsoffroad.app",
+    "title": "Trails Offroad: Offline Maps",
+    "installs": 101847
+  },
+  {
+    "appId": "com.chess.chessevents",
+    "title": "Chess Events: Games & Results",
+    "installs": 99450
+  },
+  {
+    "appId": "com.airfordable.cabin",
+    "title": "Airfordable",
+    "installs": 86280
+  },
+  {
+    "appId": "com.somashare",
+    "title": "SomaShare - Deep Healing",
+    "installs": 66572
+  },
+  {
+    "appId": "com.chisme.chismosa",
+    "title": "Chisme - Planes entre mujeres",
+    "installs": 61429
+  },
+  {
+    "appId": "com.learningstrategy",
+    "title": "MINDTRX: Self Help & Mindset",
+    "installs": 58878
+  },
+  {
+    "appId": "com.oloo.app.compose",
+    "title": "Oloo - Your Group, Your Vibe",
+    "installs": 48407
+  },
+  {
+    "appId": "com.clarins.shop",
+    "title": "Clarins - Skincare and Makeup",
+    "installs": 45665
+  },
+  {
+    "appId": "com.kitta.app.compose",
+    "title": "Kitta - Talk & Chill Together",
+    "installs": 43835
+  },
+  {
+    "appId": "com.evlppy.comicbookmaker",
+    "title": "Comic Book Studio",
+    "installs": 33592
+  },
+  {
+    "appId": "com.manga.reader.explorer",
+    "title": "Manga Explorer - Manga Reader",
+    "installs": 24691
+  },
+  {
+    "appId": "com.redappleapp.app",
+    "title": "Redapple Digital Health, Inc.",
+    "installs": 3682
+  },
+  {
+    "appId": "com.bookinglane.client",
+    "title": "Bookinglane Chauffeur Service",
+    "installs": 2958
+  }
+]

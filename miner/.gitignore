@@ -1,2 +1,6 @@
 .dart_tool/
 out/
+results.jsonl
+ranked.json
+smoke.jsonl
+flutter_apps2.json
