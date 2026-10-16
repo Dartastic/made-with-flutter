@@ -42,6 +42,30 @@ dart run bin/miner.dart mine --limit 50
 dart run bin/miner.dart mine com.philips.lighting.hue2
 ```
 
+## Mining on the emulator instead of a phone
+
+`mwf-miner` is an Android 15 Google Play arm64 emulator (8 GB data
+partition; the miner uninstalls as it goes). Create it once:
+
+```sh
+sdkmanager "system-images;android-35;google_apis_playstore;arm64-v8a"
+avdmanager create avd -n mwf-miner -d pixel_8_pro \
+  -k "system-images;android-35;google_apis_playstore;arm64-v8a"
+# in ~/.android/avd/mwf-miner.avd/config.ini:
+#   PlayStore.enabled=yes  hw.keyboard=yes  disk.dataPartition.size=8G
+```
+
+Then:
+
+```sh
+./start-emulator.sh          # boots it, keeps the screen on
+# first time: sign in to the Play Store in the emulator window
+dart run bin/miner.dart mine --serial emulator-5554 --limit 100
+```
+
+Pass `--serial` whenever a phone is plugged in too. Some apps refuse to
+install on emulators; those are recorded as `notOffered`.
+
 ## Known Flutter apps used to validate detection
 
 | App          | Package                                          | Verdict (2026-10-16)     |
