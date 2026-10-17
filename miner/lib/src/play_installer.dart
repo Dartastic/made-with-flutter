@@ -4,6 +4,8 @@ enum InstallOutcome {
   alreadyInstalled,
   installed,
   notOffered, // paid, incompatible, unavailable in region, or not found
+  unrecognized, // the details page showed none of the states we know
+  installFailed, // the Play Store said "Can't install"
   timedOut,
 }
 
@@ -74,6 +76,11 @@ class PlayInstaller {
         log?.call('tapped Install');
         break;
       }
+      if (nodes.any((n) => n.label == 'Sign in')) {
+        throw DeviceException(
+          'the Play Store is signed out; sign in on the device and rerun',
+        );
+      }
       if (nodes.any((n) => n.label == 'Open' || n.label == 'Uninstall')) {
         break; // Installed while we looked (or a work-profile copy).
       }
@@ -89,13 +96,19 @@ class PlayInstaller {
       }
     }
     if (!tapped && !await adb.isInstalled(appId)) {
-      return InstallOutcome.notOffered;
+      return InstallOutcome.unrecognized;
     }
 
     final deadline = DateTime.now().add(timeout);
     while (DateTime.now().isBefore(deadline)) {
       if (await adb.isInstalled(appId)) return InstallOutcome.installed;
       await Future<void>.delayed(const Duration(seconds: 5));
+      final nodes = parseUi(await adb.dumpUi());
+      if (nodes.any((n) => n.label.startsWith("Can't install"))) {
+        final ok = nodes.where((n) => n.label == 'Got it');
+        if (ok.isNotEmpty) await adb.tap(ok.first.x, ok.first.y);
+        return InstallOutcome.installFailed;
+      }
     }
     return InstallOutcome.timedOut;
   }

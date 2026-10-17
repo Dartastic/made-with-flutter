@@ -1,6 +1,25 @@
 import 'dart:convert';
 import 'dart:io';
 
+/// adb itself failed (device gone, several devices and no serial, screen
+/// unreadable). The run must stop: carrying on would record every remaining
+/// app as a false verdict.
+class DeviceException implements Exception {
+  DeviceException(this.message);
+  final String message;
+  @override
+  String toString() => 'adb: $message';
+}
+
+/// adb-level errors; the remote command's own stderr never starts this way.
+final _adbError = RegExp(r'^(adb: |error: )', multiLine: true);
+
+ProcessResult _checked(ProcessResult r) {
+  final err = r.stderr is String ? r.stderr as String : '';
+  if (_adbError.hasMatch(err)) throw DeviceException(err.trim());
+  return r;
+}
+
 /// Thin wrapper over the `adb` binary for one connected device.
 class Adb {
   Adb({this.serial, String? adbPath}) : _adb = adbPath ?? _findAdb();
@@ -25,26 +44,49 @@ class Adb {
 
   /// Runs `adb shell <command>` and returns stdout (CRs stripped).
   Future<String> shell(String command) async {
-    final r = await Process.run(
-      _adb,
-      _args(['shell', command]),
-      stdoutEncoding: latin1,
+    final r = _checked(
+      await Process.run(
+        _adb,
+        _args(['shell', command]),
+        stdoutEncoding: latin1,
+      ),
     );
     return (r.stdout as String).replaceAll('\r', '');
   }
 
   /// Runs `adb exec-out <command>` and returns raw stdout bytes.
   Future<List<int>> execOutBytes(String command) async {
-    final r = await Process.run(
-      _adb,
-      _args(['exec-out', command]),
-      stdoutEncoding: null,
+    final r = _checked(
+      await Process.run(
+        _adb,
+        _args(['exec-out', command]),
+        stdoutEncoding: null,
+      ),
     );
     return r.stdout as List<int>;
   }
 
-  Future<ProcessResult> run(List<String> args) =>
-      Process.run(_adb, _args(args));
+  Future<ProcessResult> run(List<String> args) async =>
+      _checked(await Process.run(_adb, _args(args)));
+
+  /// Fails unless exactly one target device is reachable: the given
+  /// [serial], or the only device connected.
+  Future<void> ensureDevice() async {
+    final all = await devices();
+    if (serial case final s?) {
+      if (!all.contains(s)) {
+        throw DeviceException(
+          '$s is not connected (connected: ${all.join(', ')})',
+        );
+      }
+    } else if (all.length != 1) {
+      throw DeviceException(
+        all.isEmpty
+            ? 'no device connected'
+            : 'several devices connected (${all.join(', ')}); pass --serial',
+      );
+    }
+  }
 
   Future<List<String>> devices() async {
     final r = await Process.run(_adb, ['devices']);
@@ -90,6 +132,6 @@ class Adb {
       if (out.contains('<hierarchy')) return out;
       await Future<void>.delayed(const Duration(seconds: 1));
     }
-    return '';
+    throw DeviceException('could not read the screen; is the device unlocked?');
   }
 }

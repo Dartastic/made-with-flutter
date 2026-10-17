@@ -6,6 +6,10 @@ import 'package:mwf_miner/src/detector.dart';
 import 'package:mwf_miner/src/play_installer.dart';
 import 'package:mwf_miner/src/play_web.dart';
 
+/// Consecutive non-installs that stop a run; a healthy device rarely sees
+/// more than two or three.
+const maxFailuresInARow = 5;
+
 const usage = '''
 Made With Flutter miner: finds which popular Play Store apps use Flutter by
 driving an Android phone over adb.
@@ -33,16 +37,23 @@ Future<void> main(List<String> argv) async {
   }
   final args = _Args(argv.skip(1).toList());
   final adb = Adb(serial: args.option('serial'));
-  switch (argv.first) {
-    case 'check':
-      await _check(adb, args.positional);
-    case 'rank':
-      await _rank(args);
-    case 'mine':
-      await _mine(adb, args);
-    default:
-      stderr.write(usage);
-      exitCode = 64;
+  try {
+    switch (argv.first) {
+      case 'check':
+        await adb.ensureDevice();
+        await _check(adb, args.positional);
+      case 'rank':
+        await _rank(args);
+      case 'mine':
+        await adb.ensureDevice();
+        await _mine(adb, args);
+      default:
+        stderr.write(usage);
+        exitCode = 64;
+    }
+  } on DeviceException catch (e) {
+    stderr.writeln('stopped: $e');
+    exitCode = 1;
   }
 }
 
@@ -109,6 +120,7 @@ Future<void> _mine(Adb adb, _Args args) async {
   final installer = PlayInstaller(adb);
 
   var mined = 0;
+  var failuresInARow = 0;
   for (final app in queue) {
     if (limit != null && mined >= limit) break;
     if (done.contains(app.appId)) continue;
@@ -145,6 +157,17 @@ Future<void> _mine(Adb adb, _Args args) async {
       '${jsonEncode(record)}\n',
       mode: FileMode.append,
     );
+    failuresInARow = switch (outcome) {
+      InstallOutcome.installed || InstallOutcome.alreadyInstalled => 0,
+      _ => failuresInARow + 1,
+    };
+    if (failuresInARow >= maxFailuresInARow) {
+      throw DeviceException(
+        '$maxFailuresInARow installs in a row failed; the device is likely '
+        'unhealthy (network, sign-in, storage). Restart it, drop the last '
+        '$maxFailuresInARow rows from ${resultsFile.path}, and rerun.',
+      );
+    }
   }
   await adb.shell('input keyevent KEYCODE_HOME');
 }
