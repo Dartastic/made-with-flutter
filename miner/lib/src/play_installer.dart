@@ -87,7 +87,7 @@ class PlayInstaller {
       if (nodes.any(
         (n) =>
             RegExp(
-              r"isn't compatible|not available|not found|"
+              r"isn't compatible|isn't available|not available|not found|"
               r'Item not found',
             ).hasMatch(n.label) ||
             RegExp(r'^\$\d').hasMatch(n.label),
