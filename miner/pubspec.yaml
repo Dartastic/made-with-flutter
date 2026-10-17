@@ -1,0 +1,14 @@
+name: mwf_miner
+description: >-
+  Drives an Android phone over adb to find which popular Play Store apps are
+  made with Flutter: rank apps by installs, install each from the Play Store,
+  inspect its APKs for the Flutter engine, and record the verdict.
+version: 0.1.0
+publish_to: none
+
+environment:
+  sdk: ^3.12.2
+
+dev_dependencies:
+  lints: ^6.0.0
+  test: ^1.26.0
