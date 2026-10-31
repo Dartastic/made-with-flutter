@@ -87,44 +87,58 @@ List<String> _countries(_Args args) => [
     if (c.trim().isNotEmpty) c.trim().toUpperCase(),
 ];
 
-/// Fetches install counts once for every id (they are worldwide, so any
-/// storefront serves them).
-Future<Map<String, PlayApp>> _details(PlayWeb web, Set<String> ids) async {
-  stderr.writeln('${ids.length} apps; fetching install counts…');
+/// Fetches each app's details once, from the first country whose storefront
+/// listed it: install counts are worldwide, but an app missing from a
+/// storefront (a regional app outside its region) answers 404 there.
+Future<Map<String, PlayApp>> _details(
+  Map<String, Set<String>> idsByCountry,
+) async {
+  final byCountry = <String, Set<String>>{};
+  final seen = <String>{};
+  for (final MapEntry(key: country, value: ids) in idsByCountry.entries) {
+    byCountry[country] = {
+      for (final id in ids)
+        if (seen.add(id)) id,
+    };
+  }
+  stderr.writeln('${seen.length} apps; fetching install counts…');
   var n = 0;
-  final apps = await web.detailsAll(
-    ids,
-    onEach: (_) {
-      if (++n % 100 == 0) stderr.writeln('  $n/${ids.length}');
-    },
-  );
-  return {for (final a in apps) a.appId: a};
+  final details = <String, PlayApp>{};
+  for (final MapEntry(key: country, value: ids) in byCountry.entries) {
+    final web = PlayWeb(country: country);
+    try {
+      for (final a in await web.detailsAll(
+        ids,
+        onEach: (_) {
+          if (++n % 100 == 0) stderr.writeln('  $n/${seen.length}');
+        },
+      )) {
+        details[a.appId] = a;
+      }
+    } finally {
+      web.close();
+    }
+  }
+  return details;
 }
 
 Future<void> _rank(_Args args) async {
   final countries = _countries(args);
-  final web = PlayWeb();
-  try {
-    final idsByCountry = <String, Set<String>>{};
-    for (final country in countries) {
-      final charts = PlayWeb(country: country);
-      try {
-        idsByCountry[country] = await charts.harvestIds();
-        stderr.writeln('$country: ${idsByCountry[country]!.length} app ids');
-      } finally {
-        charts.close();
-      }
+  final idsByCountry = <String, Set<String>>{};
+  for (final country in countries) {
+    final charts = PlayWeb(country: country);
+    try {
+      idsByCountry[country] = await charts.harvestIds();
+      stderr.writeln('$country: ${idsByCountry[country]!.length} app ids');
+    } finally {
+      charts.close();
     }
-    final details = await _details(web, {
-      for (final ids in idsByCountry.values) ...ids,
-    });
-    for (final MapEntry(key: country, value: ids) in idsByCountry.entries) {
-      final file = rankedFile(country);
-      final added = mergeRanked(file, [for (final id in ids) ?details[id]]);
-      stderr.writeln('${file.path}: +$added (${readRanked(file).length} apps)');
-    }
-  } finally {
-    web.close();
+  }
+  final details = await _details(idsByCountry);
+  for (final MapEntry(key: country, value: ids) in idsByCountry.entries) {
+    final file = rankedFile(country);
+    final added = mergeRanked(file, [for (final id in ids) ?details[id]]);
+    stderr.writeln('${file.path}: +$added (${readRanked(file).length} apps)');
   }
 }
 
@@ -133,40 +147,32 @@ Future<void> _search(_Args args) async {
   final minInstalls =
       int.tryParse(args.option('min-installs') ?? '') ?? 1000000;
   final termsFile = args.option('terms');
-  final web = PlayWeb();
-  try {
-    final newIdsByCountry = <String, Set<String>>{};
-    for (final country in countries) {
-      final terms = termsFile == null
-          ? searchTerms(country)
-          : File(termsFile).readAsLinesSync().where((t) => t.trim().isNotEmpty);
-      final known = {for (final a in readRanked(rankedFile(country))) a.appId};
-      final search = PlayWeb(country: country);
-      try {
-        final ids = await search.searchIds(terms);
-        newIdsByCountry[country] = ids.difference(known);
-        stderr.writeln(
-          '$country: ${terms.length} terms, ${ids.length} app ids, '
-          '${newIdsByCountry[country]!.length} not yet in its list',
-        );
-      } finally {
-        search.close();
-      }
+  final newIdsByCountry = <String, Set<String>>{};
+  for (final country in countries) {
+    final terms = termsFile == null
+        ? searchTerms(country)
+        : File(termsFile).readAsLinesSync().where((t) => t.trim().isNotEmpty);
+    final known = {for (final a in readRanked(rankedFile(country))) a.appId};
+    final search = PlayWeb(country: country);
+    try {
+      final ids = await search.searchIds(terms);
+      newIdsByCountry[country] = ids.difference(known);
+      stderr.writeln(
+        '$country: ${terms.length} terms, ${ids.length} app ids, '
+        '${newIdsByCountry[country]!.length} not yet in its list',
+      );
+    } finally {
+      search.close();
     }
-    final details = await _details(web, {
-      for (final ids in newIdsByCountry.values) ...ids,
-    });
-    for (final MapEntry(key: country, value: ids) in newIdsByCountry.entries) {
-      final file = rankedFile(country);
-      final added = mergeRanked(file, [
-        for (final id in ids)
-          if (details[id] case final a? when (a.installs ?? 0) >= minInstalls)
-            a,
-      ]);
-      stderr.writeln('${file.path}: +$added (${readRanked(file).length} apps)');
-    }
-  } finally {
-    web.close();
+  }
+  final details = await _details(newIdsByCountry);
+  for (final MapEntry(key: country, value: ids) in newIdsByCountry.entries) {
+    final file = rankedFile(country);
+    final added = mergeRanked(file, [
+      for (final id in ids)
+        if (details[id] case final a? when (a.installs ?? 0) >= minInstalls) a,
+    ]);
+    stderr.writeln('${file.path}: +$added (${readRanked(file).length} apps)');
   }
 }
 
