@@ -1,0 +1,73 @@
+# Spanish search terms (Spain, Mexico).
+banco
+cuenta
+pagos
+seguro
+bolsa
+tren
+horarios
+billetes
+transporte
+taxi
+alquiler coche
+gasolina
+aparcamiento
+comida a domicilio
+pedidos
+supermercado
+compra online
+recetas
+ofertas
+folletos
+cupones
+moda
+ropa
+segunda mano
+anuncios
+muebles
+farmacia
+médico
+cita previa
+salud
+gimnasio
+entrenamiento
+correr
+dieta
+niños
+colegio
+aprender
+idiomas
+diccionario
+noticias
+periódico
+tiempo
+radio
+fútbol
+liga
+vivienda
+inmobiliaria
+alquiler
+empleo
+factura
+impuestos
+ayuntamiento
+correos
+paquetes
+seguimiento
+luz
+energía
+móvil
+coche
+bicicleta
+vacaciones
+viajes
+hotel
+vuelos
+cine
+eventos
+mascotas
+jardín
+hogar inteligente
+cámara
+notas
+calendario

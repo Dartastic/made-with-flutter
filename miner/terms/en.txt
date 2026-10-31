@@ -1,0 +1,163 @@
+# Search terms run in every country (one per line; # starts a comment).
+bank
+banking
+wallet
+payments
+crypto
+stocks
+trading
+budget
+insurance
+loan
+taxi
+ride
+car rental
+scooter
+bike
+parking
+fuel
+ev charging
+train
+bus
+metro
+flight
+airline
+hotel
+travel
+maps
+navigation
+food delivery
+grocery
+restaurant
+recipes
+coffee
+pizza
+shopping
+fashion
+marketplace
+second hand
+deals
+coupons
+loyalty
+supermarket
+pharmacy
+doctor
+health
+fitness
+workout
+yoga
+meditation
+sleep
+diet
+calorie
+running
+period tracker
+pregnancy
+baby
+kids
+school
+learning
+language
+english
+math
+dictionary
+translate
+books
+audiobooks
+comics
+manga
+news
+weather
+radio
+podcast
+music
+music player
+karaoke
+video editor
+photo editor
+camera
+ai
+ai chat
+ai photo
+wallpaper
+keyboard
+launcher
+vpn
+browser
+email
+calendar
+notes
+to do
+scanner
+pdf
+office
+cloud storage
+file manager
+cleaner
+battery
+password
+authenticator
+smart home
+lights
+security camera
+remote
+tv
+streaming
+movies
+live sports
+football
+soccer
+cricket
+basketball
+tennis
+golf
+betting
+lottery
+dating
+chat
+messenger
+video call
+social
+community
+events
+tickets
+cinema
+concert
+church
+bible
+quran
+prayer
+real estate
+rent
+jobs
+freelance
+invoice
+accounting
+crm
+delivery
+courier
+tracking
+post
+government
+tax
+city
+utilities
+energy
+telecom
+mobile
+car
+vehicle
+dealer
+pet
+dog
+garden
+home
+furniture
+diy
+beauty
+skincare
+makeup
+hair
+tattoo
+astrology
+horoscope
