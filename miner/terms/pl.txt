@@ -1,0 +1,71 @@
+# Polish search terms.
+bank
+konto
+płatności
+ubezpieczenie
+giełda
+pociąg
+rozkład jazdy
+bilety
+komunikacja
+taxi
+wynajem samochodu
+paliwo
+parkowanie
+dostawa jedzenia
+zakupy
+supermarket
+przepisy
+promocje
+gazetki
+kupony
+moda
+ubrania
+używane
+ogłoszenia
+meble
+apteka
+lekarz
+wizyta
+zdrowie
+siłownia
+trening
+bieganie
+dieta
+dzieci
+szkoła
+dziennik elektroniczny
+nauka
+języki
+słownik
+wiadomości
+gazeta
+pogoda
+radio
+piłka nożna
+mieszkanie
+nieruchomości
+praca
+faktura
+podatki
+urząd
+poczta
+paczki
+śledzenie przesyłek
+prąd
+energia
+telefon
+samochód
+rower
+wakacje
+podróże
+hotel
+loty
+kino
+wydarzenia
+zwierzęta
+ogród
+inteligentny dom
+kamera
+notatki
+kalendarz

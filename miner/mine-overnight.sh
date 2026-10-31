@@ -1,13 +1,14 @@
 #!/usr/bin/env bash
 # Overnight mining run on a USB-connected phone. Unlock the phone, plug it in,
 # then:  ./mine-overnight.sh [miner options]
-#   e.g.  ./mine-overnight.sh --ranked out/ranked-de-fr-gb.json
+#   e.g.  ./mine-overnight.sh --country DE   (mines out/ranked-de.json)
 # The phone is the only one connected, or MWF_SERIAL=<serial>.
 #
 # Keeps the screen on while plugged in for the run, mines every remaining app
-# in the ranked list (out/ranked.json unless --ranked), restores the screen
-# settings, and prints the Flutter table. The miner stops by itself if the phone gets unhealthy (5 failed
-# installs in a row, signed out, unplugged); rerun to resume.
+# in the country's list (out/ranked-us.json by default), restores the screen
+# settings, and prints the Flutter table. The miner stops by itself if the
+# phone gets unhealthy (5 failed installs in a row, signed out, unplugged);
+# rerun to resume.
 set -uo pipefail
 cd "$(dirname "$0")"
 ADB="${ANDROID_HOME:-$HOME/Library/Android/sdk}/platform-tools/adb"

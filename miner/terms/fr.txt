@@ -1,0 +1,77 @@
+# French search terms (France, Belgium).
+banque
+compte bancaire
+paiement
+assurance
+mutuelle
+bourse
+train
+horaires
+billet
+transport
+taxi
+location voiture
+carburant
+parking
+livraison
+repas
+courses
+supermarché
+recettes
+boulangerie
+promotions
+catalogue
+bons de réduction
+mode
+vêtements
+occasion
+petites annonces
+meubles
+bricolage
+pharmacie
+médecin
+rendez-vous
+santé
+sport
+musculation
+course à pied
+sommeil
+régime
+enfants
+école
+apprendre
+langues
+dictionnaire
+actualités
+journal
+météo
+radio
+football
+immobilier
+logement
+emploi
+facture
+impôts
+administration
+ville
+la poste
+colis
+suivi colis
+électricité
+énergie
+forfait mobile
+voiture
+vélo
+vacances
+voyage
+hôtel
+vol
+cinéma
+événements
+animaux
+jardin
+maison connectée
+caméra
+album photo
+notes
+calendrier

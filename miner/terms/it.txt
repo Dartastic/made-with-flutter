@@ -1,0 +1,74 @@
+# Italian search terms.
+banca
+conto
+pagamenti
+assicurazione
+borsa
+treni
+orari
+biglietti
+trasporti
+taxi
+noleggio auto
+carburante
+parcheggio
+consegna
+cibo a domicilio
+spesa
+supermercato
+ricette
+offerte
+volantini
+buoni sconto
+moda
+abbigliamento
+usato
+annunci
+mobili
+farmacia
+medico
+prenotazione
+salute
+palestra
+allenamento
+corsa
+dieta
+bambini
+scuola
+registro elettronico
+imparare
+lingue
+dizionario
+notizie
+giornale
+meteo
+radio
+calcio
+serie a
+casa
+immobiliare
+affitto
+lavoro
+fattura
+tasse
+comune
+poste
+pacchi
+tracciamento
+luce e gas
+energia
+telefonia
+auto
+bici
+vacanze
+viaggi
+hotel
+voli
+cinema
+eventi
+animali
+giardino
+casa intelligente
+telecamera
+note
+calendario

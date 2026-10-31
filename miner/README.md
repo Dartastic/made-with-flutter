@@ -31,16 +31,70 @@ dart pub get
 # Inspect apps already on the phone.
 dart run bin/miner.dart check com.wendys.nutritiontool com.google.earth
 
-# Rank: harvest ids from Play top charts + every app category page, fetch
-# each app's exact install count, write out/ranked.json most-installed first.
-dart run bin/miner.dart rank
-
-# Mine the top 50 (resumable: ids already in out/results.jsonl are skipped).
-dart run bin/miner.dart mine --limit 50
-
-# Or mine specific apps.
+# Mine specific apps.
 dart run bin/miner.dart mine com.philips.lighting.hue2
 ```
+
+## Lists: one per country
+
+Each country has its own list, `out/ranked-<cc>.json` (`ranked-us.json`,
+`ranked-de.json`, ...), most-installed first. Lists are separate because
+the phone's Play account decides what it may install: mine a country's list
+only while the phone is signed in to an account for that country.
+
+Two commands fill a list, and both only ever add to it:
+
+```sh
+# Top charts + every app category page of each country.
+dart run bin/miner.dart rank --country DE,FR,GB,IT,ES,NL,PL,PT
+
+# Play search: terms/en.txt plus the country's language list
+# (terms/de.txt, fr, it, es, nl, pl, pt). Keeps apps with at least
+# 1,000,000 installs; change with --min-installs.
+dart run bin/miner.dart search --country DE,FR,GB,IT,ES,NL,PL,PT
+```
+
+Search finds far more apps than the charts (up to 30 per term). Add terms
+to the `terms/*.txt` files, or pass your own list with `--terms <file>`.
+Install counts are worldwide, so the same app ranks the same everywhere.
+
+All countries write their verdicts to one `out/results.jsonl`. An app
+already checked in any country is skipped in every other, so overlapping
+lists cost nothing.
+
+## Overnight runs on the phone
+
+1. Switch the phone's Play Store to the account for the country you will
+   mine (e.g. your Europe account for `de`, `fr`, ...).
+2. Unlock the phone and plug it in.
+3. Run, for one country's list:
+
+   ```sh
+   ./mine-overnight.sh --country DE
+   ```
+
+   It keeps the screen on while plugged in, mines every app in
+   `out/ranked-de.json` not yet in `out/results.jsonl`, restores the screen
+   settings, and prints the Flutter table. The log goes to
+   `out/overnight-<date>.log`. With several phones connected, set
+   `MWF_SERIAL=<serial>`.
+4. In the morning, or any time:
+
+   ```sh
+   ./print-flutter-table.sh
+   ```
+
+   (`filter-flutter-in-out-json.sh` writes the Flutter rows to
+   `flutter_apps2.json`; the table script runs it first.)
+
+The miner stops by itself, instead of recording false verdicts, when the
+phone gets unhealthy: unplugged, Play Store signed out, screen unreadable,
+or 5 failed installs in a row. Fix the phone and rerun the same command;
+it resumes where it stopped. After a "5 failed installs" stop, first delete
+those last 5 rows from `out/results.jsonl` so they are tried again.
+
+When a run finishes with nothing to do, that country's list is used up:
+grow it with `search` (more terms) or move to another country.
 
 ## Mining on the emulator instead of a phone
 
@@ -87,6 +141,6 @@ Google's own apps (Earth, NotebookLM, GPay, Play Console) ship
 
 - Paid, region-locked and device-incompatible apps are recorded as
   `notOffered` and skipped.
-- "Popular" means the union of the Play top charts and category pages for
-  one country (`--country`, default US), ordered by exact install count.
-  Games are excluded.
+- A list is what Play shows for one country (charts, category pages,
+  search results), ordered by worldwide install count; it is not a complete
+  ranking of all apps. Games are excluded from the category pages.

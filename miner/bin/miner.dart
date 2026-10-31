@@ -5,6 +5,7 @@ import 'package:mwf_miner/src/adb.dart';
 import 'package:mwf_miner/src/detector.dart';
 import 'package:mwf_miner/src/play_installer.dart';
 import 'package:mwf_miner/src/play_web.dart';
+import 'package:mwf_miner/src/ranked_list.dart';
 
 /// Consecutive non-installs that stop a run; a healthy device rarely sees
 /// more than two or three.
@@ -16,14 +17,20 @@ driving an Android phone over adb.
 
   dart run bin/miner.dart check <appId>...
       Inspect apps already on the phone.
-  dart run bin/miner.dart rank [--country US|DE,FR,GB,...] [--out <file>]
-      Harvest app ids from Play top charts + category pages of each country,
-      fetch exact install counts, write them sorted most-installed first to
-      out/ranked.json (US) or out/ranked-<countries>.json.
-  dart run bin/miner.dart mine [<appId>...] [--ranked out/ranked.json]
+  dart run bin/miner.dart rank [--country US|DE,FR,...]
+      Harvest app ids from each country's Play top charts + category pages,
+      fetch exact install counts, and add them to that country's list,
+      out/ranked-<cc>.json (most installed first).
+  dart run bin/miner.dart search [--country DE,FR,...] [--terms <file>]
+        [--min-installs 1000000]
+      Run Play search for terms/en.txt plus the country's language list
+      (terms/<lang>.txt), or --terms, and add every app with at least
+      --min-installs installs to out/ranked-<cc>.json.
+  dart run bin/miner.dart mine [<appId>...] [--country DE | --ranked <file>]
         [--limit N] [--keep] [--results out/results.jsonl]
       For each app (most installed first): install it from the Play Store on
-      the phone, inspect it, append the verdict to results.jsonl, and
+      the phone (default list: out/ranked-us.json), inspect it, append the
+      verdict to results.jsonl, and
       uninstall it again unless --keep (apps already on the phone are never
       uninstalled). Apps already in results.jsonl are skipped, so a run
       resumes where the last one stopped.
@@ -45,6 +52,8 @@ Future<void> main(List<String> argv) async {
         await _check(adb, args.positional);
       case 'rank':
         await _rank(args);
+      case 'search':
+        await _search(args);
       case 'mine':
         await adb.ensureDevice();
         await _mine(adb, args);
@@ -70,52 +79,89 @@ String _describe(Detection d) => d.flutter
           'libapp=${d.libApp}  assets=${d.flutterAssets}  v=${d.versionName}'
     : '${d.appId}: not flutter  v=${d.versionName}';
 
-Future<void> _rank(_Args args) async {
-  final countries = [
-    for (final c in (args.option('country') ?? 'US').split(','))
-      if (c.trim().isNotEmpty) c.trim().toUpperCase(),
-  ];
-  // The US list keeps its old name; other lists are named for their
-  // countries so a new region never overwrites an earlier list.
-  final out = File(
-    args.option('out') ??
-        (countries.join() == 'US'
-            ? 'out/ranked.json'
-            : 'out/ranked-${countries.join('-').toLowerCase()}.json'),
+List<String> _countries(_Args args) => [
+  for (final c in (args.option('country') ?? 'US').split(','))
+    if (c.trim().isNotEmpty) c.trim().toUpperCase(),
+];
+
+/// Fetches install counts once for every id (they are worldwide, so any
+/// storefront serves them).
+Future<Map<String, PlayApp>> _details(PlayWeb web, Set<String> ids) async {
+  stderr.writeln('${ids.length} apps; fetching install counts…');
+  var n = 0;
+  final apps = await web.detailsAll(
+    ids,
+    onEach: (_) {
+      if (++n % 100 == 0) stderr.writeln('  $n/${ids.length}');
+    },
   );
-  // Install counts on a details page are worldwide, so one storefront serves
-  // them; the charts and category pages differ per country.
-  final web = PlayWeb(country: countries.first);
+  return {for (final a in apps) a.appId: a};
+}
+
+Future<void> _rank(_Args args) async {
+  final countries = _countries(args);
+  final web = PlayWeb();
   try {
-    final ids = <String>{};
+    final idsByCountry = <String, Set<String>>{};
     for (final country in countries) {
       final charts = PlayWeb(country: country);
       try {
-        final before = ids.length;
-        ids.addAll(
-          await charts.harvestIds(log: (m) => stderr.writeln('$country $m')),
-        );
-        stderr.writeln('$country: +${ids.length - before} new app ids');
+        idsByCountry[country] = await charts.harvestIds();
+        stderr.writeln('$country: ${idsByCountry[country]!.length} app ids');
       } finally {
         charts.close();
       }
     }
-    stderr.writeln('${ids.length} unique app ids; fetching install counts…');
-    var n = 0;
-    final apps = await web.detailsAll(
-      ids,
-      onEach: (_) {
-        if (++n % 50 == 0) stderr.writeln('  $n/${ids.length}');
-      },
-    );
-    apps.sort((a, b) => (b.installs ?? -1).compareTo(a.installs ?? -1));
-    out.parent.createSync(recursive: true);
-    out.writeAsStringSync(
-      const JsonEncoder.withIndent(
-        '  ',
-      ).convert([for (final a in apps) a.toJson()]),
-    );
-    stderr.writeln('wrote ${apps.length} apps to ${out.path}');
+    final details = await _details(web, {
+      for (final ids in idsByCountry.values) ...ids,
+    });
+    for (final MapEntry(key: country, value: ids) in idsByCountry.entries) {
+      final file = rankedFile(country);
+      final added = mergeRanked(file, [for (final id in ids) ?details[id]]);
+      stderr.writeln('${file.path}: +$added (${readRanked(file).length} apps)');
+    }
+  } finally {
+    web.close();
+  }
+}
+
+Future<void> _search(_Args args) async {
+  final countries = _countries(args);
+  final minInstalls =
+      int.tryParse(args.option('min-installs') ?? '') ?? 1000000;
+  final termsFile = args.option('terms');
+  final web = PlayWeb();
+  try {
+    final newIdsByCountry = <String, Set<String>>{};
+    for (final country in countries) {
+      final terms = termsFile == null
+          ? searchTerms(country)
+          : File(termsFile).readAsLinesSync().where((t) => t.trim().isNotEmpty);
+      final known = {for (final a in readRanked(rankedFile(country))) a.appId};
+      final search = PlayWeb(country: country);
+      try {
+        final ids = await search.searchIds(terms);
+        newIdsByCountry[country] = ids.difference(known);
+        stderr.writeln(
+          '$country: ${terms.length} terms, ${ids.length} app ids, '
+          '${newIdsByCountry[country]!.length} not yet in its list',
+        );
+      } finally {
+        search.close();
+      }
+    }
+    final details = await _details(web, {
+      for (final ids in newIdsByCountry.values) ...ids,
+    });
+    for (final MapEntry(key: country, value: ids) in newIdsByCountry.entries) {
+      final file = rankedFile(country);
+      final added = mergeRanked(file, [
+        for (final id in ids)
+          if (details[id] case final a? when (a.installs ?? 0) >= minInstalls)
+            a,
+      ]);
+      stderr.writeln('${file.path}: +$added (${readRanked(file).length} apps)');
+    }
   } finally {
     web.close();
   }
@@ -135,11 +181,14 @@ Future<void> _mine(Adb adb, _Args args) async {
   if (args.positional.isNotEmpty) {
     queue = [for (final id in args.positional) PlayApp(id, null, null)];
   } else {
-    final ranked = File(args.option('ranked') ?? 'out/ranked.json');
-    queue = [
-      for (final j in jsonDecode(ranked.readAsStringSync()) as List)
-        PlayApp.fromJson(j as Map<String, Object?>),
-    ];
+    final ranked = switch (args.option('ranked')) {
+      final path? => File(path),
+      null => rankedFile(_countries(args).single),
+    };
+    queue = readRanked(ranked);
+    if (queue.isEmpty) {
+      throw DeviceException('${ranked.path} is missing or empty; run rank');
+    }
   }
   final limit = int.tryParse(args.option('limit') ?? '');
   final keep = args.flag('keep');
@@ -219,8 +268,9 @@ class _Args {
 
   static const _valued = {
     'serial',
-    'out',
     'country',
+    'terms',
+    'min-installs',
     'ranked',
     'limit',
     'results',

@@ -106,6 +106,21 @@ class PlayWeb {
     return ids;
   }
 
+  /// App ids from Play search, up to 30 per term.
+  Future<Set<String>> searchIds(
+    Iterable<String> terms, {
+    void Function(String)? log,
+  }) async {
+    final ids = <String>{};
+    for (final term in terms) {
+      final before = ids.length;
+      final q = Uri.encodeQueryComponent(term);
+      ids.addAll(_ids(await _get('/store/search?q=$q&c=apps')));
+      log?.call('"$term": +${ids.length - before}');
+    }
+    return ids;
+  }
+
   Future<PlayApp> details(String appId) async {
     final html = await _get('/store/apps/details?id=$appId');
     final installs = installsPattern.firstMatch(html)?.group(1);
