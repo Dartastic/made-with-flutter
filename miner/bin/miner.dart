@@ -61,6 +61,9 @@ Future<void> main(List<String> argv) async {
         stderr.write(usage);
         exitCode = 64;
     }
+  } on PlaySearchThrottled catch (e) {
+    stderr.writeln('stopped: $e');
+    exitCode = 1;
   } on DeviceException catch (e) {
     stderr.writeln('stopped: $e');
     exitCode = 1;

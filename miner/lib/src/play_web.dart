@@ -72,6 +72,15 @@ String? _unescape(String? s) => s
     .replaceAll('&lt;', '<')
     .replaceAll('&gt;', '>');
 
+class PlaySearchThrottled implements Exception {
+  PlaySearchThrottled(this.message);
+  final String message;
+  @override
+  String toString() =>
+      '$message after ${PlayWeb.searchBackoff.length} retries; '
+      'Play is throttling. Wait a while and rerun search (it only adds).';
+}
+
 class PlayWeb {
   PlayWeb({this.country = 'US', this.language = 'en'});
 
@@ -86,7 +95,11 @@ class PlayWeb {
     );
     final req = await _client.getUrl(uri);
     final res = await req.close();
-    return res.transform(utf8.decoder).join();
+    final body = await res.transform(utf8.decoder).join();
+    if (res.statusCode != HttpStatus.ok) {
+      throw HttpException('HTTP ${res.statusCode}', uri: uri);
+    }
+    return body;
   }
 
   Iterable<String> _ids(String html) =>
@@ -114,12 +127,40 @@ class PlayWeb {
     final ids = <String>{};
     for (final term in terms) {
       final before = ids.length;
-      final q = Uri.encodeQueryComponent(term);
-      ids.addAll(_ids(await _get('/store/search?q=$q&c=apps')));
+      ids.addAll(await _searchOne(term));
       log?.call('"$term": +${ids.length - before}');
+      await Future<void>.delayed(searchPause);
     }
     return ids;
   }
+
+  /// Pause between searches; Play throttles fast sequential searches.
+  static const searchPause = Duration(milliseconds: 1500);
+
+  /// One search page. An error or an empty page is treated as throttling
+  /// (real terms return results): wait and retry, then stop the run rather
+  /// than record a silently empty search.
+  Future<Iterable<String>> _searchOne(String term) async {
+    final q = Uri.encodeQueryComponent(term);
+    Object? last;
+    for (final wait in [Duration.zero, ...searchBackoff]) {
+      await Future<void>.delayed(wait);
+      try {
+        final found = _ids(await _get('/store/search?q=$q&c=apps')).toList();
+        if (found.isNotEmpty) return found;
+        last = 'no results';
+      } on Object catch (e) {
+        last = e;
+      }
+    }
+    throw PlaySearchThrottled('Play search for "$term" ($country): $last');
+  }
+
+  static const searchBackoff = [
+    Duration(seconds: 30),
+    Duration(minutes: 1),
+    Duration(minutes: 2),
+  ];
 
   Future<PlayApp> details(String appId) async {
     final html = await _get('/store/apps/details?id=$appId');
