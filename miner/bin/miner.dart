@@ -16,9 +16,10 @@ driving an Android phone over adb.
 
   dart run bin/miner.dart check <appId>...
       Inspect apps already on the phone.
-  dart run bin/miner.dart rank [--out out/ranked.json] [--country US]
-      Harvest app ids from Play top charts + category pages, fetch exact
-      install counts, write them sorted most-installed first.
+  dart run bin/miner.dart rank [--country US|DE,FR,GB,...] [--out <file>]
+      Harvest app ids from Play top charts + category pages of each country,
+      fetch exact install counts, write them sorted most-installed first to
+      out/ranked.json (US) or out/ranked-<countries>.json.
   dart run bin/miner.dart mine [<appId>...] [--ranked out/ranked.json]
         [--limit N] [--keep] [--results out/results.jsonl]
       For each app (most installed first): install it from the Play Store on
@@ -70,10 +71,35 @@ String _describe(Detection d) => d.flutter
     : '${d.appId}: not flutter  v=${d.versionName}';
 
 Future<void> _rank(_Args args) async {
-  final out = File(args.option('out') ?? 'out/ranked.json');
-  final web = PlayWeb(country: args.option('country') ?? 'US');
+  final countries = [
+    for (final c in (args.option('country') ?? 'US').split(','))
+      if (c.trim().isNotEmpty) c.trim().toUpperCase(),
+  ];
+  // The US list keeps its old name; other lists are named for their
+  // countries so a new region never overwrites an earlier list.
+  final out = File(
+    args.option('out') ??
+        (countries.join() == 'US'
+            ? 'out/ranked.json'
+            : 'out/ranked-${countries.join('-').toLowerCase()}.json'),
+  );
+  // Install counts on a details page are worldwide, so one storefront serves
+  // them; the charts and category pages differ per country.
+  final web = PlayWeb(country: countries.first);
   try {
-    final ids = await web.harvestIds(log: stderr.writeln);
+    final ids = <String>{};
+    for (final country in countries) {
+      final charts = PlayWeb(country: country);
+      try {
+        final before = ids.length;
+        ids.addAll(
+          await charts.harvestIds(log: (m) => stderr.writeln('$country $m')),
+        );
+        stderr.writeln('$country: +${ids.length - before} new app ids');
+      } finally {
+        charts.close();
+      }
+    }
     stderr.writeln('${ids.length} unique app ids; fetching install counts…');
     var n = 0;
     final apps = await web.detailsAll(
