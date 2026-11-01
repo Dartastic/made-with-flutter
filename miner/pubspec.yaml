@@ -3,7 +3,7 @@ description: >-
   Drives an Android phone over adb to find which popular Play Store apps are
   made with Flutter: rank apps by installs, install each from the Play Store,
   inspect its APKs for the Flutter engine, and record the verdict.
-version: 0.2.2
+version: 0.2.3
 publish_to: none
 
 environment:

@@ -78,14 +78,19 @@ lists cost nothing.
    settings, and prints the Flutter table. The log goes to
    `out/overnight-<date>.log`. With several phones connected, set
    `MWF_SERIAL=<serial>`.
-4. In the morning, or any time:
+4. In the morning, or any time, print the Flutter apps for one country's
+   list, or for everything checked so far:
 
    ```sh
+   ./print-flutter-table.sh fr
    ./print-flutter-table.sh
    ```
 
-   (`filter-flutter-in-out-json.sh` writes the Flutter rows to
-   `flutter_apps2.json`; the table script runs it first.)
+   The last line sums it up, e.g. `FR: 252 Flutter apps (9.9% of
+   inspected); 2598 of 3423 listed apps checked`. It reads
+   `out/results.jsonl` directly, and results only ever grow, so there is no
+   need to copy `out/` between runs. Save a snapshot with
+   `./print-flutter-table.sh fr > flutter-fr-$(date +%F).md`.
 
 The miner stops by itself, instead of recording false verdicts, when the
 phone gets unhealthy: unplugged, Play Store signed out, screen unreadable,

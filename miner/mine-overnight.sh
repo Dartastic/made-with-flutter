@@ -32,5 +32,12 @@ log="out/overnight-$(date +%Y%m%d-%H%M).log"
 echo "mining on $SERIAL; log: $log"
 dart run bin/miner.dart mine --serial "$SERIAL" "$@" 2>&1 | tee "$log"
 
+# Print the table for the country just mined (all results without --country).
+country=""
+prev=""
+for arg in "$@"; do
+  [ "$prev" = "--country" ] && country="$arg"
+  prev="$arg"
+done
 echo
-./print-flutter-table.sh
+./print-flutter-table.sh $country
